@@ -10,4 +10,5 @@ public class MovieRequest {
     private Integer duration;
     private String description;
     private String director;
+    private Double rating;
 }
