@@ -26,8 +26,10 @@ public class BookingService {
     private final ShowtimeRepository showtimeRepository;
 
     public BookingResponse createBooking(BookingRequest bookingRequest) {
-        User user = userRepository.findById(bookingRequest.getUserId()).orElseThrow(() -> new RuntimeException("User not found"));
-        Showtime showtime = showtimeRepository.findById(bookingRequest.getShowtimeId()).orElseThrow(() -> new ResourceNotFoundException("Showtime not found"));
+        User user = userRepository.findById(bookingRequest.getUserId())
+                .orElseThrow(() -> new ResourceNotFoundException("User", bookingRequest.getUserId()));
+        Showtime showtime = showtimeRepository.findById(bookingRequest.getShowtimeId())
+                .orElseThrow(() -> new ResourceNotFoundException("Showtime", bookingRequest.getShowtimeId()));
         Booking booking = bookingMapper.toEntity(bookingRequest);
         booking.setUser(user);
         booking.setShowtime(showtime);
@@ -36,7 +38,8 @@ public class BookingService {
     }
 
     public BookingResponse getBookingById(Long bookingId) {
-        Booking booking = bookingRepository.findById(bookingId).orElseThrow(() -> new ResourceNotFoundException("Booking not found with id: " + bookingId));
+        Booking booking = bookingRepository.findById(bookingId)
+                .orElseThrow(() -> new ResourceNotFoundException("Booking", bookingId));
         return bookingMapper.toResponse(booking);
     }
 
@@ -49,11 +52,12 @@ public class BookingService {
             bookingMapper.updateEntityFromRequest(bookingRequest, existingBooking);
             bookingRepository.save(existingBooking);
             return bookingMapper.toResponse(existingBooking);
-        }).orElse(null);
+        }).orElseThrow(() -> new ResourceNotFoundException("Booking", bookingId));
     }
 
     public void deleteBooking(Long bookingId) {
-        Booking booking = bookingRepository.findById(bookingId).orElseThrow(() -> new ResourceNotFoundException("Booking not found with id: " + bookingId));
+        Booking booking = bookingRepository.findById(bookingId)
+                .orElseThrow(() -> new ResourceNotFoundException("Booking", bookingId));
         bookingRepository.delete(booking);
     }
 }

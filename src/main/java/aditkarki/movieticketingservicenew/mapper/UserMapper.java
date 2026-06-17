@@ -14,8 +14,6 @@ public interface UserMapper {
 
     @Mapping(target = "userId", ignore = true)
     @Mapping(target = "bookings", ignore = true)
-    @Mapping(target = "createdAt", ignore = true)
-    @Mapping(target = "updatedAt", ignore = true)
     User toEntity(UserRequest request);
 
     void updateEntityFromRequest(UserRequest request, @MappingTarget User user);

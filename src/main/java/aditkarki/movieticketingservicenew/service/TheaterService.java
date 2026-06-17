@@ -3,6 +3,7 @@ package aditkarki.movieticketingservicenew.service;
 import aditkarki.movieticketingservicenew.dto.requests.TheaterRequest;
 import aditkarki.movieticketingservicenew.dto.responses.TheaterResponse;
 import aditkarki.movieticketingservicenew.entity.Theater;
+import aditkarki.movieticketingservicenew.exception.DuplicateResourceException;
 import aditkarki.movieticketingservicenew.mapper.TheaterMapper;
 import aditkarki.movieticketingservicenew.repository.TheaterRepository;
 import lombok.RequiredArgsConstructor;
@@ -20,6 +21,9 @@ public class TheaterService {
     private final TheaterMapper theaterMapper;
 
     public TheaterResponse createTheater(TheaterRequest theaterRequest) {
+        if (theaterRepository.existsByTheaterName(theaterRequest.getTheaterName())) {
+            throw new DuplicateResourceException(theaterRequest.getTheaterName());
+        }
         Theater theater = theaterMapper.toEntity(theaterRequest);
         Theater theaterSaved = theaterRepository.save(theater);
         return theaterMapper.toResponse(theaterSaved);
@@ -30,7 +34,8 @@ public class TheaterService {
     }
 
     public TheaterResponse getTheaterById(Long theaterId) {
-        Theater theater = theaterRepository.findById(theaterId).orElseThrow(() -> new ResourceNotFoundException("Theater not found with id: " + theaterId));
+        Theater theater = theaterRepository.findById(theaterId)
+                .orElseThrow(() -> new ResourceNotFoundException("Theater", theaterId));
         return theaterMapper.toResponse(theater);
     }
 
@@ -39,11 +44,12 @@ public class TheaterService {
             theaterMapper.updateEntityFromRequest(theaterRequest, existingTheater);
             theaterRepository.save(existingTheater);
             return theaterMapper.toResponse(existingTheater);
-        }).orElse(null);
+        }).orElseThrow(() -> new ResourceNotFoundException("Theater", theaterId));
     }
 
     public void deleteTheater(Long theaterId) {
-        Theater theater = theaterRepository.findById(theaterId).orElseThrow(() -> new ResourceNotFoundException("Theater not found with id: " + theaterId));
+        Theater theater = theaterRepository.findById(theaterId)
+                .orElseThrow(() -> new ResourceNotFoundException("Theater", theaterId));
         theaterRepository.delete(theater);
     }
 }

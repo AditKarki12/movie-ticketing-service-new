@@ -1,31 +1,32 @@
 package aditkarki.movieticketingservicenew.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @Entity
 @Table(name = "movies")
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
-@Builder
 public class Movie {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
-    private String genre;
+    private String genres;
     private String language;
     private Integer duration;
     private String description;
     private String director;
     private Double rating;
+    private LocalDate releaseDate;
+    private Boolean isActive;
+    private String tags;
+//    todo: change to list 'tags'
 
-    @OneToMany(mappedBy = "movie")
+    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
     private List<Showtime> showtimes;
 }

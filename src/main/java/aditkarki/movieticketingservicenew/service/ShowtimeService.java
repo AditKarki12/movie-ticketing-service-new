@@ -27,8 +27,10 @@ public class ShowtimeService {
     private final MovieRepository movieRepository;
 
     public ShowtimeResponse createShowtime(ShowtimeRequest showtimeRequest) {
-        Movie movie = movieRepository.findById(showtimeRequest.getMovieId()).orElseThrow(() -> new ResourceNotFoundException("Movie not found"));
-        Theater theater = theaterRepository.findById(showtimeRequest.getTheaterId()).orElseThrow(() -> new ResourceNotFoundException("Theater not found"));
+        Movie movie = movieRepository.findById(showtimeRequest.getMovieId())
+                .orElseThrow(() -> new ResourceNotFoundException("Movie", showtimeRequest.getMovieId()));
+        Theater theater = theaterRepository.findById(showtimeRequest.getTheaterId())
+                .orElseThrow(() -> new ResourceNotFoundException("Theater", showtimeRequest.getTheaterId()));
         Showtime showtime = showtimeMapper.toEntity(showtimeRequest);
         showtime.setMovie(movie);
         showtime.setTheater(theater);
@@ -37,7 +39,8 @@ public class ShowtimeService {
     }
 
     public ShowtimeResponse getShowtimeById(Long id){
-        Showtime showtime = showtimeRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Showtime not found with id: " + id));
+        Showtime showtime = showtimeRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Showtime", id));
         return showtimeMapper.toResponse(showtime);
     }
 
@@ -50,11 +53,12 @@ public class ShowtimeService {
             showtimeMapper.updateEntityFromRequest(showtimeRequest, existingShowtime);
             showtimeRepository.save(existingShowtime);
             return showtimeMapper.toResponse(existingShowtime);
-        }).orElse(null);
+        }).orElseThrow(() -> new ResourceNotFoundException("Showtime", id));
     }
 
     public void deleteShowtime(Long id){
-        Showtime showtime = showtimeRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Showtime not found with id: " + id));
+        Showtime showtime = showtimeRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Showtime", id));
         showtimeRepository.delete(showtime);
     }
 }

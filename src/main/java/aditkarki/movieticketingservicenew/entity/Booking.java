@@ -5,8 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedDate;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -15,8 +13,6 @@ import java.time.LocalDateTime;
 @Table(name="bookings")
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
-@Builder
 public class Booking {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -32,10 +28,4 @@ public class Booking {
     @ManyToOne
     @JoinColumn(name = "showtimeId")
     private Showtime showtime;
-
-    @CreatedDate
-    private LocalDateTime createdAt;
-
-    @LastModifiedDate
-    private LocalDateTime updatedAt;
 }

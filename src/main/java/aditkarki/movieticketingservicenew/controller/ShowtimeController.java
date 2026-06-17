@@ -18,7 +18,7 @@ public class ShowtimeController {
     private final ShowtimeService showtimeService;
 
     @PostMapping
-    public ResponseEntity<ShowtimeResponse> createShowtime(@Valid @RequestBody ShowtimeRequest showtimeRequest) {
+    public ResponseEntity<ShowtimeResponse> createShowtime(@RequestBody ShowtimeRequest showtimeRequest) {
         return new ResponseEntity<>(showtimeService.createShowtime(showtimeRequest), HttpStatus.CREATED);
     }
 
@@ -33,7 +33,7 @@ public class ShowtimeController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<ShowtimeResponse> updateShowtime(@PathVariable Long id, @Valid @RequestBody ShowtimeRequest showtimeRequest) {
+    public ResponseEntity<ShowtimeResponse> updateShowtime(@PathVariable Long id, @RequestBody ShowtimeRequest showtimeRequest) {
         return ResponseEntity.ok(showtimeService.updateShowtime(id, showtimeRequest));
     }
 

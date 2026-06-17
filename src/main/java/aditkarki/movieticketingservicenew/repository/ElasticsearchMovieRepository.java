@@ -8,7 +8,4 @@ import java.util.List;
 
 @Repository
 public interface ElasticsearchMovieRepository extends ElasticsearchRepository<MovieDocument, String> {
-    List<MovieDocument> findByTitleContaining(String title);
-    List<MovieDocument> findByGenre(String genre);
-    List<MovieDocument> findByLanguage(String language);
 }

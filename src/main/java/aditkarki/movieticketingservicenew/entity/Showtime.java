@@ -2,12 +2,8 @@ package aditkarki.movieticketingservicenew.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedDate;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -19,8 +15,6 @@ import java.util.List;
 @Table(name="showtimes")
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
-@Builder
 public class Showtime {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -39,12 +33,6 @@ public class Showtime {
     @JoinColumn(name = "theaterId")
     private Theater theater;
 
-    @OneToMany(mappedBy = "showtime")
+    @OneToMany(mappedBy = "showtime", cascade = CascadeType.ALL)
     private List<Booking> bookings;
-
-    @CreatedDate
-    private LocalDateTime createdAt;
-
-    @LastModifiedDate
-    private LocalDateTime updatedAt;
 }

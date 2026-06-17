@@ -1,8 +1,6 @@
 package aditkarki.movieticketingservicenew.entity;
 
 import jakarta.persistence.*;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedDate;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -24,16 +22,9 @@ public class User{
     private Long userId;
     private String userFirstName;
     private String userLastName;
-    @Column(unique = true)
     private String userEmail;
     private String userPassword;
 
     @OneToMany(mappedBy = "user")
     private List<Booking> bookings;
-
-    @CreatedDate
-    private LocalDateTime createdAt;
-
-    @LastModifiedDate
-    private LocalDateTime updatedAt;
 }

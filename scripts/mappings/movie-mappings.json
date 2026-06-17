@@ -1,0 +1,50 @@
+{
+  "mappings": {
+    "properties": {
+      "id": {
+        "type": "keyword"
+      },
+      "title": {
+        "type": "text",
+        "analyzer": "standard",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "genres": {
+        "type": "keyword"
+      },
+      "language": {
+        "type": "keyword"
+      },
+      "duration": {
+        "type": "integer"
+      },
+      "description": {
+        "type": "text",
+        "analyzer": "standard"
+      },
+      "director": {
+        "type": "keyword",
+        "fields": {
+          "text": {
+            "type": "text",
+            "analyzer": "standard"
+          }
+        }
+      },
+      "rating": {
+        "type": "double"
+      },
+      "isActive": {
+        "type": "boolean"
+      },
+      "tags": {
+        "type": "keyword"
+      }
+    }
+  }
+}

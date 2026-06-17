@@ -20,7 +20,7 @@ public class TheaterController {
     private final TheaterService theaterService;
 
     @PostMapping
-    public ResponseEntity<TheaterResponse> createTheater(@Valid @RequestBody TheaterRequest theaterRequest) {
+    public ResponseEntity<TheaterResponse> createTheater(@RequestBody TheaterRequest theaterRequest) {
         return new ResponseEntity<>(theaterService.createTheater(theaterRequest), HttpStatus.CREATED);
     }
 
@@ -35,7 +35,7 @@ public class TheaterController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<TheaterResponse> updateTheater(@PathVariable Long id, @Valid @RequestBody TheaterRequest theaterRequest) {
+    public ResponseEntity<TheaterResponse> updateTheater(@PathVariable Long id, @RequestBody TheaterRequest theaterRequest) {
         return ResponseEntity.ok(theaterService.updateTheater(id, theaterRequest));
     }
 
