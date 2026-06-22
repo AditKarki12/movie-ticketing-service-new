@@ -1,28 +1,30 @@
 package aditkarki.movieticketingservicenew.service;
 
 import aditkarki.movieticketingservicenew.client.MovieElasticSearchClient;
+import aditkarki.movieticketingservicenew.document.MovieDocument;
 import aditkarki.movieticketingservicenew.dto.requests.MovieRequest;
+import aditkarki.movieticketingservicenew.dto.requests.MovieSearchRequest;
 import aditkarki.movieticketingservicenew.dto.responses.MovieResponse;
 import aditkarki.movieticketingservicenew.entity.Movie;
 import aditkarki.movieticketingservicenew.exception.DuplicateResourceException;
 import aditkarki.movieticketingservicenew.mapper.MovieMapper;
 import aditkarki.movieticketingservicenew.repository.MovieRepository;
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
+import co.elastic.clients.elasticsearch._types.FieldValue;
 import co.elastic.clients.elasticsearch._types.query_dsl.BoolQuery;
 import co.elastic.clients.elasticsearch.core.SearchRequest;
 import co.elastic.clients.elasticsearch.core.SearchResponse;
-import com.fasterxml.jackson.databind.node.ObjectNode;
+import co.elastic.clients.elasticsearch.core.search.Hit;
+import co.elastic.clients.json.JsonData;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import aditkarki.movieticketingservicenew.exception.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-
 import java.io.IOException;
-import java.lang.reflect.Field;
 import java.time.LocalDate;
-import java.util.ArrayList;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 @Service
@@ -66,126 +68,112 @@ public class MovieService {
         movieRepository.delete(movie);
     }
 
-    public List<MovieResponse> getMovie(MovieRequest movieRequest) {
-        BoolQuery.Builder boolQueryBuilder = new BoolQuery.Builder();
-        for(Field field: movieRequest.getClass().getDeclaredFields()) {
-            String fieldName = field.getName();
-            if(fieldName.equalsIgnoreCase("title")) {
-                movieElasticSearchClient.addTermsFilter(boolQueryBuilder, fieldName, movieRequest.getTitle());
-            }
-        }
-        SearchRequest searchRequest = SearchRequest
-                .of(s -> s
-                        .index("movies")
-                        .query(boolQueryBuilder.build())
-                        .size(10)
-                );
+    public List<MovieResponse> getMovie(MovieSearchRequest request) {
+        BoolQuery.Builder boolQuery = new BoolQuery.Builder();
 
-        log.info("Searching for movies"+searchRequest);
+        addTermsFilter(boolQuery, "title.keyword", request.getTitle());
+        addTermsFilter(boolQuery, "director", request.getDirector());
+        addTermsFilter(boolQuery, "isActive", request.getIsActive());
+        handleListField(boolQuery, "genres", request.getGenres());
+        handleListField(boolQuery, "language", request.getLanguage());
+        handleListField(boolQuery, "tags", request.getTags());
+        addRangeFilter(boolQuery, "duration",
+                request.getMinDuration() != null ? request.getMinDuration().doubleValue() : null,
+                request.getMaxDuration() != null ? request.getMaxDuration().doubleValue() : null);
+        addRangeFilter(boolQuery, "rating", request.getMinRating(), request.getMaxRating());
+        addDateRangeFilter(boolQuery, "releaseDate", request.getStartReleaseDate(), request.getEndReleaseDate());
 
-        SearchResponse<ObjectNode> searchResponse;
+        SearchRequest searchRequest = SearchRequest.of(s -> s
+                .index("movies")
+                .query(boolQuery.build()._toQuery())
+                .size(10)
+        );
+
+        log.info("Movie Search request {}", searchRequest);
+
+        SearchResponse<MovieDocument> response;
         try {
-            searchResponse  = elasticsearchClient.search(searchRequest, ObjectNode.class);
+            response = elasticsearchClient.search(searchRequest, MovieDocument.class);
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new ResourceNotFoundException(e.getMessage());
         }
 
-        System.out.println(searchResponse);
-
-        return new ArrayList<>();
-//        try{
-//            return movieElasticSearchClient.searchByName(query)
-//                    .stream()
-//                    .map(movieMapper::toResponse)
-//                    .toList();
-//        } catch (IOException e) {
-//            log.error("Elasticsearch search error: {}", e.getMessage());
-//            return List.of();
-//        }
+        return response.hits().hits()
+                .stream()
+                .map(Hit::source)
+                .map(movieMapper::toResponse)
+                .toList();
     }
 
-    public List<MovieResponse> searchByReleaseDate(LocalDate startDate, LocalDate endDate) {
-        try{
-            return movieElasticSearchClient.searchByYear(startDate, endDate)
-                    .stream()
-                    .map(movieMapper::toResponse)
-                    .toList();
-        } catch (IOException e) {
-            log.error("Elasticsearch Release Date search error: {}", e.getMessage());
-            return List.of();
-        }
-    }
+    // Private Fields
 
-    public List<MovieResponse> searchByGenre(String genre) {
-        try{
-            return movieElasticSearchClient.searchByGenre(genre)
-                    .stream()
-                    .map(movieMapper::toResponse)
-                    .toList();
-        } catch (IOException e) {
-            log.error("Elasticsearch Search Genre search error: {}", e.getMessage());
-            return List.of();
+    private void addTermsFilter(BoolQuery.Builder boolQuery, String fieldName, Object value) {
+        if (value == null) return;
+        if (value instanceof String str && str.isBlank()) return;
+
+        if (value instanceof Boolean b) {
+            boolQuery.filter(f -> f.term(t -> t.field(fieldName).value(b)));
+        } else {
+            boolQuery.filter(f -> f
+                    .term(t -> t
+                            .field(fieldName)
+                            .value(v -> v.anyValue(JsonData.of(value)))
+                            .caseInsensitive(true)
+                    )
+            );
         }
     }
 
-    public List<MovieResponse> searchByTag(String tag) {
-        try {
-            return movieElasticSearchClient.searchByTag(tag)
-                    .stream()
-                    .map(movieMapper::toResponse)
-                    .toList();
-        } catch (IOException e) {
-            log.error("Elasticsearch Search Tag search error: {}", e.getMessage());
-            return List.of();
-        }
+    private void addRangeFilter(BoolQuery.Builder boolQuery, String fieldName, Double min, Double max) {
+        if (min == null && max == null) return;
+        boolQuery.filter(f -> f
+                .range(r -> r
+                        .number(n -> {
+                            n.field(fieldName);
+                            if (min != null)
+                                n.gte(min);
+                            if (max != null)
+                                n.lte(max);
+                            return n;
+                        })
+                )
+        );
     }
 
-    public List<MovieResponse> searchByLanguage(String language) {
-        try {
-            return movieElasticSearchClient.searchByLanguage(language)
-                    .stream()
-                    .map(movieMapper::toResponse)
-                    .toList();
-        } catch (IOException e) {
-            log.error("Elasticsearch Search Language search error: {}", e.getMessage());
-            return List.of();
-        }
+    private void addDateRangeFilter(BoolQuery.Builder boolQuery, String fieldName, LocalDate start, LocalDate end) {
+        if (start == null && end == null) return;
+        boolQuery.filter(f -> f
+                .range(r -> r
+                        .date(d -> {
+                            d.field(fieldName);
+                            if (start != null)
+                                d.gte(start.format(DateTimeFormatter.ISO_LOCAL_DATE));
+                            if (end != null)
+                                d.lte(end.format(DateTimeFormatter.ISO_LOCAL_DATE));
+                            return d;
+                        })
+                )
+        );
     }
 
-    public List<MovieResponse> searchByDuration(int min, int max) {
-        try {
-            return movieElasticSearchClient.searchByDuration(min, max)
-                    .stream()
-                    .map(movieMapper::toResponse)
-                    .toList();
-        } catch (IOException e) {
-            log.error("Elasticsearch Search Duration search error: {}", e.getMessage());
-            return List.of();
+    private void handleListField(BoolQuery.Builder boolQuery, String fieldName, List<String> values) {
+        if (values == null || values.isEmpty()) {
+            return;
         }
-    }
 
-    public List<MovieResponse> searchByRating(double min, double max) {
-        try {
-            return movieElasticSearchClient.searchByRating(min, max)
-                    .stream()
-                    .map(movieMapper::toResponse)
-                    .toList();
-        } catch (IOException e) {
-            log.error("Elasticsearch Search Rating search error: {}", e.getMessage());
-            return List.of();
-        }
-    }
+        // This converts our list into of type FieldValue which allows ES to read the list
+        List<FieldValue> fieldValues = values.stream()
+                .filter(f -> f != null && !f.isBlank())
+                .map(FieldValue::of)
+                .toList();
 
-    public List<MovieResponse> searchByIsActive(Boolean isActive) {
-        try {
-            return movieElasticSearchClient.searchByIsActive(isActive)
-                    .stream()
-                    .map(movieMapper::toResponse)
-                    .toList();
-        } catch (IOException e) {
-            log.error("Elasticsearch isActive error: {}", e.getMessage());
-            return List.of();
-        }
+
+        boolQuery.filter(f -> f
+                .terms(t -> t
+                        .field(fieldName)
+                        .terms(tf -> tf.value(fieldValues))
+                )
+        );
     }
 
 }

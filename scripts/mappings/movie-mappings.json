@@ -39,6 +39,9 @@
       "rating": {
         "type": "double"
       },
+      "releaseDate": {
+        "type": "date"
+      },
       "isActive": {
         "type": "boolean"
       },

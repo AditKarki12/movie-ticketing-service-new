@@ -16,16 +16,22 @@ public class Movie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
-    private String genres;
-    private String language;
+
+    @ElementCollection(fetch = FetchType.EAGER)
+    private List<String> genres;
+
+    @ElementCollection(fetch = FetchType.EAGER)
+    private List<String> language;
+
     private Integer duration;
     private String description;
     private String director;
     private Double rating;
     private LocalDate releaseDate;
     private Boolean isActive;
-    private String tags;
-//    todo: change to list 'tags'
+
+    @ElementCollection(fetch = FetchType.EAGER)
+    private List<String> tags;
 
     @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
     private List<Showtime> showtimes;

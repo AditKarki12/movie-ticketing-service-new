@@ -6,15 +6,17 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Data
-public class MovieRequest {
+public class MovieSearchRequest {
     private String title;
     private List<String> genres;
     private List<String> language;
-    private Integer duration;
-    private String description;
-    private String director;
-    private Double rating;
-    private LocalDate releaseDate;
-    private Boolean isActive;
     private List<String> tags;
+    private String director;
+    private Integer minDuration;
+    private Integer maxDuration;
+    private Double minRating;
+    private Double maxRating;
+    private LocalDate startReleaseDate;
+    private LocalDate endReleaseDate;
+    private Boolean isActive;
 }

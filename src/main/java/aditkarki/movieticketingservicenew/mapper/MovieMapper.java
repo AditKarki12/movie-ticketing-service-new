@@ -14,6 +14,7 @@ public interface MovieMapper {
     @Mapping(target = "heading", source = "title")
     MovieResponse toResponse(Movie movie);
 
+    @Mapping(target = "heading", source = "title")
     MovieResponse toResponse(MovieDocument movieDocument);
 
     @Mapping(target = "id", ignore = true)

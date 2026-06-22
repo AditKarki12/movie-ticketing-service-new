@@ -1,22 +1,16 @@
 package aditkarki.movieticketingservicenew.client;
 
 import aditkarki.movieticketingservicenew.document.MovieDocument;
-import aditkarki.movieticketingservicenew.entity.Movie;
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
-import co.elastic.clients.elasticsearch._types.FieldValue;
 import co.elastic.clients.elasticsearch._types.query_dsl.BoolQuery;
 import co.elastic.clients.elasticsearch.core.SearchResponse;
 import co.elastic.clients.elasticsearch.core.search.Hit;
-import co.elastic.clients.json.JsonData;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -25,10 +19,7 @@ import java.util.stream.Collectors;
 public class MovieElasticSearchClient {
     private final ElasticsearchClient elasticsearchClient;
     private final String INDEX_NAME = "movies";
-    public List<MovieDocument> searchByName(String query) throws IOException {
-        BoolQuery.Builder boolBuilder = new BoolQuery.Builder();
-
-
+    public List<MovieDocument> searchByMovie(String query) throws IOException {
         // Searches for names of movies and director
         SearchResponse<MovieDocument> response = elasticsearchClient.search(s -> s
                 .index(INDEX_NAME)
@@ -119,7 +110,7 @@ public class MovieElasticSearchClient {
                 .collect(Collectors.toList());
     }
 
-    public List<MovieDocument> searchByDuration(int minDuration, int maxDuration) throws IOException {
+    public List<MovieDocument> searchByDuration(Integer minDuration, Integer maxDuration) throws IOException {
         SearchResponse<MovieDocument> response = elasticsearchClient.search(s -> s
                 .index(INDEX_NAME)
                 .query(q -> q
@@ -138,7 +129,7 @@ public class MovieElasticSearchClient {
                 .collect(Collectors.toList());
     }
 
-    public List<MovieDocument> searchByRating(double minRating, double maxRating) throws IOException {
+    public List<MovieDocument> searchByRating(Double minRating, Double maxRating) throws IOException {
         SearchResponse<MovieDocument> response = elasticsearchClient.search(s -> s
                 .index(INDEX_NAME)
                 .query(q -> q
@@ -174,13 +165,13 @@ public class MovieElasticSearchClient {
     }
 
 
-    public void addTermsFilter(BoolQuery.Builder boolQuery, String fieldName, Object value) {
-        boolQuery.filter(f -> f
-                .terms(t -> t
-                        .field(fieldName)
-                        .terms(tf -> tf.value(List.of(FieldValue.of(value)))
-                )
-                )
-        );
-    }
+//    public void addTermsFilter(BoolQuery.Builder boolQuery, String fieldName, Object value) {
+//        boolQuery.filter(f -> f
+//                .terms(t -> t
+//                        .field(fieldName)
+//                        .terms(tf -> tf.value(List.of(FieldValue.of(value)))
+//                )
+//                )
+//        );
+//    }
 }

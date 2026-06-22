@@ -1,6 +1,7 @@
 package aditkarki.movieticketingservicenew.controller;
 
 import aditkarki.movieticketingservicenew.dto.requests.MovieRequest;
+import aditkarki.movieticketingservicenew.dto.requests.MovieSearchRequest;
 import aditkarki.movieticketingservicenew.dto.responses.MovieResponse;
 import aditkarki.movieticketingservicenew.service.MovieService;
 import lombok.RequiredArgsConstructor;
@@ -48,49 +49,7 @@ public class MovieController {
     // --- Search Endpoints ---
 
     @PostMapping("/search")
-    public ResponseEntity<List<MovieResponse>> searchMovies(@RequestBody MovieRequest movieRequest) {
-        return ResponseEntity.ok(movieService.getMovie(movieRequest));
+    public ResponseEntity<List<MovieResponse>> searchMovies(@RequestBody MovieSearchRequest movieSearchRequest) {
+        return ResponseEntity.ok(movieService.getMovie(movieSearchRequest));
     }
-
-    @GetMapping("/search/date")
-    public ResponseEntity<List<MovieResponse>> searchByDate(
-            @RequestParam LocalDate startDate,
-            @RequestParam LocalDate endDate) {
-        return ResponseEntity.ok(movieService.searchByReleaseDate(startDate, endDate));
-    }
-
-    @GetMapping("/search/genre")
-    public ResponseEntity<List<MovieResponse>> searchByGenre(@RequestParam String genre) {
-        return ResponseEntity.ok(movieService.searchByGenre(genre));
-    }
-
-    @GetMapping("/search/tag")
-    public ResponseEntity<List<MovieResponse>> searchByTag(@RequestParam String tag) {
-        return ResponseEntity.ok(movieService.searchByTag(tag));
-    }
-
-    @GetMapping("/search/language")
-    public ResponseEntity<List<MovieResponse>> searchByLanguage(@RequestParam String language) {
-        return ResponseEntity.ok(movieService.searchByLanguage(language));
-    }
-
-    @GetMapping("/search/duration")
-    public ResponseEntity<List<MovieResponse>> searchByDuration(
-            @RequestParam int min,
-            @RequestParam int max) {
-        return ResponseEntity.ok(movieService.searchByDuration(min, max));
-    }
-
-    @GetMapping("/search/rating")
-    public ResponseEntity<List<MovieResponse>> searchByRating(
-            @RequestParam double min,
-            @RequestParam double max) {
-        return ResponseEntity.ok(movieService.searchByRating(min, max));
-    }
-
-    @GetMapping("/search/active")
-    public ResponseEntity<List<MovieResponse>> searchByIsActive(@RequestParam Boolean isActive) {
-        return ResponseEntity.ok(movieService.searchByIsActive(isActive));
-    }
-
 }

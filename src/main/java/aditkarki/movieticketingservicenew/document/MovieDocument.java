@@ -13,6 +13,7 @@ import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Document(indexName = "movies", createIndex = false)
 @Data
@@ -29,11 +30,11 @@ public class MovieDocument {
 
     @Field(type = FieldType.Keyword)
     @JsonProperty("genres")
-    private String genres;
+    private List<String> genres;
 
     @Field(type = FieldType.Keyword)
     @JsonProperty("language")
-    private String language;
+    private List<String> language;
 
     @Field(type = FieldType.Integer)
     @JsonProperty("duration")
@@ -62,5 +63,5 @@ public class MovieDocument {
 
     @Field(type = FieldType.Keyword)
     @JsonProperty("tags")
-    private String tags;
+    private List<String> tags;
 }
