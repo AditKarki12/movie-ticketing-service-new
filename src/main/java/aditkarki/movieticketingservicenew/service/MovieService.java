@@ -23,6 +23,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.io.IOException;
+import java.lang.reflect.Field;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -33,7 +34,6 @@ import java.util.List;
 public class MovieService {
     private final MovieRepository movieRepository;
     private final MovieMapper movieMapper;
-    private final MovieElasticSearchClient movieElasticSearchClient;
     private final ElasticsearchClient elasticsearchClient;
 
     public MovieResponse createMovie(MovieRequest movieRequest) {
@@ -68,20 +68,60 @@ public class MovieService {
         movieRepository.delete(movie);
     }
 
-    public List<MovieResponse> getMovie(MovieSearchRequest request) {
+    public List<MovieResponse> getMovie(MovieSearchRequest movieSearchRequest) {
         BoolQuery.Builder boolQuery = new BoolQuery.Builder();
 
-        addTermsFilter(boolQuery, "title.keyword", request.getTitle());
-        addTermsFilter(boolQuery, "director", request.getDirector());
-        addTermsFilter(boolQuery, "isActive", request.getIsActive());
-        handleListField(boolQuery, "genres", request.getGenres());
-        handleListField(boolQuery, "language", request.getLanguage());
-        handleListField(boolQuery, "tags", request.getTags());
-        addRangeFilter(boolQuery, "duration",
-                request.getMinDuration() != null ? request.getMinDuration().doubleValue() : null,
-                request.getMaxDuration() != null ? request.getMaxDuration().doubleValue() : null);
-        addRangeFilter(boolQuery, "rating", request.getMinRating(), request.getMaxRating());
-        addDateRangeFilter(boolQuery, "releaseDate", request.getStartReleaseDate(), request.getEndReleaseDate());
+        // Can slim these 3 blocks down with just the original addRangeFilters using Ternary as an input
+        if(movieSearchRequest.getMinDuration() != null && movieSearchRequest.getMaxDuration() != null) {
+            addRangeFilter(boolQuery, "duration", (double) movieSearchRequest.getMinDuration(), (double)movieSearchRequest.getMaxDuration());
+        } else if(movieSearchRequest.getMinDuration() != null){
+            addRangeGTEFilter(boolQuery, "duration", (double) movieSearchRequest.getMinDuration());
+        } else if(movieSearchRequest.getMaxDuration() != null){
+            addRangeLTEFilter(boolQuery, "duration", (double) movieSearchRequest.getMaxDuration());
+        }
+
+        if(movieSearchRequest.getMinRating() != null && movieSearchRequest.getMaxRating() != null) {
+            addRangeFilter(boolQuery, "rating", movieSearchRequest.getMinRating(), movieSearchRequest.getMaxRating());
+        } else if(movieSearchRequest.getMinRating() != null){
+            addRangeGTEFilter(boolQuery, "rating",  movieSearchRequest.getMinRating());
+        } else if(movieSearchRequest.getMaxRating() != null){
+            addRangeLTEFilter(boolQuery, "rating", movieSearchRequest.getMaxRating());
+        }
+
+        if(movieSearchRequest.getStartReleaseDate() != null && movieSearchRequest.getEndReleaseDate() != null) {
+            addDateRangeFilter(boolQuery, "releaseDate", movieSearchRequest.getStartReleaseDate(), movieSearchRequest.getEndReleaseDate());
+        } else if(movieSearchRequest.getStartReleaseDate() != null){
+            addDateRangeGTEFilter(boolQuery, "releaseDate", movieSearchRequest.getStartReleaseDate());
+        } else if(movieSearchRequest.getEndReleaseDate() != null){
+            addDateRangeLTEFilter(boolQuery, "releaseDate", movieSearchRequest.getEndReleaseDate());
+        }
+
+        for(Field field: movieSearchRequest.getClass().getDeclaredFields()) {
+            field.setAccessible(true); // Gives us access to private fields
+            String fieldName = field.getName();
+
+            if(List.class.isAssignableFrom(field.getType())) {
+                try{
+                    List<String> values = (List<String>) field.get(movieSearchRequest);
+                    handleListField(boolQuery, fieldName, values);
+                } catch (IllegalAccessException e){
+                    log.error(e.getMessage());
+                    throw new ResourceNotFoundException(fieldName);
+                }
+            } else if(String.class.isAssignableFrom(field.getType())) {
+                try{
+                    String value = (String)field.get(movieSearchRequest);
+                    if(field.getName().equals("title") || field.getName().equals("description")) {
+                        addMatchFilter(boolQuery, fieldName, value);
+                    } else{
+                        addTermsFilter(boolQuery, fieldName, value);
+                    }
+                } catch (IllegalAccessException e) {
+                    log.error(e.getMessage());
+                    throw new RuntimeException(e);
+                }
+            }
+        }
 
         SearchRequest searchRequest = SearchRequest.of(s -> s
                 .index("movies")
@@ -100,8 +140,8 @@ public class MovieService {
 
         return response.hits().hits()
                 .stream()
-                .map(Hit::source)
-                .map(movieMapper::toResponse)
+                .map(Hit::source) // Turns from Hit to MovieDocument
+                .map(movieMapper::toResponse) //Turns from MovieDocument to MovieResponse
                 .toList();
     }
 
@@ -125,13 +165,44 @@ public class MovieService {
     }
 
     private void addRangeFilter(BoolQuery.Builder boolQuery, String fieldName, Double min, Double max) {
-        if (min == null && max == null) return;
+        if (min == null && max == null)
+            return;
         boolQuery.filter(f -> f
                 .range(r -> r
                         .number(n -> {
                             n.field(fieldName);
                             if (min != null)
                                 n.gte(min);
+                            if (max != null)
+                                n.lte(max);
+                            return n;
+                        })
+                )
+        );
+    }
+
+    private void addRangeGTEFilter(BoolQuery.Builder boolQuery, String fieldName, Double min) {
+        if (min == null)
+            return;
+        boolQuery.filter(f -> f
+                .range(r -> r
+                        .number(n -> {
+                            n.field(fieldName);
+                            if (min != null)
+                                n.gte(min);
+                            return n;
+                        })
+                )
+        );
+    }
+
+    private void addRangeLTEFilter(BoolQuery.Builder boolQuery, String fieldName, Double max) {
+        if (max == null)
+            return;
+        boolQuery.filter(f -> f
+                .range(r -> r
+                        .number(n -> {
+                            n.field(fieldName);
                             if (max != null)
                                 n.lte(max);
                             return n;
@@ -156,6 +227,33 @@ public class MovieService {
         );
     }
 
+    private void addDateRangeGTEFilter(BoolQuery.Builder boolQuery, String fieldName, LocalDate start) {
+        if (start == null) return;
+        boolQuery.filter(f -> f
+                .range(r -> r
+                        .date(d -> {
+                            d.field(fieldName);
+                                d.gte(start.format(DateTimeFormatter.ISO_LOCAL_DATE));
+                            return d;
+                        })
+                )
+        );
+    }
+
+    private void addDateRangeLTEFilter(BoolQuery.Builder boolQuery, String fieldName, LocalDate end) {
+        if (end == null)
+            return;
+        boolQuery.filter(f -> f
+                .range(r -> r
+                        .date(d -> {
+                            d.field(fieldName);
+                                d.lte(end.format(DateTimeFormatter.ISO_LOCAL_DATE));
+                            return d;
+                        })
+                )
+        );
+    }
+
     private void handleListField(BoolQuery.Builder boolQuery, String fieldName, List<String> values) {
         if (values == null || values.isEmpty()) {
             return;
@@ -172,6 +270,18 @@ public class MovieService {
                 .terms(t -> t
                         .field(fieldName)
                         .terms(tf -> tf.value(fieldValues))
+                )
+        );
+    }
+
+    private void addMatchFilter(BoolQuery.Builder boolQuery, String fieldName, String value) {
+        if (value == null || value.isEmpty())
+            return;
+
+        boolQuery.filter(f -> f
+                .match(t -> t
+                        .field(fieldName)
+                        .query(value)
                 )
         );
     }
