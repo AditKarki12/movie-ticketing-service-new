@@ -28,4 +28,6 @@ public class GlobalExceptionHandler {
         response.put("path", request.getDescription(false).replace("uri=", ""));
         return new ResponseEntity<>(response, HttpStatus.CONFLICT);
     }
+
+
 }

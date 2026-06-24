@@ -21,6 +21,8 @@ public interface MovieMapper {
     @Mapping(target = "showtimes", ignore = true)
     Movie toEntity(MovieRequest request);
 
+    MovieDocument toDocument(Movie movie);
+
     @Mapping(target = "id", ignore = true)
     @Mapping(target = "showtimes", ignore = true)
     void updateEntityFromRequest(MovieRequest request, @MappingTarget Movie movie);

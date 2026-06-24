@@ -1,5 +1,6 @@
 package aditkarki.movieticketingservicenew.client;
 
+import aditkarki.movieticketingservicenew.constants.ElasticSearchConstants;
 import aditkarki.movieticketingservicenew.document.MovieDocument;
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
 import co.elastic.clients.elasticsearch._types.query_dsl.BoolQuery;
@@ -18,11 +19,10 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class MovieElasticSearchClient {
     private final ElasticsearchClient elasticsearchClient;
-    private final String INDEX_NAME = "movies";
     public List<MovieDocument> searchByMovie(String query) throws IOException {
         // Searches for names of movies and director
         SearchResponse<MovieDocument> response = elasticsearchClient.search(s -> s
-                .index(INDEX_NAME)
+                .index(ElasticSearchConstants.MOVIES_INDEX)
                 .query(q -> q
                         .queryString(qs -> qs
                                 .fields("title", "director")
@@ -42,7 +42,7 @@ public class MovieElasticSearchClient {
         String startDateString = startDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
         String endDateString = endDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
         SearchResponse<MovieDocument> response = elasticsearchClient.search(s -> s
-                .index(INDEX_NAME)
+                .index(ElasticSearchConstants.MOVIES_INDEX)
                 .query(q -> q
                         .range(r -> r
                                 .date(d -> d
@@ -61,7 +61,7 @@ public class MovieElasticSearchClient {
 
     public List<MovieDocument> searchByGenre(String query) throws IOException {
         SearchResponse<MovieDocument> response = elasticsearchClient.search(s -> s
-            .index(INDEX_NAME)
+            .index(ElasticSearchConstants.MOVIES_INDEX)
                 .query(q -> q
                 .term(t -> t
                         .field("genres")
@@ -78,7 +78,7 @@ public class MovieElasticSearchClient {
 
     public List<MovieDocument> searchByTag(String query) throws IOException {
         SearchResponse<MovieDocument> response = elasticsearchClient.search(s -> s
-                .index(INDEX_NAME)
+                .index(ElasticSearchConstants.MOVIES_INDEX)
                 .query(q -> q
                         .term(t -> t
                                 .field("tags")
@@ -95,7 +95,7 @@ public class MovieElasticSearchClient {
 
     public List<MovieDocument> searchByLanguage(String query) throws IOException {
         SearchResponse<MovieDocument> response = elasticsearchClient.search(s -> s
-                .index(INDEX_NAME)
+                .index(ElasticSearchConstants.MOVIES_INDEX)
                 .query(q -> q
                         .term(t -> t
                                 .field("language")
@@ -112,7 +112,7 @@ public class MovieElasticSearchClient {
 
     public List<MovieDocument> searchByDuration(Integer minDuration, Integer maxDuration) throws IOException {
         SearchResponse<MovieDocument> response = elasticsearchClient.search(s -> s
-                .index(INDEX_NAME)
+                .index(ElasticSearchConstants.MOVIES_INDEX)
                 .query(q -> q
                         .range(r -> r
                                 .number(n -> n
@@ -131,7 +131,7 @@ public class MovieElasticSearchClient {
 
     public List<MovieDocument> searchByRating(Double minRating, Double maxRating) throws IOException {
         SearchResponse<MovieDocument> response = elasticsearchClient.search(s -> s
-                .index(INDEX_NAME)
+                .index(ElasticSearchConstants.MOVIES_INDEX)
                 .query(q -> q
                         .range(r -> r
                                 .number(n -> n
@@ -150,7 +150,7 @@ public class MovieElasticSearchClient {
 
     public List<MovieDocument> searchByIsActive(Boolean isActive) throws IOException {
         SearchResponse<MovieDocument> response = elasticsearchClient.search(s -> s
-                .index(INDEX_NAME)
+                .index(ElasticSearchConstants.MOVIES_INDEX)
                 .query(q -> q
                         .term(t -> t
                                 .field("isActive")
@@ -164,14 +164,4 @@ public class MovieElasticSearchClient {
                 .collect(Collectors.toList());
     }
 
-
-//    public void addTermsFilter(BoolQuery.Builder boolQuery, String fieldName, Object value) {
-//        boolQuery.filter(f -> f
-//                .terms(t -> t
-//                        .field(fieldName)
-//                        .terms(tf -> tf.value(List.of(FieldValue.of(value)))
-//                )
-//                )
-//        );
-//    }
 }

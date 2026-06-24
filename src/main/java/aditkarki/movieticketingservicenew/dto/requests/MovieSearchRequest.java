@@ -1,5 +1,6 @@
 package aditkarki.movieticketingservicenew.dto.requests;
 
+import aditkarki.movieticketingservicenew.dto.RangeDto;
 import lombok.Data;
 
 import java.time.LocalDate;
@@ -12,11 +13,13 @@ public class MovieSearchRequest {
     private List<String> language;
     private List<String> tags;
     private String director;
-    private Integer minDuration;
-    private Integer maxDuration;
-    private Double minRating;
-    private Double maxRating;
-    private LocalDate startReleaseDate;
-    private LocalDate endReleaseDate;
+
+
+    private RangeDto duration;
+    private RangeDto rating;
+
+
+    private RangeDto releaseDate;
+
     private Boolean isActive;
 }
