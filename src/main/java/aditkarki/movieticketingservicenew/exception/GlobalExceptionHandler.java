@@ -29,5 +29,23 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(response, HttpStatus.CONFLICT);
     }
 
+    @ExceptionHandler(ReflectionAccessException.class)
+    public ResponseEntity<Map<String, Object>> handleReflectionAccessException(ReflectionAccessException exception, WebRequest request) {
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", exception.getMessage());
+        response.put("status", HttpStatus.INTERNAL_SERVER_ERROR.value());
+        response.put("path", request.getDescription(false).replace("uri=", ""));
+        return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+
+    @ExceptionHandler(MovieSearchException.class)
+    public ResponseEntity<Map<String, Object>> handleMovieSearchException(MovieSearchException exception, WebRequest request) {
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", exception.getMessage());
+        response.put("status", HttpStatus.INTERNAL_SERVER_ERROR.value());
+        response.put("path", request.getDescription(false).replace("uri=", ""));
+        return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+
 
 }

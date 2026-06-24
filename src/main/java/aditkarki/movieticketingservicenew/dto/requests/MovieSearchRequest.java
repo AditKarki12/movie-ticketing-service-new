@@ -1,5 +1,7 @@
 package aditkarki.movieticketingservicenew.dto.requests;
 
+import aditkarki.movieticketingservicenew.dto.DateRangeDto;
+import aditkarki.movieticketingservicenew.dto.NumericRangeDto;
 import aditkarki.movieticketingservicenew.dto.RangeDto;
 import lombok.Data;
 
@@ -15,11 +17,11 @@ public class MovieSearchRequest {
     private String director;
 
 
-    private RangeDto duration;
-    private RangeDto rating;
+    private NumericRangeDto duration;
+    private NumericRangeDto rating;
 
 
-    private RangeDto releaseDate;
+    private DateRangeDto releaseDate;
 
     private Boolean isActive;
 }

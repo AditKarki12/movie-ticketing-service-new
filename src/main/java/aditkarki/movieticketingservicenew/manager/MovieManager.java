@@ -5,7 +5,6 @@ import aditkarki.movieticketingservicenew.document.MovieDocument;
 import aditkarki.movieticketingservicenew.entity.Movie;
 import aditkarki.movieticketingservicenew.exception.ResourceNotFoundException;
 import aditkarki.movieticketingservicenew.mapper.MovieMapper;
-import aditkarki.movieticketingservicenew.repository.ElasticsearchMovieRepository;
 import aditkarki.movieticketingservicenew.repository.MovieRepository;
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
 import lombok.RequiredArgsConstructor;
@@ -30,7 +29,8 @@ public class MovieManager {
     }
 
     public void deleteMovie(Long movieId) {
-        movieRepository.deleteById(movieId);
+        Movie movie = findById(movieId);
+        movieRepository.delete(movie);
         deleteFromES(movieId);
     }
 
