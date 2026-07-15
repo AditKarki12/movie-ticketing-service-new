@@ -1,8 +1,11 @@
 package aditkarki.movieticketingservicenew.controller;
 
+import aditkarki.movieticketingservicenew.CustomAggregation;
+import aditkarki.movieticketingservicenew.CustomSorting;
 import aditkarki.movieticketingservicenew.dto.requests.MovieRequest;
 import aditkarki.movieticketingservicenew.dto.requests.MovieSearchRequest;
 import aditkarki.movieticketingservicenew.dto.responses.MovieResponse;
+import aditkarki.movieticketingservicenew.dto.responses.TableResponse;
 import aditkarki.movieticketingservicenew.service.MovieService;
 import lombok.RequiredArgsConstructor;
 import jakarta.validation.Valid;
@@ -49,7 +52,33 @@ public class MovieController {
     // --- Search Endpoints ---
 
     @PostMapping("/search")
-    public ResponseEntity<List<MovieResponse>> searchMovies(@RequestBody MovieSearchRequest movieSearchRequest) {
-        return ResponseEntity.ok(movieService.getMovie(movieSearchRequest));
+    public ResponseEntity<TableResponse> searchMovies(
+            @RequestBody MovieSearchRequest movieSearchRequest,
+            @RequestParam(defaultValue = "0") int pageNumber,
+            @RequestParam(defaultValue = "10") int size,
+            @RequestParam(defaultValue = "rating") String sortBy,
+            @RequestParam(defaultValue = "ASC") CustomSorting customSorting,
+            @RequestParam(defaultValue = "NO_AGGREGATION") CustomAggregation customAggregation,
+            @RequestParam(required = false) String aggregationField){
+        return ResponseEntity.ok(movieService.getMovie(movieSearchRequest, pageNumber, size, sortBy, customSorting, customAggregation, aggregationField));
     }
+
+    @PostMapping("/es")
+    public ResponseEntity<MovieResponse> createMovieES(@RequestBody MovieRequest movieRequest) {
+        return new ResponseEntity<>(movieService.createMovieES(movieRequest), HttpStatus.CREATED);
+    }
+
+    @DeleteMapping("/es")
+    public ResponseEntity<Void> deleteMovieES(@RequestBody MovieRequest movieRequest) {
+        movieService.deleteMovieES(movieRequest);
+        return ResponseEntity.noContent().build();
+    }
+
+    @PutMapping("/title")
+    public ResponseEntity<MovieResponse> updateMovieES(
+            @RequestBody MovieRequest movieRequest,
+            @RequestParam String title) {
+        return new ResponseEntity<>(movieService.updateMovieES(movieRequest, title), HttpStatus.CREATED);
+    }
+
 }

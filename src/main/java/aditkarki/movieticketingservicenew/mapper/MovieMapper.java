@@ -4,9 +4,7 @@ import aditkarki.movieticketingservicenew.dto.requests.MovieRequest;
 import aditkarki.movieticketingservicenew.dto.responses.MovieResponse;
 import aditkarki.movieticketingservicenew.document.MovieDocument;
 import aditkarki.movieticketingservicenew.entity.Movie;
-import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
-import org.mapstruct.MappingTarget;
+import org.mapstruct.*;
 
 @Mapper(componentModel = "spring")
 public interface MovieMapper {
@@ -26,4 +24,10 @@ public interface MovieMapper {
     @Mapping(target = "id", ignore = true)
     @Mapping(target = "showtimes", ignore = true)
     void updateEntityFromRequest(MovieRequest request, @MappingTarget Movie movie);
+
+    @Mapping(target = "id", ignore = true)
+    MovieDocument toDocument(MovieRequest movieRequest);
+
+    @BeanMapping(nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
+    void updateDocumentFromRequest(MovieRequest request, @MappingTarget MovieDocument movieDocument);
 }

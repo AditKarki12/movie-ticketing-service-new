@@ -1,5 +1,6 @@
 package aditkarki.movieticketingservicenew.constants;
 
+import java.util.Map;
 import java.util.Set;
 
 public final class ElasticSearchConstants {
@@ -10,4 +11,9 @@ public final class ElasticSearchConstants {
 
     public static final Set<String> MATCH_FIELDS =
             Set.of("title", "description");
+
+    public static final Map<String, String> DIRECTOR_AGGREGATION_FIELDS = Map.of(
+            "averageRating", "rating",
+            "averageDuration", "duration"
+    );
 }

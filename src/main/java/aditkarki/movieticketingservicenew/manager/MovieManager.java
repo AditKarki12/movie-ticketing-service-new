@@ -5,6 +5,7 @@ import aditkarki.movieticketingservicenew.document.MovieDocument;
 import aditkarki.movieticketingservicenew.entity.Movie;
 import aditkarki.movieticketingservicenew.exception.ResourceNotFoundException;
 import aditkarki.movieticketingservicenew.mapper.MovieMapper;
+import aditkarki.movieticketingservicenew.repository.ElasticsearchMovieRepository;
 import aditkarki.movieticketingservicenew.repository.MovieRepository;
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
 import lombok.RequiredArgsConstructor;
@@ -21,6 +22,7 @@ public class MovieManager {
     private final MovieRepository movieRepository;
     private final MovieMapper movieMapper;
     private final ElasticsearchClient elasticsearchClient;
+    private final ElasticsearchMovieRepository elasticsearchMovieRepository;
 
     public Movie saveMovie(Movie movie) {
         Movie savedMovie = movieRepository.save(movie);
@@ -38,8 +40,12 @@ public class MovieManager {
         return movieRepository.findById(movieId).orElseThrow(() -> new ResourceNotFoundException("Movie not found"));
     }
 
+    public void deleteByTitle(String title) {
+        elasticsearchMovieRepository.deleteByTitle(title);
+    }
+
     public boolean existsByTitle(String title) {
-        return movieRepository.existsByTitle(title);
+        return elasticsearchMovieRepository.existsByTitle(title);
     }
 
     public List<Movie> findAll() {

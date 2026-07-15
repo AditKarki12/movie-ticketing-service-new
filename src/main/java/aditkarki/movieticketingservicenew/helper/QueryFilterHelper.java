@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-public final class QueryHelperMethods {
+public class QueryFilterHelper {
 
     public void addTermsFilter(BoolQuery.Builder boolQuery, String fieldName, Object value) {
         if (value == null)
@@ -115,7 +115,7 @@ public final class QueryHelperMethods {
             return;
 
         boolQuery.filter(f -> f
-                .match(t -> t
+                .matchPhrase(t -> t
                         .field(fieldName)
                         .query(value)
                 )

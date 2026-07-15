@@ -1,5 +1,6 @@
 package aditkarki.movieticketingservicenew.entity;
 
+import aditkarki.movieticketingservicenew.CustomRole;
 import jakarta.persistence.*;
 
 import lombok.AllArgsConstructor;
@@ -24,6 +25,9 @@ public class User{
     private String userLastName;
     private String userEmail;
     private String userPassword;
+
+    @Enumerated(EnumType.STRING)
+    private CustomRole role;
 
     @OneToMany(mappedBy = "user")
     private List<Booking> bookings;

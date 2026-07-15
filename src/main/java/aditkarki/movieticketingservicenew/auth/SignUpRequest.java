@@ -1,13 +1,14 @@
-package aditkarki.movieticketingservicenew.dto.requests;
+package aditkarki.movieticketingservicenew.auth;
+
 
 import aditkarki.movieticketingservicenew.CustomRole;
 import lombok.Data;
 
 @Data
-public class UserRequest {
+public class SignUpRequest {
     private String userFirstName;
     private String userLastName;
     private String userEmail;
     private String userPassword;
-    private CustomRole role;
+    private CustomRole customRole;
 }

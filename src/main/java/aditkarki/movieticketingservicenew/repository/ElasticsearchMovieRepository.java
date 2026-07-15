@@ -8,4 +8,6 @@ import java.util.List;
 
 @Repository
 public interface ElasticsearchMovieRepository extends ElasticsearchRepository<MovieDocument, String> {
+    boolean existsByTitle(String title);
+    MovieDocument deleteByTitle(String title);
 }

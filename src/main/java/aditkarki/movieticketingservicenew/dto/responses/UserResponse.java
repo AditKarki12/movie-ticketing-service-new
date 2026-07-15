@@ -1,5 +1,6 @@
 package aditkarki.movieticketingservicenew.dto.responses;
 
+import aditkarki.movieticketingservicenew.CustomRole;
 import lombok.Builder;
 import lombok.Data;
 
@@ -10,4 +11,5 @@ public class UserResponse {
     private String userFirstName;
     private String userLastName;
     private String userEmail;
+    private CustomRole role;
 }

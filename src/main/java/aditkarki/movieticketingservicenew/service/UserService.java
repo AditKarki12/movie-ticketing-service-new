@@ -1,5 +1,6 @@
 package aditkarki.movieticketingservicenew.service;
 
+import aditkarki.movieticketingservicenew.CustomRole;
 import aditkarki.movieticketingservicenew.dto.requests.UserRequest;
 import aditkarki.movieticketingservicenew.dto.responses.UserResponse;
 import aditkarki.movieticketingservicenew.entity.User;
@@ -26,6 +27,7 @@ public class UserService {
             throw new DuplicateResourceException(userRequest.getUserEmail());
         }
         User user = userMapper.toEntity(userRequest);
+        user.setRole(CustomRole.USER);
         User savedUser = userRepository.save(user);
         return userMapper.toResponse(savedUser);
     }

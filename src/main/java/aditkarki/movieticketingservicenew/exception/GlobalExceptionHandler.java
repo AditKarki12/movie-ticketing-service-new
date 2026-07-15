@@ -1,5 +1,6 @@
 package aditkarki.movieticketingservicenew.exception;
 
+import aditkarki.movieticketingservicenew.dto.requests.MovieSearchRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -45,6 +46,15 @@ public class GlobalExceptionHandler {
         response.put("status", HttpStatus.INTERNAL_SERVER_ERROR.value());
         response.put("path", request.getDescription(false).replace("uri=", ""));
         return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+
+    @ExceptionHandler(InvalidSortByException.class)
+    public ResponseEntity<Map<String, Object>> handleInvalidSortByException(InvalidSortByException exception, WebRequest request){
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", exception.getMessage());
+        response.put("status", HttpStatus.BAD_REQUEST.value());
+        response.put("path", request.getDescription(false).replace("uri=", ""));
+        return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
     }
 
 
