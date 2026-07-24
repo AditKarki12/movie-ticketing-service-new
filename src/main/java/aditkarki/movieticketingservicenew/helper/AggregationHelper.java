@@ -1,7 +1,9 @@
 package aditkarki.movieticketingservicenew.helper;
 
-import aditkarki.movieticketingservicenew.CustomOperator;
-import aditkarki.movieticketingservicenew.CustomSorting;
+import aditkarki.movieticketingservicenew.constants.ElasticSearchConstants;
+import aditkarki.movieticketingservicenew.dto.NumericRangeDto;
+import aditkarki.movieticketingservicenew.enums.CustomOperator;
+import aditkarki.movieticketingservicenew.enums.CustomSorting;
 import aditkarki.movieticketingservicenew.dto.Page;
 import aditkarki.movieticketingservicenew.dto.RangeDto;
 import co.elastic.clients.elasticsearch._types.SortOrder;
@@ -122,6 +124,51 @@ public class AggregationHelper {
                 .stream()
                 .map(mapper)
                 .collect(Collectors.toCollection(LinkedList::new));
+    }
+
+    public Map<String, Aggregation> movieAggregationBuilder(CustomSorting customSorting, String sortBy, int pageNumber, int size, String index, NumericRangeDto averageRating, NumericRangeDto averageDuration) {
+        Map<String, Aggregation> aggregationMap = buildAverageAggregations(ElasticSearchConstants.MOVIE_AGGREGATION_FIELDS);
+
+        Map<String, RangeDto> filters = new HashMap<>();
+        filters.put("averageRating", averageRating);
+        filters.put("averageDuration", averageDuration);
+
+        for (Map.Entry<String, RangeDto> entry : filters.entrySet()) {
+            applyAggRangeFilter(aggregationMap, entry.getValue(), entry.getKey());
+        }
+
+        Page pagination = PageUtils.pagination(pageNumber, size);
+
+        addAggregationSortFilter(aggregationMap, customSorting, sortBy, pagination);
+
+        Aggregation aggregation = Aggregation.of(a -> a // Creates the buckets and aggregates based on aggregationMap
+                .terms(t -> t.field(index).size(5)).aggregations(aggregationMap));
+
+        Map<String, Aggregation> aggregations = new HashMap<>();
+        aggregations.put(index + "Aggregations", aggregation);
+        return aggregations;
+    }
+
+    public Map<String, Aggregation> theaterAggregationBuilder(CustomSorting customSorting, String sortBy, int pageNumber, int size, String index, NumericRangeDto averageScreensTotal) {
+        Map<String, Aggregation> aggregationMap = buildAverageAggregations(ElasticSearchConstants.THEATER_AGGREGATION_FIELDS);
+
+        Map<String, RangeDto> filters = new HashMap<>();
+        filters.put("averageScreensTotal", averageScreensTotal);
+
+        for (Map.Entry<String, RangeDto> entry : filters.entrySet()) {
+            applyAggRangeFilter(aggregationMap, entry.getValue(), entry.getKey());
+        }
+
+        Page pagination = PageUtils.pagination(pageNumber, size);
+
+        addAggregationSortFilter(aggregationMap, customSorting, sortBy, pagination);
+
+        Aggregation aggregation = Aggregation.of(a -> a // Creates the buckets and aggregates based on aggregationMap
+                .terms(t -> t.field(index).size(5)).aggregations(aggregationMap));
+
+        Map<String, Aggregation> aggregations = new HashMap<>();
+        aggregations.put(index + "Aggregations", aggregation);
+        return aggregations;
     }
 
     private String customOperatortoString(CustomOperator operator) {

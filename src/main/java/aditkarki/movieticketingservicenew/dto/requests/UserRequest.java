@@ -1,6 +1,6 @@
 package aditkarki.movieticketingservicenew.dto.requests;
 
-import aditkarki.movieticketingservicenew.CustomRole;
+import aditkarki.movieticketingservicenew.enums.CustomRole;
 import lombok.Data;
 
 @Data

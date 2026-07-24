@@ -1,0 +1,2001 @@
+showtimeId,movieTitle,theaterName,localDate,localTime,totalSeats,availableSeats,ticketPrice
+1,Series career agree,"Munoz, Krueger and Solomon Cinemas",2026-07-11,16:00:00,300,281,24.23
+2,Almost,Aguilar-Bender Cinemas,2026-08-18,19:00:00,80,72,8.81
+3,Gas around along,Zuniga Group Cinemas,2026-08-04,13:00:00,80,71,21.07
+4,Member turn improve,"Davis, Rodriguez and Andrews Cinemas",2026-06-25,10:00:00,100,91,23.05
+5,Learn get,"Hendricks, Zuniga and Miller Cinemas",2026-07-06,10:00:00,300,285,8.76
+6,Heavy board,Davenport-Reynolds Cinemas,2026-07-03,19:00:00,120,106,9.92
+7,Could social,"Allen, Gonzales and Reeves Cinemas",2026-08-15,13:00:00,120,107,20.51
+8,General above price,Flores Ltd Cinemas,2026-07-17,21:30:00,250,241,21.7
+9,Very guess water spring,Hall Ltd Cinemas,2026-07-31,21:30:00,180,162,10.22
+10,Include available,Gallagher-Diaz Cinemas,2026-07-02,10:00:00,120,92,21.2
+11,Smile capital,"Medina, Lee and Freeman Cinemas",2026-07-01,21:30:00,180,175,21.96
+12,Tend,Williams-Harmon Cinemas,2026-06-28,10:00:00,200,181,9.66
+13,Protect economy,"Barnes, Miranda and Stephenson Cinemas",2026-09-02,16:00:00,100,98,16.37
+14,Nearly author,Smith-Carrillo Cinemas,2026-07-27,21:30:00,200,195,17.54
+15,Drop,Holloway and Sons Cinemas,2026-08-23,16:00:00,180,166,13.17
+16,Smile wrong,"Ramirez, Horne and Johnson Cinemas",2026-07-08,21:30:00,150,143,14.04
+17,Seek up,Sellers LLC Cinemas,2026-08-18,16:00:00,250,244,9.06
+18,Thank behind,"Smith, Swanson and Glass Cinemas",2026-07-22,19:00:00,120,84,12.92
+19,Research decide even,Chase-Washington Cinemas,2026-08-18,19:00:00,120,111,14.4
+20,Bit positive break,"Baker, Mason and White Cinemas",2026-07-19,13:00:00,150,144,21.13
+21,Instead,Wood-Watson Cinemas,2026-08-10,13:00:00,300,281,11.58
+22,Own pretty field,"Garrison, Ryan and Miller Cinemas",2026-06-24,19:00:00,200,187,9.85
+23,Reach would,Peterson-Mullins Cinemas,2026-07-22,13:00:00,300,285,18.68
+24,Else coach,Hoffman PLC Cinemas,2026-08-20,19:00:00,300,286,17.43
+25,Spend animal,"Evans, David and Hendrix Cinemas",2026-08-22,16:00:00,200,179,12.85
+26,Miss free,"Figueroa, Mcpherson and Howard Cinemas",2026-08-21,16:00:00,120,113,13.76
+27,North alone,Grant-Diaz Cinemas,2026-07-21,21:30:00,180,173,19.14
+28,Gas service,Williamson Group Cinemas,2026-07-24,13:00:00,200,185,9.54
+29,Dream experience chair,Garcia LLC Cinemas,2026-07-06,10:00:00,100,82,8.46
+30,Either writer tonight,Casey-Romero Cinemas,2026-07-08,16:00:00,100,76,13.59
+31,Her price,Campbell and Sons Cinemas,2026-06-26,16:00:00,120,118,9.33
+32,Behind run hand with,"White, Burch and Reynolds Cinemas",2026-08-09,16:00:00,200,197,22.26
+33,Project,"Olson, Hebert and Jones Cinemas",2026-07-04,13:00:00,200,182,20.79
+34,Staff political theory,Miller-Smith Cinemas,2026-08-30,13:00:00,150,126,23.78
+35,Its hour treatment themselves,"Cook, Jones and Jones Cinemas",2026-07-19,10:00:00,150,146,24.84
+36,Weight lead whom,Sanchez-Douglas Cinemas,2026-08-31,19:00:00,250,233,11.25
+37,Now whom smile,Lee-Weeks Cinemas,2026-07-08,19:00:00,250,241,19.91
+38,Officer skin quality,Landry-Hill Cinemas,2026-07-14,10:00:00,300,277,9.31
+39,Smile about,"Haas, Richardson and Lee Cinemas",2026-09-01,10:00:00,180,164,15.33
+40,During together feel,Stewart Group Cinemas,2026-09-01,13:00:00,120,113,22.34
+41,Election trip pressure,Payne PLC Cinemas,2026-07-14,21:30:00,100,100,15.73
+42,Create attack life,Jackson Ltd Cinemas,2026-07-29,10:00:00,100,82,11.46
+43,Nor consider tree,Sullivan PLC Cinemas,2026-07-02,21:30:00,250,229,11.76
+44,Throw history method,"Wiley, Tapia and Smith Cinemas",2026-07-27,10:00:00,250,237,10.71
+45,Hour individual,Wright Group Cinemas,2026-08-23,16:00:00,200,194,17.78
+46,Fire require mind,Harrington Group Cinemas,2026-07-04,10:00:00,100,95,18.79
+47,Development thus,"King, Taylor and Middleton Cinemas",2026-08-03,13:00:00,150,132,9.9
+48,Hospital attorney computer,"Patterson, Camacho and White Cinemas",2026-08-05,10:00:00,180,173,24.57
+49,Generation radio,Mccoy-Alvarado Cinemas,2026-07-11,10:00:00,250,228,16.76
+50,Role imagine,"Clarke, Lane and Wilson Cinemas",2026-07-10,21:30:00,150,146,19.16
+51,Start visit,"Chen, Faulkner and Casey Cinemas",2026-08-14,21:30:00,150,128,24.22
+52,House chance practice,Moran PLC Cinemas,2026-08-16,13:00:00,100,93,16.47
+53,Everyone under up,"Martinez, Rose and Jackson Cinemas",2026-07-22,21:30:00,80,70,18.93
+54,Choose son,Herman-Martin Cinemas,2026-07-09,19:00:00,150,129,8.93
+55,Feel present,Ortiz Ltd Cinemas,2026-07-02,21:30:00,120,120,14.3
+56,Yet discuss relate,"Ho, Little and Leon Cinemas",2026-08-19,13:00:00,150,142,19.04
+57,Difficult worry often image,Wilson-Pierce Cinemas,2026-08-13,16:00:00,250,244,22.16
+58,Particular book,Villa Group Cinemas,2026-07-14,13:00:00,180,176,21.28
+59,Common color,Hardy PLC Cinemas,2026-06-26,13:00:00,300,293,14.25
+60,Ask manager,Gibson-Thomas Cinemas,2026-08-10,16:00:00,150,149,21.21
+61,Baby rather,"Ramsey, Martinez and Sherman Cinemas",2026-07-09,10:00:00,250,239,20.4
+62,Factor remember,Herrera-Coleman Cinemas,2026-07-23,16:00:00,180,173,10.03
+63,Model remember,Hall-Mckinney Cinemas,2026-08-30,19:00:00,100,96,9.73
+64,Morning trial security,"Morales, Miller and Harrell Cinemas",2026-07-15,13:00:00,150,137,23.81
+65,Far these,Sellers LLC Cinemas,2026-07-24,21:30:00,200,191,13.56
+66,Partner wait require,"Chen, Faulkner and Casey Cinemas",2026-09-01,10:00:00,250,248,24.97
+67,Lose animal,Turner Inc Cinemas,2026-09-02,21:30:00,100,86,21.64
+68,Him song already,Smith-Clayton Cinemas,2026-07-31,19:00:00,300,286,19.75
+69,Able quickly,"Patterson, Mosley and Michael Cinemas",2026-07-15,21:30:00,80,70,11.8
+70,Local choose as,Baldwin-Garcia Cinemas,2026-06-29,16:00:00,200,193,17.16
+71,Town affect shoulder,Patterson-Lawrence Cinemas,2026-08-22,10:00:00,180,180,18.34
+72,Central design affect,Rodriguez-Hernandez Cinemas,2026-08-30,13:00:00,100,83,16.24
+73,Why citizen,Obrien and Sons Cinemas,2026-09-04,13:00:00,300,291,21.99
+74,Home magazine,Brown-Ross Cinemas,2026-08-26,21:30:00,200,186,21.78
+75,Sometimes charge,"Thomas, White and Jensen Cinemas",2026-08-20,13:00:00,120,106,10.33
+76,Structure whom,"James, Howard and Johnson Cinemas",2026-07-29,19:00:00,300,268,14.15
+77,Worker message truth present,Edwards PLC Cinemas,2026-06-24,16:00:00,100,92,19.83
+78,South moment alone interview,"Gonzales, Smith and Davis Cinemas",2026-08-12,21:30:00,100,87,18.14
+79,Respond writer take,Bush-Ayala Cinemas,2026-07-04,16:00:00,80,74,11.2
+80,Get condition goal,Carroll-Snyder Cinemas,2026-07-26,13:00:00,250,244,10.65
+81,Personal word,"Strickland, Mccormick and Santos Cinemas",2026-07-24,19:00:00,120,107,23.22
+82,Wife reflect nearly service,Hill-Guerra Cinemas,2026-07-09,13:00:00,180,164,23.45
+83,Less agreement window,Huynh PLC Cinemas,2026-08-09,19:00:00,300,294,12.47
+84,Save national can,Wilson-Pierce Cinemas,2026-07-14,10:00:00,250,233,15.92
+85,Nation,Rojas and Sons Cinemas,2026-09-05,13:00:00,150,148,8.04
+86,Site unit response,Moran PLC Cinemas,2026-08-09,13:00:00,180,176,11.8
+87,Economy home,Morrison-Simmons Cinemas,2026-08-08,16:00:00,250,239,24.85
+88,Radio development,"Olson, Hebert and Jones Cinemas",2026-08-07,13:00:00,180,178,22.12
+89,Former east,"Mckee, Gardner and Davenport Cinemas",2026-07-04,19:00:00,200,195,24.85
+90,Research once medical,"Kennedy, Cohen and Pennington Cinemas",2026-09-03,19:00:00,80,77,18.52
+91,Walk effort,"Williams, Newman and Jones Cinemas",2026-07-12,19:00:00,120,106,16.6
+92,Mr same between,Wallace-Berry Cinemas,2026-08-06,19:00:00,100,90,19.16
+93,Friend develop heart,Raymond LLC Cinemas,2026-08-22,21:30:00,180,174,12.77
+94,Can its,"Frazier, Ramirez and Brown Cinemas",2026-07-01,21:30:00,250,250,9.02
+95,Movement cup prepare,Fitzgerald-Scott Cinemas,2026-07-13,13:00:00,120,103,10.66
+96,Explain,Mcmahon PLC Cinemas,2026-07-26,19:00:00,100,100,18.68
+97,Building truth success cause,Robertson-Hays Cinemas,2026-08-16,16:00:00,200,183,11.94
+98,Big once,Johnson and Sons Cinemas,2026-08-21,19:00:00,300,292,13.02
+99,Quickly week,"Hatfield, Edwards and Brown Cinemas",2026-07-25,21:30:00,150,150,8.21
+100,Analysis matter,Lyons PLC Cinemas,2026-08-15,13:00:00,100,96,22.36
+101,Unit law,Morgan-Ortega Cinemas,2026-06-30,19:00:00,100,87,20.6
+102,Similar choice draw,Costa-Johnston Cinemas,2026-06-30,10:00:00,300,289,14.39
+103,Her cover,"Santos, Moody and Taylor Cinemas",2026-07-05,21:30:00,300,291,15.76
+104,Design short take,Rodriguez PLC Cinemas,2026-07-29,21:30:00,150,144,8.8
+105,Key thus,"Bautista, Allen and Harrell Cinemas",2026-08-08,19:00:00,180,170,14.6
+106,Blue near serve,"Young, Allen and Hernandez Cinemas",2026-07-27,21:30:00,180,161,24.79
+107,Human work case society,Horne Inc Cinemas,2026-08-12,10:00:00,120,117,19.14
+108,Policy seek,Pham Ltd Cinemas,2026-07-01,13:00:00,180,170,18.55
+109,More experience read,Parks Ltd Cinemas,2026-08-23,13:00:00,180,176,22.49
+110,Loss be federal right,Andrews-Green Cinemas,2026-06-27,10:00:00,200,192,9.71
+111,Personal anything both,"Watts, Robinson and Nguyen Cinemas",2026-08-20,19:00:00,180,177,13.36
+112,Sea for tree,"Ramirez, Fuller and Wilkins Cinemas",2026-08-31,10:00:00,250,234,11.15
+113,Art miss house,Scott-Perez Cinemas,2026-06-28,10:00:00,120,110,14.73
+114,Guy visit concern,Johnson-Alvarez Cinemas,2026-06-26,16:00:00,150,136,11.63
+115,Service hope value,"Larsen, Hernandez and Ward Cinemas",2026-08-19,13:00:00,80,62,18.56
+116,Parent strategy not,Hernandez Inc Cinemas,2026-07-24,10:00:00,80,69,13.41
+117,Identify political yeah,Gibson-Gardner Cinemas,2026-07-10,10:00:00,120,118,24.73
+118,Year respond,White-Morales Cinemas,2026-09-01,16:00:00,120,106,23.97
+119,Generation main,Acosta and Sons Cinemas,2026-08-19,16:00:00,150,122,10.67
+120,As indeed can,Villa Group Cinemas,2026-07-08,10:00:00,200,194,23.8
+121,Knowledge poor around,"Henry, Edwards and Bartlett Cinemas",2026-08-17,19:00:00,180,167,22.6
+122,Impact compare after,Ryan-West Cinemas,2026-07-09,10:00:00,150,147,16.84
+123,Range pressure but,"Bailey, Armstrong and Campbell Cinemas",2026-08-18,19:00:00,250,230,12.52
+124,Name picture tend,"Castro, Irwin and Rodriguez Cinemas",2026-06-27,19:00:00,80,80,13.23
+125,Theory determine at,Mendoza-Jackson Cinemas,2026-08-20,10:00:00,180,170,11.0
+126,Clear bag,Norris Inc Cinemas,2026-07-01,10:00:00,120,107,10.62
+127,Knowledge you,Smith-Carrillo Cinemas,2026-07-21,21:30:00,180,175,19.49
+128,Floor force leave,"Medina, Green and Rivera Cinemas",2026-07-26,13:00:00,150,144,20.11
+129,Choose mother health,"Patterson, Mosley and Michael Cinemas",2026-07-14,21:30:00,250,235,11.68
+130,Idea able,Smith-James Cinemas,2026-06-26,10:00:00,120,110,24.53
+131,Growth continue,Thomas-Wiggins Cinemas,2026-08-12,19:00:00,180,158,14.64
+132,Step different,"White, Smith and Warner Cinemas",2026-07-15,19:00:00,250,244,19.67
+133,Skin these society,Robertson-Hays Cinemas,2026-06-29,10:00:00,80,75,12.44
+134,Sea character none,Gutierrez-Ortiz Cinemas,2026-06-28,19:00:00,100,94,12.82
+135,Picture couple,White-Richards Cinemas,2026-06-23,10:00:00,120,108,9.15
+136,Six represent data,"Weiss, Cole and Preston Cinemas",2026-08-01,10:00:00,100,100,19.73
+137,Protect red recent,Holden LLC Cinemas,2026-07-26,21:30:00,150,142,11.2
+138,Moment professional cup,Todd Group Cinemas,2026-06-28,16:00:00,80,66,13.21
+139,Name also,Shaffer-Yates Cinemas,2026-07-29,21:30:00,250,224,8.18
+140,Analysis how,Smith-Wilson Cinemas,2026-09-01,19:00:00,150,137,17.96
+141,Offer and,"Hall, Jackson and Johnson Cinemas",2026-07-14,16:00:00,80,77,20.93
+142,Commercial firm,Lambert-Anderson Cinemas,2026-07-30,19:00:00,80,67,12.61
+143,Central sit protect,Martinez-Dunlap Cinemas,2026-08-12,21:30:00,180,174,10.36
+144,National than,Woods-Mccarthy Cinemas,2026-09-06,10:00:00,120,118,19.26
+145,Six see rate customer,"Schaefer, Barry and Espinoza Cinemas",2026-07-16,16:00:00,120,116,10.2
+146,Perform heavy hit,Miller and Sons Cinemas,2026-08-11,21:30:00,300,285,17.94
+147,Particular include really,Ward-Blake Cinemas,2026-07-25,13:00:00,150,141,21.6
+148,Fill billion general,Lowery LLC Cinemas,2026-07-29,19:00:00,180,177,13.42
+149,City now,Williams Ltd Cinemas,2026-07-28,16:00:00,150,143,8.14
+150,Agree type,Martinez Ltd Cinemas,2026-09-05,19:00:00,180,168,8.47
+151,Walk room adult,"Jackson, Andersen and Bowen Cinemas",2026-08-06,19:00:00,180,174,16.99
+152,Company medical house,Jackson-Campbell Cinemas,2026-08-04,19:00:00,200,180,15.09
+153,Because scientist,Harris-Jensen Cinemas,2026-08-20,13:00:00,120,117,18.35
+154,Remain method,"White, Burch and Reynolds Cinemas",2026-06-24,10:00:00,180,167,19.98
+155,Worker have still,Thomas and Sons Cinemas,2026-07-07,13:00:00,120,104,20.76
+156,Worker himself,Hernandez Group Cinemas,2026-08-31,10:00:00,180,176,16.42
+157,Doctor you,Rodriguez-Miller Cinemas,2026-09-01,19:00:00,300,288,8.33
+158,Keep manager,Jackson Ltd Cinemas,2026-07-25,21:30:00,100,94,19.44
+159,Build pay,Barrera Group Cinemas,2026-06-23,19:00:00,200,182,23.89
+160,On,"Medina, Green and Rivera Cinemas",2026-08-29,13:00:00,100,90,24.57
+161,Race choose toward,"Schultz, Miller and Wolf Cinemas",2026-08-10,13:00:00,200,172,16.67
+162,Art,"Hull, Haynes and Garcia Cinemas",2026-08-25,10:00:00,80,63,9.12
+163,American return need,Blevins-Ballard Cinemas,2026-08-20,19:00:00,100,97,8.94
+164,Thousand move,Santos-Wood Cinemas,2026-07-20,13:00:00,150,138,14.0
+165,Place growth staff,"Davis, Rodriguez and Andrews Cinemas",2026-08-19,19:00:00,120,89,24.61
+166,Friend strong,Snyder-Williams Cinemas,2026-08-20,16:00:00,100,100,15.14
+167,Because answer class company,Lee-Fox Cinemas,2026-08-02,21:30:00,200,189,8.72
+168,Husband energy know,Harris PLC Cinemas,2026-08-20,16:00:00,100,90,19.02
+169,None head,Reese Group Cinemas,2026-07-17,13:00:00,250,232,13.8
+170,Though though walk,Morton and Sons Cinemas,2026-07-25,16:00:00,100,77,14.06
+171,Force focus,Howe Inc Cinemas,2026-07-26,21:30:00,100,80,15.16
+172,Bad many worry agreement,Guzman-Montoya Cinemas,2026-09-05,13:00:00,80,73,11.58
+173,Which concern,Johnson and Sons Cinemas,2026-08-09,10:00:00,80,74,21.55
+174,Approach suggest save,Wilkerson-Davis Cinemas,2026-06-27,21:30:00,150,130,24.8
+175,Indeed just history,"Navarro, Marsh and Hurst Cinemas",2026-08-08,16:00:00,300,290,11.02
+176,Especially,Green-Ewing Cinemas,2026-08-27,21:30:00,100,93,11.9
+177,Fight save,Ortiz Ltd Cinemas,2026-08-14,13:00:00,100,97,17.87
+178,Law degree police,"Gibson, Zimmerman and Warren Cinemas",2026-08-08,21:30:00,150,133,8.17
+179,Also daughter,"Russell, Murphy and Davis Cinemas",2026-07-19,21:30:00,250,238,11.86
+180,Huge treatment later,"Hall, Jackson and Johnson Cinemas",2026-08-20,21:30:00,100,89,24.4
+181,Interest physical,Gonzalez-Mccarthy Cinemas,2026-09-06,13:00:00,150,133,8.55
+182,Week color,Rowe-Jones Cinemas,2026-07-01,21:30:00,120,115,13.3
+183,Our respond,Atkinson-Nelson Cinemas,2026-08-08,13:00:00,300,284,18.79
+184,Hour story stay,Peterson-Mullins Cinemas,2026-07-12,21:30:00,180,169,14.49
+185,Local school people present,"Davis, Richardson and Gonzalez Cinemas",2026-08-28,10:00:00,80,72,11.12
+186,Argue sense something,Mccoy-Strickland Cinemas,2026-07-05,16:00:00,300,298,8.87
+187,Almost agency already,Black-Mccoy Cinemas,2026-08-31,10:00:00,120,116,13.6
+188,Citizen then,Sanchez-Douglas Cinemas,2026-08-10,16:00:00,100,84,23.87
+189,Lot public,"Medina, Green and Rivera Cinemas",2026-08-22,10:00:00,200,185,19.69
+190,Choose power customer,Burns-Nguyen Cinemas,2026-08-04,21:30:00,300,281,19.23
+191,Several could thus me,"Rivera, Gomez and Levine Cinemas",2026-07-02,16:00:00,100,94,12.23
+192,Discuss create,Duke-Schultz Cinemas,2026-08-10,16:00:00,80,59,19.12
+193,Ball today despite,"Wright, Mcknight and Stephens Cinemas",2026-08-04,16:00:00,300,290,12.63
+194,Of him draw,"Herrera, Jensen and Ramirez Cinemas",2026-08-31,19:00:00,300,288,14.83
+195,Perform home million,Huynh PLC Cinemas,2026-08-08,16:00:00,200,168,18.25
+196,Subject again,Carney Group Cinemas,2026-08-28,13:00:00,150,147,15.24
+197,Tell,"Duarte, Smith and Caldwell Cinemas",2026-08-11,16:00:00,250,239,23.8
+198,Open scientist,Hill-Evans Cinemas,2026-07-17,21:30:00,300,299,14.15
+199,Yes month,Hoover-Parrish Cinemas,2026-08-04,13:00:00,100,81,13.28
+200,Meet while car,Landry-Hill Cinemas,2026-08-27,19:00:00,100,78,17.86
+201,Science experience successful,"Cain, Contreras and Jackson Cinemas",2026-07-24,16:00:00,120,110,9.97
+202,Miss international become,Hoffman PLC Cinemas,2026-08-14,10:00:00,80,69,10.41
+203,According event change,Stafford Ltd Cinemas,2026-07-30,16:00:00,150,143,9.42
+204,Like,Payne PLC Cinemas,2026-08-16,10:00:00,180,172,21.34
+205,Bill discuss four,Mills and Sons Cinemas,2026-06-25,13:00:00,180,173,24.57
+206,Institution road PM,Brown-Ross Cinemas,2026-08-16,10:00:00,300,287,13.32
+207,Let building,Hansen-Schneider Cinemas,2026-08-31,21:30:00,250,238,13.99
+208,Past degree,Munoz-Stokes Cinemas,2026-06-24,10:00:00,300,279,24.1
+209,Tree allow,Peterson-Mullins Cinemas,2026-07-01,21:30:00,80,74,21.78
+210,Third according,Delgado Inc Cinemas,2026-08-04,10:00:00,150,148,20.53
+211,Activity record,Newton PLC Cinemas,2026-08-13,13:00:00,120,107,17.69
+212,Themselves little game,Moore Group Cinemas,2026-06-27,21:30:00,150,141,8.49
+213,Agent also,Owens-Mayer Cinemas,2026-07-26,16:00:00,150,133,21.14
+214,Worry wish ask,Valdez-Jacobs Cinemas,2026-09-03,10:00:00,80,78,23.73
+215,Movement involve,"Jackson, Andersen and Bowen Cinemas",2026-07-08,21:30:00,80,64,13.77
+216,Series,Miller-Booker Cinemas,2026-08-13,21:30:00,100,94,15.73
+217,Cultural money something,Mendoza Group Cinemas,2026-07-24,16:00:00,300,282,23.82
+218,Visit PM this,"Anderson, Velazquez and Stewart Cinemas",2026-08-31,19:00:00,180,165,17.17
+219,Newspaper,Hunter-Estrada Cinemas,2026-08-08,16:00:00,300,291,19.69
+220,Military everybody ability,"Moore, Gilmore and Martin Cinemas",2026-07-26,21:30:00,120,105,13.73
+221,Give billion if,"Moss, Kelly and Herman Cinemas",2026-06-30,21:30:00,250,234,8.71
+222,Remember hot,Gallegos-Turner Cinemas,2026-07-11,16:00:00,180,175,22.93
+223,More cultural whatever risk,Benson Inc Cinemas,2026-08-03,19:00:00,100,87,8.14
+224,More current,Patterson-Lawrence Cinemas,2026-06-23,13:00:00,180,147,24.79
+225,Unit soon at,"Sanders, Leblanc and Maldonado Cinemas",2026-08-05,16:00:00,250,239,22.19
+226,There,"Frye, Hoffman and Santiago Cinemas",2026-08-25,10:00:00,120,106,17.01
+227,People tax amount author,Ortega Group Cinemas,2026-08-19,21:30:00,150,142,14.7
+228,Today,"Trevino, Henderson and Gonzalez Cinemas",2026-08-08,16:00:00,300,298,11.97
+229,Human bank,Ferguson and Sons Cinemas,2026-09-06,19:00:00,150,135,12.89
+230,They street month current,Elliott Group Cinemas,2026-07-08,19:00:00,300,276,23.37
+231,Speak out hour,"Chase, Prince and Wilcox Cinemas",2026-08-03,16:00:00,120,119,13.66
+232,Man member partner,"Whitney, Mayo and Clark Cinemas",2026-07-10,21:30:00,180,176,15.09
+233,Try hundred foreign,Hudson-Sparks Cinemas,2026-08-19,13:00:00,200,199,17.33
+234,Minute impact,Hill Inc Cinemas,2026-08-18,13:00:00,80,59,8.27
+235,Analysis position respond person,"Kennedy, Mueller and Aguirre Cinemas",2026-07-17,13:00:00,80,62,15.86
+236,Worker eight,Blevins-Ballard Cinemas,2026-07-31,13:00:00,180,161,17.04
+237,Other century office,George-Myers Cinemas,2026-06-28,19:00:00,250,243,18.73
+238,Scene understand,Ortiz Ltd Cinemas,2026-08-08,10:00:00,250,239,13.4
+239,Site,"Brown, Armstrong and Johnson Cinemas",2026-08-18,13:00:00,250,227,9.68
+240,Industry water,Bradley-Davis Cinemas,2026-08-09,21:30:00,200,184,13.95
+241,Election option almost,"Sanchez, Terry and Turner Cinemas",2026-08-08,10:00:00,250,241,18.49
+242,Manager store,Roman-Freeman Cinemas,2026-07-09,13:00:00,120,108,23.65
+243,Job prepare either suffer,Johnson Ltd Cinemas,2026-07-11,21:30:00,120,105,11.5
+244,Attack sort religious,"Blanchard, Taylor and Porter Cinemas",2026-08-12,13:00:00,100,99,12.15
+245,Ahead get federal happen,Ruiz-Rivera Cinemas,2026-08-18,21:30:00,180,165,13.6
+246,Box ten class,Goodwin Inc Cinemas,2026-08-25,10:00:00,300,285,14.39
+247,Development me need,Martinez Ltd Cinemas,2026-07-28,21:30:00,80,54,11.31
+248,Federal throw,Hall-Washington Cinemas,2026-09-06,13:00:00,200,192,17.66
+249,Time feel,Singleton-King Cinemas,2026-07-19,19:00:00,200,182,12.04
+250,Local,"Nichols, Glover and Knox Cinemas",2026-08-19,19:00:00,180,155,24.68
+251,Any president item,Gonzalez LLC Cinemas,2026-08-05,10:00:00,250,239,18.01
+252,Public benefit family,"Warner, Carr and Archer Cinemas",2026-07-24,16:00:00,80,79,18.3
+253,Whose third,"Bautista, Allen and Harrell Cinemas",2026-07-28,19:00:00,80,64,14.56
+254,Whose campaign help,Turner Inc Cinemas,2026-08-23,21:30:00,100,92,12.51
+255,War within prevent even,"Miller, Hansen and Salas Cinemas",2026-07-26,21:30:00,200,191,23.88
+256,Talk able,Mccarthy-Kelly Cinemas,2026-06-23,21:30:00,80,71,23.84
+257,Way nor,Gallegos-Turner Cinemas,2026-07-21,21:30:00,200,199,9.13
+258,Bit red,"Moore, Gilmore and Martin Cinemas",2026-07-25,10:00:00,300,296,19.61
+259,Focus discussion land,Hall-Washington Cinemas,2026-08-31,19:00:00,120,97,14.44
+260,Simple Mr financial,"Gonzales, Short and Weaver Cinemas",2026-07-28,21:30:00,250,234,17.49
+261,Turn,Lopez-Thompson Cinemas,2026-07-31,13:00:00,250,249,15.33
+262,Charge a data red,"Sanchez, Terry and Turner Cinemas",2026-08-19,13:00:00,120,118,24.95
+263,Easy win leg,"Howard, Brennan and Moore Cinemas",2026-08-12,16:00:00,180,173,21.27
+264,Along surface,"Cain, Contreras and Jackson Cinemas",2026-08-19,21:30:00,200,181,23.59
+265,Start party stock think,Barnett PLC Cinemas,2026-08-31,10:00:00,80,77,15.62
+266,Soldier current body,Sutton-Patterson Cinemas,2026-09-03,21:30:00,250,226,12.95
+267,Far,James LLC Cinemas,2026-07-26,13:00:00,200,179,13.91
+268,Stage similar power,Shaw-Barnes Cinemas,2026-08-23,16:00:00,180,164,11.6
+269,Relate,Sullivan and Sons Cinemas,2026-08-31,10:00:00,200,194,21.2
+270,Change author expect,"Lawson, Lopez and Myers Cinemas",2026-06-25,10:00:00,100,93,21.79
+271,If now television,"Castro, Irwin and Rodriguez Cinemas",2026-07-31,13:00:00,120,120,18.72
+272,Training tough decision,"Castro, Irwin and Rodriguez Cinemas",2026-08-29,10:00:00,120,112,22.21
+273,Focus red support,"Compton, Owens and Decker Cinemas",2026-08-16,19:00:00,120,109,15.39
+274,Window evening Mr,"Moore, Alexander and Reed Cinemas",2026-07-28,19:00:00,250,250,16.26
+275,Other community data,Miller and Sons Cinemas,2026-08-15,10:00:00,200,190,13.84
+276,Partner usually glass example,"Johns, Figueroa and Graham Cinemas",2026-07-27,19:00:00,300,289,23.74
+277,Artist,"Cooke, Meadows and Robles Cinemas",2026-08-01,19:00:00,250,244,10.09
+278,Machine short,Edwards and Sons Cinemas,2026-07-19,10:00:00,300,288,14.97
+279,Amount attorney room,Rodriguez-Hernandez Cinemas,2026-08-23,13:00:00,200,179,11.16
+280,Pass side,"Ramsey, Martinez and Sherman Cinemas",2026-08-19,21:30:00,250,250,24.32
+281,Discover threat if,Davenport-Reynolds Cinemas,2026-07-28,13:00:00,180,163,10.36
+282,Start accept civil,Marshall Group Cinemas,2026-08-07,13:00:00,120,105,11.72
+283,International thousand,"Cox, Ford and Huffman Cinemas",2026-07-02,19:00:00,180,154,16.17
+284,Lead,Garcia LLC Cinemas,2026-07-05,21:30:00,200,188,13.65
+285,Bank though,"Roberts, Stanton and Smith Cinemas",2026-08-13,16:00:00,80,59,19.36
+286,Light involve all,"Thomas, Moreno and Smith Cinemas",2026-06-27,16:00:00,200,192,22.94
+287,Front light four,White-Morales Cinemas,2026-07-17,21:30:00,250,249,20.44
+288,Organization full,"Wise, Rocha and Wolfe Cinemas",2026-08-17,10:00:00,300,293,13.84
+289,Hope official dark,Smith-Patel Cinemas,2026-07-15,13:00:00,80,74,23.85
+290,Three low,Hoffman PLC Cinemas,2026-08-22,19:00:00,300,276,10.25
+291,Memory final both,Garner LLC Cinemas,2026-06-28,16:00:00,300,292,18.93
+292,Seat truth,Watson-Chan Cinemas,2026-07-10,13:00:00,300,289,24.75
+293,Save job shoulder,Clark Group Cinemas,2026-08-28,16:00:00,300,291,10.47
+294,Positive describe,Fitzgerald-Scott Cinemas,2026-07-03,19:00:00,250,236,19.43
+295,Politics,"Myers, Gamble and Sanford Cinemas",2026-08-23,21:30:00,80,74,17.68
+296,Draw should personal,Harris-Wright Cinemas,2026-08-16,10:00:00,120,120,20.12
+297,Job personal bank grow,Nolan Group Cinemas,2026-07-16,10:00:00,80,78,12.35
+298,Sea professor might,"Young, Henry and Wright Cinemas",2026-07-21,19:00:00,120,111,16.53
+299,Pm protect,Obrien and Sons Cinemas,2026-07-19,13:00:00,200,183,22.47
+300,With international citizen,"Nguyen, Marsh and Beck Cinemas",2026-07-22,13:00:00,100,90,23.87
+301,Fast public decade smile,Henderson-Parks Cinemas,2026-07-23,19:00:00,80,62,15.71
+302,Institution study along,Brown LLC Cinemas,2026-08-11,10:00:00,100,80,15.14
+303,Beyond interesting,Moreno Ltd Cinemas,2026-09-02,16:00:00,200,197,9.63
+304,Machine old,"Good, Brewer and Fisher Cinemas",2026-08-15,13:00:00,180,164,16.65
+305,Majority deep,"Marquez, Martinez and Bailey Cinemas",2026-08-01,19:00:00,80,70,8.24
+306,Laugh difference less,"Hamilton, Wolfe and Gill Cinemas",2026-08-22,19:00:00,150,145,16.28
+307,Behavior cultural,Maldonado-Becker Cinemas,2026-08-06,16:00:00,100,89,10.76
+308,Trial show single religious,Wright and Sons Cinemas,2026-07-20,19:00:00,200,196,23.38
+309,Contain audience on,Shah PLC Cinemas,2026-08-07,13:00:00,150,149,11.99
+310,Drug,Smith Group Cinemas,2026-07-23,13:00:00,100,83,15.04
+311,Family third animal hotel,"Mckee, Gardner and Davenport Cinemas",2026-08-11,16:00:00,150,135,24.2
+312,Writer probably,Simon and Sons Cinemas,2026-09-05,13:00:00,250,234,12.22
+313,At,Foster Ltd Cinemas,2026-08-07,21:30:00,80,73,21.85
+314,System pressure,Andrews-Aguirre Cinemas,2026-09-01,16:00:00,150,134,14.19
+315,Car police,Bush-Ayala Cinemas,2026-06-29,21:30:00,250,238,24.01
+316,Friend,"Diaz, Hill and Becker Cinemas",2026-06-26,21:30:00,180,169,20.81
+317,Music guess,"Larson, Daniels and James Cinemas",2026-09-04,10:00:00,150,132,19.8
+318,Fire hand,Prince Inc Cinemas,2026-07-17,21:30:00,180,157,9.01
+319,What no,"Porter, Patel and Jackson Cinemas",2026-08-31,21:30:00,300,278,22.89
+320,People service likely,"Arnold, Ashley and Alexander Cinemas",2026-08-03,19:00:00,250,250,12.44
+321,Reality guess sister,"Brown, Armstrong and Johnson Cinemas",2026-08-22,13:00:00,100,93,15.97
+322,Skill like,"Blevins, Delgado and Bennett Cinemas",2026-07-30,16:00:00,200,191,22.5
+323,Will media figure,Jones-Barnes Cinemas,2026-07-15,16:00:00,80,64,16.86
+324,Beat pass,Sullivan and Sons Cinemas,2026-09-02,10:00:00,300,299,18.61
+325,Second expert,Mooney PLC Cinemas,2026-08-03,16:00:00,250,246,24.89
+326,Surface west,Lee-Weeks Cinemas,2026-07-13,21:30:00,100,73,22.07
+327,Fine nor TV,"Smith, Yang and Ford Cinemas",2026-07-08,10:00:00,250,237,23.01
+328,Improve stand why,"Wagner, Anderson and Robles Cinemas",2026-09-06,16:00:00,120,111,15.34
+329,Another standard one on,Greene-Shelton Cinemas,2026-06-26,10:00:00,100,78,18.84
+330,Want see,"Bautista, Allen and Harrell Cinemas",2026-08-15,19:00:00,300,294,21.69
+331,Job prepare either suffer,Joseph Inc Cinemas,2026-06-23,13:00:00,200,178,22.22
+332,Her there,"Mckee, Gardner and Davenport Cinemas",2026-07-08,21:30:00,250,237,10.21
+333,Social change,Grant-Diaz Cinemas,2026-08-03,21:30:00,250,247,19.12
+334,Agent read himself,Watson-Miles Cinemas,2026-06-25,21:30:00,200,192,22.24
+335,Town next serious wish,Ward-Blake Cinemas,2026-08-08,19:00:00,150,133,12.78
+336,Officer size why free,"Castro, Irwin and Rodriguez Cinemas",2026-09-02,10:00:00,180,165,15.35
+337,Oil south different,"Ray, Cunningham and Levine Cinemas",2026-07-23,21:30:00,250,239,16.91
+338,Later floor,Wyatt Ltd Cinemas,2026-07-28,21:30:00,120,115,14.45
+339,Couple news,Williams-Mckenzie Cinemas,2026-07-15,21:30:00,120,110,8.52
+340,Summer wish,"Howard, Brennan and Moore Cinemas",2026-08-23,21:30:00,150,143,16.11
+341,Movie man itself,Adams PLC Cinemas,2026-07-01,19:00:00,100,91,11.24
+342,Policy throughout,Mcmahon PLC Cinemas,2026-07-02,13:00:00,300,289,19.9
+343,Young deep husband,Ramirez Inc Cinemas,2026-08-28,16:00:00,80,70,17.57
+344,Religious this agreement,Williamson Group Cinemas,2026-09-04,13:00:00,80,80,9.36
+345,Cultural country section,"Castro, Garcia and Daniels Cinemas",2026-07-06,21:30:00,300,290,21.11
+346,Pressure will stay,Delacruz Group Cinemas,2026-08-02,21:30:00,200,184,16.45
+347,Minute season political,Ward-Chase Cinemas,2026-07-03,21:30:00,120,95,15.94
+348,Next leader finally,Moran PLC Cinemas,2026-07-16,21:30:00,200,195,12.53
+349,Rock blue,Chen Ltd Cinemas,2026-09-04,10:00:00,200,190,15.84
+350,His same,Salazar-Brown Cinemas,2026-08-13,10:00:00,150,138,16.64
+351,Vote decade,Marshall Group Cinemas,2026-07-01,13:00:00,300,290,17.2
+352,Store bill,Villa Group Cinemas,2026-08-04,13:00:00,250,249,14.4
+353,Themselves hard,Valdez-Jacobs Cinemas,2026-07-08,21:30:00,80,80,20.9
+354,North knowledge our,"Thomas, Becker and Mills Cinemas",2026-06-28,13:00:00,300,295,12.13
+355,Deal opportunity opportunity,"Russell, Mercer and Patterson Cinemas",2026-07-09,13:00:00,100,100,20.53
+356,Nor rule,"Cain, Contreras and Jackson Cinemas",2026-07-04,10:00:00,300,284,17.72
+357,Arrive policy,Ramirez Inc Cinemas,2026-08-22,16:00:00,180,175,15.09
+358,Cause number alone,Woods-Mccarthy Cinemas,2026-08-15,10:00:00,80,62,24.54
+359,Total without,Johnson and Sons Cinemas,2026-08-25,13:00:00,200,191,21.05
+360,Church arrive program finally,Norris Inc Cinemas,2026-08-03,16:00:00,250,237,12.57
+361,Day think,Mclaughlin Inc Cinemas,2026-09-01,16:00:00,250,235,11.86
+362,Shoulder plant,Turner Inc Cinemas,2026-08-15,13:00:00,120,105,23.41
+363,Have town fact,Payne PLC Cinemas,2026-07-21,19:00:00,200,186,18.79
+364,One stay,Buchanan LLC Cinemas,2026-07-16,13:00:00,200,194,14.92
+365,However figure,"Carlson, Ware and Moore Cinemas",2026-08-07,21:30:00,120,101,24.81
+366,Degree physical history activity,"Short, Brooks and Lang Cinemas",2026-07-22,16:00:00,80,74,14.69
+367,Bar eight,Williams-Smith Cinemas,2026-07-08,21:30:00,180,174,17.51
+368,Many remain,"Velez, Howell and Stevenson Cinemas",2026-08-10,21:30:00,200,191,18.82
+369,Enter under,"Black, Collins and Powell Cinemas",2026-07-14,21:30:00,200,187,18.82
+370,Community piece common cold,Taylor Ltd Cinemas,2026-09-06,13:00:00,180,168,11.03
+371,Throughout executive their,Morgan-Rodriguez Cinemas,2026-08-20,10:00:00,180,178,10.77
+372,Kid manager around,Villarreal and Sons Cinemas,2026-07-25,10:00:00,250,250,16.57
+373,Establish three city,"Howard, Brennan and Moore Cinemas",2026-08-09,19:00:00,100,90,24.3
+374,Again,"Miller, Friedman and Weaver Cinemas",2026-06-28,19:00:00,200,191,22.52
+375,Adult hour,"Velez, Howell and Stevenson Cinemas",2026-08-05,16:00:00,180,149,20.62
+376,Hard debate type,Reyes Inc Cinemas,2026-07-23,19:00:00,200,186,8.19
+377,Trade market drop mind,Morris-Armstrong Cinemas,2026-09-03,10:00:00,180,165,9.33
+378,Section image school,"Warner, Carr and Archer Cinemas",2026-07-15,10:00:00,80,61,22.17
+379,Scene successful control,Robinson-Kennedy Cinemas,2026-09-04,21:30:00,80,64,13.63
+380,Research general medical,"Vasquez, Sanchez and Green Cinemas",2026-09-05,10:00:00,250,247,18.44
+381,Free issue,Vaughn Inc Cinemas,2026-08-08,13:00:00,100,94,8.95
+382,Certain cell,Walker-Holt Cinemas,2026-07-25,10:00:00,300,290,23.16
+383,Wind design finally,Coleman-Long Cinemas,2026-08-03,10:00:00,300,290,23.08
+384,Boy issue,Todd Group Cinemas,2026-08-07,16:00:00,150,131,17.2
+385,Share name attention,"Whitney, Mayo and Clark Cinemas",2026-08-26,10:00:00,250,247,16.69
+386,Fast public decade smile,Matthews PLC Cinemas,2026-08-25,19:00:00,80,75,18.85
+387,Eight suggest almost,Hale-Durham Cinemas,2026-07-14,16:00:00,100,90,21.22
+388,Return trouble conference,Andrews-Aguirre Cinemas,2026-08-20,19:00:00,180,172,21.59
+389,Student recognize authority,Rodriguez-Miller Cinemas,2026-07-24,21:30:00,200,197,19.04
+390,Style stop really lead,"Short, Brooks and Lang Cinemas",2026-06-29,16:00:00,250,226,14.7
+391,Toward thousand,Powers Group Cinemas,2026-08-04,13:00:00,250,232,18.17
+392,Culture speak,Gallegos-Turner Cinemas,2026-07-10,16:00:00,200,194,13.37
+393,Watch,Barr PLC Cinemas,2026-08-23,13:00:00,150,142,23.5
+394,Pattern enter fact,Hoffman PLC Cinemas,2026-07-22,19:00:00,300,284,17.86
+395,Approach different could,Wallace-Berry Cinemas,2026-08-04,16:00:00,80,79,20.19
+396,By what,"Bell, Peterson and Price Cinemas",2026-08-29,10:00:00,100,81,24.11
+397,Southern student,Greene-Shelton Cinemas,2026-07-25,19:00:00,150,135,19.41
+398,Well down produce bag,Vega-Lawrence Cinemas,2026-07-12,10:00:00,180,170,23.97
+399,Ever yet,Walker PLC Cinemas,2026-07-26,10:00:00,250,244,20.1
+400,Later human should,Andersen and Sons Cinemas,2026-08-01,10:00:00,150,136,16.47
+401,Tonight provide newspaper,"Harper, Thomas and Turner Cinemas",2026-07-08,13:00:00,200,195,16.6
+402,Choice short,Black-Mccoy Cinemas,2026-07-15,16:00:00,180,171,22.22
+403,Item but TV,Marshall Inc Cinemas,2026-08-07,13:00:00,150,134,9.79
+404,Rule small TV,Villa Group Cinemas,2026-08-18,16:00:00,300,287,12.28
+405,Approach heavy human,Carney Group Cinemas,2026-07-06,16:00:00,120,114,21.83
+406,Particular customer to,"Snyder, Walker and Harris Cinemas",2026-07-08,21:30:00,80,72,12.39
+407,Game sound,Castillo Group Cinemas,2026-09-01,10:00:00,80,56,11.85
+408,Plant similar out,Harris-Wright Cinemas,2026-08-15,13:00:00,180,170,24.72
+409,Every one again,Singleton-King Cinemas,2026-08-30,10:00:00,200,199,11.83
+410,Particularly,Russell Inc Cinemas,2026-08-01,19:00:00,180,175,17.23
+411,Color there,Brown Inc Cinemas,2026-08-22,10:00:00,120,104,17.44
+412,I prevent,Smith-Clayton Cinemas,2026-08-16,13:00:00,120,96,10.59
+413,Decide two seven,Arellano and Sons Cinemas,2026-08-17,13:00:00,250,242,14.37
+414,Staff argue ten,"Myers, Gamble and Sanford Cinemas",2026-08-17,13:00:00,120,109,18.63
+415,Watch particularly expert,Morton and Sons Cinemas,2026-08-02,16:00:00,80,80,22.55
+416,Network nor father,Clark Group Cinemas,2026-07-18,13:00:00,180,170,11.56
+417,Consumer character account,"Ramirez, Miller and Mccormick Cinemas",2026-07-15,16:00:00,120,109,20.87
+418,Not pull ability word,Zuniga Group Cinemas,2026-08-31,13:00:00,250,250,8.46
+419,Reveal service ability,Zuniga Group Cinemas,2026-07-19,21:30:00,80,56,11.28
+420,Picture popular,"Taylor, Morales and Fuller Cinemas",2026-08-27,10:00:00,150,140,17.66
+421,Executive,"Harrington, Johnson and Jones Cinemas",2026-06-28,21:30:00,200,183,24.74
+422,Half,Reilly-Gibson Cinemas,2026-07-22,19:00:00,300,294,10.67
+423,Create,Ruiz-Rivera Cinemas,2026-08-27,13:00:00,120,114,10.74
+424,Management nearly understand,Hardy PLC Cinemas,2026-08-12,21:30:00,250,243,14.57
+425,American memory player,"Anderson, Thompson and Gill Cinemas",2026-07-20,10:00:00,150,141,14.35
+426,Actually look total,Romero PLC Cinemas,2026-08-24,19:00:00,100,91,20.4
+427,Foot participant receive,Villarreal and Sons Cinemas,2026-08-30,21:30:00,80,64,14.21
+428,Part situation more,Wallace Ltd Cinemas,2026-07-16,19:00:00,300,294,9.61
+429,Without big project,Thomas and Sons Cinemas,2026-06-28,19:00:00,200,194,20.49
+430,Commercial president,"Schwartz, Estrada and Hernandez Cinemas",2026-08-25,16:00:00,200,194,12.96
+431,Discussion teacher,Robinson-Goodwin Cinemas,2026-08-23,21:30:00,250,244,11.83
+432,Billion prevent,Smith-Carrillo Cinemas,2026-08-18,21:30:00,250,244,24.15
+433,Minute region argue,"White, Burch and Reynolds Cinemas",2026-07-13,19:00:00,300,292,22.63
+434,President coach,James and Sons Cinemas,2026-08-20,21:30:00,120,108,22.56
+435,Soldier development reveal,"Schultz, Miller and Wolf Cinemas",2026-06-28,16:00:00,80,69,12.98
+436,Western leg Democrat,"King, Taylor and Middleton Cinemas",2026-08-04,21:30:00,100,91,20.26
+437,Threat protect,"Smith, Beard and Taylor Cinemas",2026-07-17,21:30:00,180,175,10.33
+438,Paper fight,Bush-Ayala Cinemas,2026-06-29,10:00:00,100,76,15.88
+439,Claim form,Santos-Roach Cinemas,2026-08-01,19:00:00,200,187,8.02
+440,Number face get,White-Jackson Cinemas,2026-07-19,13:00:00,300,287,16.16
+441,Marriage read,James Ltd Cinemas,2026-08-21,19:00:00,100,81,15.88
+442,Public party trip,"Perez, Hoffman and Tucker Cinemas",2026-07-26,21:30:00,180,168,14.25
+443,Tough their,"Duarte, Lee and Matthews Cinemas",2026-08-06,13:00:00,180,174,17.64
+444,Him along sense,"Ho, Little and Leon Cinemas",2026-06-25,19:00:00,120,120,11.7
+445,Country news,Bailey-Montoya Cinemas,2026-08-12,10:00:00,200,188,16.41
+446,Medical scientist,Andrews-Aguirre Cinemas,2026-07-02,10:00:00,80,68,23.61
+447,Weight,Gonzalez-Taylor Cinemas,2026-07-13,13:00:00,150,134,13.83
+448,Few risk type,Meyers-Owens Cinemas,2026-08-05,16:00:00,80,64,14.23
+449,Page more,Moore-Bright Cinemas,2026-07-29,10:00:00,80,80,11.33
+450,Ahead deal,"Gonzales, Short and Weaver Cinemas",2026-09-05,19:00:00,100,88,11.52
+451,Rise organization,"Taylor, Williams and Hall Cinemas",2026-07-07,21:30:00,80,62,21.59
+452,Crime mother,Elliott-Holland Cinemas,2026-09-02,10:00:00,120,100,21.59
+453,Minute region argue,"Marquez, Martinez and Bailey Cinemas",2026-07-22,21:30:00,250,227,9.89
+454,Course bill debate sort,"Burns, Barker and Horton Cinemas",2026-07-24,13:00:00,180,175,11.63
+455,Several concern,"Davis, Rodriguez and Andrews Cinemas",2026-07-04,16:00:00,200,182,13.49
+456,Myself rise story,Jones-Contreras Cinemas,2026-07-05,19:00:00,120,101,14.62
+457,Resource kitchen year,Coleman-Long Cinemas,2026-08-12,10:00:00,300,289,19.83
+458,South director,"Burns, Barker and Horton Cinemas",2026-07-28,10:00:00,120,110,21.1
+459,Bank whatever,"James, Atkins and Alexander Cinemas",2026-08-09,10:00:00,180,165,14.19
+460,Door give hair,"James, Howard and Johnson Cinemas",2026-08-05,13:00:00,120,102,23.54
+461,Popular design good,Hudson-Sparks Cinemas,2026-08-27,19:00:00,150,140,14.2
+462,Everyone research,Thomas-Stevens Cinemas,2026-06-24,13:00:00,180,165,22.78
+463,Public marriage,"Henderson, Alexander and Galvan Cinemas",2026-06-24,13:00:00,180,171,16.59
+464,Quickly them simply project,Moran PLC Cinemas,2026-09-05,21:30:00,150,137,8.73
+465,Staff because,Wright-Davis Cinemas,2026-07-15,19:00:00,200,180,16.18
+466,Could policy,Peterson Group Cinemas,2026-07-05,19:00:00,300,284,23.19
+467,Fight wall why,Wright-Davis Cinemas,2026-08-18,10:00:00,120,108,18.5
+468,Bit they pick,Hale-Durham Cinemas,2026-07-04,19:00:00,300,293,15.28
+469,Authority glass,"Vang, Wilkinson and Wilson Cinemas",2026-08-22,13:00:00,300,279,22.72
+470,Remember identify,Peterson-Mullins Cinemas,2026-08-24,10:00:00,200,189,21.85
+471,Artist design drop option,"Patterson, Camacho and White Cinemas",2026-06-29,19:00:00,80,79,13.16
+472,Budget part machine stay,"Patel, Palmer and Jones Cinemas",2026-08-05,21:30:00,200,187,23.93
+473,Create authority,"Wright, Mcknight and Stephens Cinemas",2026-08-07,16:00:00,250,238,14.15
+474,Sit team move,Carroll-Snyder Cinemas,2026-08-12,13:00:00,250,239,19.97
+475,Election win,"Ramirez, Horne and Johnson Cinemas",2026-07-08,19:00:00,300,292,8.96
+476,Shake hospital officer fact,Christian-Booth Cinemas,2026-08-03,19:00:00,120,105,10.8
+477,Point vote want,Nguyen-Castro Cinemas,2026-08-23,10:00:00,200,187,15.02
+478,Speech,Vargas-Jensen Cinemas,2026-07-26,10:00:00,80,78,16.34
+479,Make according energy,Warren Inc Cinemas,2026-07-28,10:00:00,80,71,10.04
+480,Give yeah,"Chen, Faulkner and Casey Cinemas",2026-09-05,13:00:00,300,277,9.02
+481,Usually industry,"Caldwell, Stevenson and Joseph Cinemas",2026-07-28,13:00:00,150,146,15.74
+482,Make include,"Navarro, Marsh and Hurst Cinemas",2026-09-05,13:00:00,120,112,21.7
+483,Stage realize push we,"Bennett, Williams and Klein Cinemas",2026-07-19,16:00:00,100,93,11.05
+484,Particularly piece participant,"Marquez, Martinez and Bailey Cinemas",2026-08-30,10:00:00,120,109,9.88
+485,Think someone health,Baxter PLC Cinemas,2026-07-09,10:00:00,250,246,22.14
+486,Few late hospital,"Wolfe, Chavez and Mcbride Cinemas",2026-07-30,21:30:00,200,186,24.43
+487,Speech need,Harper-Johnson Cinemas,2026-08-25,19:00:00,150,130,20.15
+488,Draw maintain,"Campbell, Long and Silva Cinemas",2026-07-04,16:00:00,80,72,19.36
+489,Full school,"Scott, Bartlett and Sloan Cinemas",2026-09-05,13:00:00,100,98,20.01
+490,Want team,Evans Ltd Cinemas,2026-08-31,10:00:00,80,77,12.22
+491,Southern student,Andersen and Sons Cinemas,2026-08-03,10:00:00,300,286,14.28
+492,Shake month,Bradley-Novak Cinemas,2026-07-05,19:00:00,150,127,12.31
+493,Father wife,Smith-Gomez Cinemas,2026-07-14,13:00:00,150,137,20.26
+494,Democrat,Gibson Ltd Cinemas,2026-07-11,16:00:00,180,168,8.48
+495,Real,Garrett-Stout Cinemas,2026-07-27,10:00:00,200,196,23.84
+496,Maybe truth,"Cooper, Watts and Farrell Cinemas",2026-06-30,13:00:00,300,291,13.7
+497,Moment,Jordan-Campbell Cinemas,2026-09-05,13:00:00,180,169,14.08
+498,Specific single already accept,"French, Phelps and Berry Cinemas",2026-08-01,13:00:00,180,165,21.51
+499,North billion well,"Baker, Mason and White Cinemas",2026-09-05,13:00:00,120,97,19.99
+500,Source deep explain world,"Lopez, Gutierrez and Castro Cinemas",2026-08-05,10:00:00,200,189,20.2
+501,Have,"Medina, Miller and Yates Cinemas",2026-09-01,19:00:00,180,160,16.53
+502,Ground general today,"Miranda, Reese and Johnson Cinemas",2026-09-06,19:00:00,120,111,9.58
+503,Already low able,Carroll-Morris Cinemas,2026-08-10,21:30:00,100,98,14.08
+504,Rich condition,"Brooks, Burns and Davidson Cinemas",2026-09-06,19:00:00,200,196,9.19
+505,Can good,Bailey-Montoya Cinemas,2026-09-04,19:00:00,120,120,20.27
+506,Different community entire,"Herrera, Jensen and Ramirez Cinemas",2026-07-31,19:00:00,150,142,15.26
+507,House north,Wilson Inc Cinemas,2026-07-18,19:00:00,250,248,14.37
+508,Common strategy,"Bray, Nicholson and Walker Cinemas",2026-08-19,16:00:00,300,293,14.47
+509,Month son benefit,Fleming Ltd Cinemas,2026-07-20,16:00:00,100,75,20.54
+510,Believe,"Smith, Jackson and Porter Cinemas",2026-07-19,21:30:00,200,169,23.15
+511,Wait,Wagner-Hernandez Cinemas,2026-09-06,13:00:00,120,103,12.3
+512,Sometimes black movie,Gonzalez Group Cinemas,2026-07-31,13:00:00,150,139,12.82
+513,Face,Curry-Allen Cinemas,2026-08-29,21:30:00,120,110,8.58
+514,News daughter cell,Walker-Jones Cinemas,2026-08-30,13:00:00,200,190,14.6
+515,Fear everything bad receive,Wright and Sons Cinemas,2026-06-24,10:00:00,80,67,15.18
+516,Modern side expert,Smith-Clayton Cinemas,2026-08-23,16:00:00,250,236,13.51
+517,Inside ask group,Mann LLC Cinemas,2026-07-02,10:00:00,300,295,24.58
+518,Like pull,"Garcia, Perez and Oliver Cinemas",2026-08-18,16:00:00,300,296,16.28
+519,Involve explain,"Henson, Russell and Oliver Cinemas",2026-06-24,16:00:00,120,113,10.33
+520,Least nothing best huge,Reid-Miller Cinemas,2026-07-16,16:00:00,80,63,13.43
+521,Similar collection kind,Richards Group Cinemas,2026-09-05,10:00:00,300,285,24.98
+522,Cut sea son,Johnson and Sons Cinemas,2026-08-30,19:00:00,80,62,13.98
+523,Decision continue,Sherman and Sons Cinemas,2026-08-21,10:00:00,300,296,22.14
+524,Nearly score,"Davis, Johnson and Williams Cinemas",2026-08-14,16:00:00,150,135,22.91
+525,Protect official cause,Oconnell-Smith Cinemas,2026-08-15,21:30:00,250,236,9.42
+526,At admit,Reed Group Cinemas,2026-09-06,13:00:00,100,89,15.13
+527,Some our,Rhodes-Holland Cinemas,2026-08-20,19:00:00,200,187,19.08
+528,South set also,"Diaz, Hill and Becker Cinemas",2026-07-14,21:30:00,180,170,24.39
+529,Themselves himself gas,Shah PLC Cinemas,2026-09-02,21:30:00,120,107,16.45
+530,Left life money occur,Mclaughlin Inc Cinemas,2026-06-28,16:00:00,300,295,15.39
+531,Respond both,Joyce-Benitez Cinemas,2026-08-09,21:30:00,200,188,12.0
+532,Responsibility memory dog,Moyer-Ramirez Cinemas,2026-08-07,10:00:00,300,292,22.17
+533,Film author,Price-Lee Cinemas,2026-06-30,13:00:00,200,198,13.67
+534,Evidence clearly,Jones-Taylor Cinemas,2026-07-07,21:30:00,180,171,15.33
+535,Act television,Garcia LLC Cinemas,2026-07-23,13:00:00,150,145,23.01
+536,Study respond,"Davis, Johnson and Williams Cinemas",2026-07-24,21:30:00,80,75,14.16
+537,Yeah now fish,Herrera LLC Cinemas,2026-07-20,10:00:00,80,67,13.48
+538,About decision,"Martin, Jordan and Edwards Cinemas",2026-08-21,10:00:00,250,244,17.72
+539,Pass exactly,"Thompson, Harper and Welch Cinemas",2026-08-18,19:00:00,100,86,19.98
+540,Major,Sellers LLC Cinemas,2026-07-20,19:00:00,120,112,24.37
+541,Always way,Norris Inc Cinemas,2026-06-25,21:30:00,200,188,10.18
+542,Treatment television girl,Lowery LLC Cinemas,2026-06-24,13:00:00,200,192,8.13
+543,Present contain gas,Hill and Sons Cinemas,2026-08-16,19:00:00,150,139,24.47
+544,Us consider baby,Davis-Montgomery Cinemas,2026-07-15,13:00:00,150,132,8.46
+545,What address poor friend,Nguyen-Castro Cinemas,2026-08-09,13:00:00,250,246,21.9
+546,Staff happy American,Jones-Barnes Cinemas,2026-08-16,19:00:00,150,142,20.86
+547,Such nation risk,Weiss Group Cinemas,2026-07-08,19:00:00,300,297,8.23
+548,Wait couple,"Kennedy, Cohen and Pennington Cinemas",2026-07-06,21:30:00,80,74,13.61
+549,Understand growth a,"Hayes, Sharp and Wilson Cinemas",2026-08-29,16:00:00,120,111,12.86
+550,Series public wonder,Delacruz Group Cinemas,2026-08-30,19:00:00,300,291,12.12
+551,Measure above she east,Nunez LLC Cinemas,2026-06-30,19:00:00,120,111,10.69
+552,Participant compare,"Garrison, Ryan and Miller Cinemas",2026-06-26,13:00:00,200,177,11.66
+553,Interest language,Berger Ltd Cinemas,2026-06-28,21:30:00,300,283,21.86
+554,Discussion east wrong,"Martinez, Roman and Murphy Cinemas",2026-07-04,21:30:00,250,229,9.52
+555,One long low,"Ramsey, Martinez and Sherman Cinemas",2026-08-17,10:00:00,120,110,12.9
+556,Pretty least,Morris-Armstrong Cinemas,2026-07-02,21:30:00,200,187,24.88
+557,Mean director,"Payne, Escobar and Barrett Cinemas",2026-08-31,10:00:00,180,174,24.83
+558,Seven,"Marshall, Murray and Miller Cinemas",2026-07-28,16:00:00,150,141,19.52
+559,Rise soldier own,"Rivera, Gomez and Levine Cinemas",2026-07-16,10:00:00,180,177,10.3
+560,Peace nation,"Schwartz, Estrada and Hernandez Cinemas",2026-09-02,21:30:00,180,168,20.12
+561,South ahead,"Garcia, Perez and Oliver Cinemas",2026-08-14,16:00:00,200,194,23.14
+562,Reach avoid,Bean-Evans Cinemas,2026-08-02,19:00:00,300,289,9.9
+563,Analysis serious,"Ramirez, Horne and Johnson Cinemas",2026-08-28,21:30:00,200,180,15.06
+564,South information,"Chen, Faulkner and Casey Cinemas",2026-07-27,13:00:00,100,95,18.9
+565,Student another,"Meyers, Farrell and Miller Cinemas",2026-06-25,16:00:00,300,296,11.72
+566,Blue soon boy,Price-Lee Cinemas,2026-06-27,16:00:00,300,280,13.92
+567,Create worry him talk,"Bauer, Frazier and Sellers Cinemas",2026-08-01,10:00:00,250,240,13.29
+568,Big while capital,Holden LLC Cinemas,2026-07-23,19:00:00,100,93,12.07
+569,President wind,Peterson-Wagner Cinemas,2026-06-24,13:00:00,100,72,17.28
+570,Sometimes concern Democrat consider,Gonzalez-Taylor Cinemas,2026-08-19,19:00:00,300,284,11.91
+571,Simply back human,Hoffman and Sons Cinemas,2026-06-25,16:00:00,180,156,23.17
+572,Eat financial current,"Henson, Russell and Oliver Cinemas",2026-06-29,10:00:00,80,79,22.88
+573,Understand education,"Taylor, Morales and Fuller Cinemas",2026-06-23,10:00:00,150,129,20.44
+574,Usually within need than,Rodriguez-Miller Cinemas,2026-07-09,10:00:00,100,87,17.5
+575,Run hold southern,Christian Ltd Cinemas,2026-07-13,10:00:00,120,107,17.02
+576,Almost happy,Medina LLC Cinemas,2026-09-02,10:00:00,180,170,14.74
+577,Others into,"Sanchez, Terry and Turner Cinemas",2026-08-15,19:00:00,100,98,9.9
+578,Alone American,Matthews PLC Cinemas,2026-07-23,19:00:00,150,148,19.27
+579,Term between,Johnson-Powers Cinemas,2026-09-03,21:30:00,200,178,22.15
+580,Cell true,"Black, Collins and Powell Cinemas",2026-07-17,16:00:00,180,167,12.87
+581,Program out these,"Medina, Lee and Freeman Cinemas",2026-07-23,13:00:00,200,191,10.78
+582,Blue stand shoulder,"Hayes, Sharp and Wilson Cinemas",2026-07-15,19:00:00,80,56,22.9
+583,However decade,"Coleman, Vega and Richmond Cinemas",2026-09-06,21:30:00,100,84,8.35
+584,Natural full player,Townsend-Hale Cinemas,2026-06-24,13:00:00,180,171,16.93
+585,Save control simply,Jimenez Ltd Cinemas,2026-08-24,13:00:00,80,69,24.58
+586,Argue,Hebert Group Cinemas,2026-09-01,19:00:00,180,161,24.55
+587,Face,Martinez-Allen Cinemas,2026-07-04,16:00:00,120,107,12.04
+588,For true we,Wright and Sons Cinemas,2026-08-03,21:30:00,200,185,10.65
+589,Service exist Congress,Hill-Evans Cinemas,2026-08-07,21:30:00,120,117,19.12
+590,Will close crime,"Baker, May and Hughes Cinemas",2026-06-28,19:00:00,150,131,19.62
+591,Deal opportunity opportunity,"Gaines, Smith and Evans Cinemas",2026-08-06,19:00:00,300,295,11.29
+592,Who successful,Atkinson-Nelson Cinemas,2026-08-03,19:00:00,100,89,11.55
+593,Pay company,Bean-Evans Cinemas,2026-09-01,13:00:00,100,83,24.3
+594,Arm interest,"Jones, Sanchez and Thomas Cinemas",2026-08-04,10:00:00,200,183,22.49
+595,Value practice have,Robinson-Kennedy Cinemas,2026-06-30,10:00:00,100,82,21.7
+596,Voice newspaper,"Hunter, Taylor and York Cinemas",2026-06-29,10:00:00,120,114,9.32
+597,Start,Harrell-Hebert Cinemas,2026-07-20,10:00:00,150,135,23.74
+598,Everything run after,Roth Ltd Cinemas,2026-08-16,19:00:00,200,195,24.77
+599,Reality,"Herring, Wilson and Mendoza Cinemas",2026-07-10,13:00:00,180,179,23.93
+600,Near girl hospital,"Thomas, Moreno and Smith Cinemas",2026-08-04,16:00:00,150,128,22.14
+601,Series contain,"Hendricks, Zuniga and Miller Cinemas",2026-06-23,13:00:00,300,285,22.91
+602,Throw teacher,"Jordan, Swanson and Franklin Cinemas",2026-08-14,21:30:00,150,145,18.4
+603,Check pick expert,"Brown, James and Arroyo Cinemas",2026-08-15,21:30:00,100,95,15.83
+604,Back accept professor,"Payne, Escobar and Barrett Cinemas",2026-06-24,16:00:00,150,145,17.31
+605,Price writer spring question,Mckinney-Butler Cinemas,2026-09-01,13:00:00,180,164,19.07
+606,International live whole,"Blevins, Delgado and Bennett Cinemas",2026-07-27,16:00:00,80,61,13.48
+607,Yard,"Kramer, Edwards and Harrison Cinemas",2026-07-09,16:00:00,250,245,20.03
+608,Watch real,Dickson-Park Cinemas,2026-08-03,16:00:00,120,113,8.17
+609,With speak,Gutierrez-Ortiz Cinemas,2026-07-03,13:00:00,100,96,15.56
+610,Remember hotel really authority,Aguirre-Bennett Cinemas,2026-08-31,16:00:00,150,135,9.24
+611,Soldier girl,Barrett-Henderson Cinemas,2026-07-28,21:30:00,80,80,19.75
+612,Rather next develop,Skinner-Mills Cinemas,2026-08-29,21:30:00,300,286,16.48
+613,Member necessary agency,Reese Group Cinemas,2026-08-04,13:00:00,250,245,10.47
+614,Maintain great gas,Lowery LLC Cinemas,2026-06-29,13:00:00,250,239,22.51
+615,Respond land open,Maldonado-Becker Cinemas,2026-07-16,10:00:00,300,288,19.75
+616,Thank purpose appear,Jackson-Cooper Cinemas,2026-08-30,21:30:00,250,235,17.44
+617,Resource wonder if,Mclaughlin Inc Cinemas,2026-07-01,21:30:00,300,290,22.25
+618,Room movement,Johnson and Sons Cinemas,2026-07-10,19:00:00,150,134,13.84
+619,Rock her,Reyes Inc Cinemas,2026-08-21,13:00:00,100,98,22.79
+620,Health,Harrison-Leach Cinemas,2026-07-21,13:00:00,180,171,11.5
+621,Of nature,"Yang, Willis and Walker Cinemas",2026-06-27,21:30:00,80,73,14.9
+622,Follow response allow,George Group Cinemas,2026-07-21,16:00:00,120,113,24.04
+623,Fire door risk home,Mills and Sons Cinemas,2026-07-30,13:00:00,200,191,20.6
+624,According,Ochoa-Adams Cinemas,2026-07-30,21:30:00,200,194,10.63
+625,Executive may,Hale-Durham Cinemas,2026-06-23,16:00:00,150,141,20.57
+626,Staff law Mr friend,Chavez Inc Cinemas,2026-09-02,21:30:00,200,195,23.07
+627,Guess really,Mitchell and Sons Cinemas,2026-08-22,13:00:00,200,187,8.64
+628,Front its,Miller-Booker Cinemas,2026-07-18,19:00:00,120,91,23.37
+629,Be activity,"Gonzales, Short and Weaver Cinemas",2026-08-19,13:00:00,150,125,24.11
+630,Pressure little,Holland and Sons Cinemas,2026-08-09,16:00:00,150,149,24.75
+631,There beat good,"Burns, Barker and Horton Cinemas",2026-08-15,10:00:00,100,93,10.29
+632,Around professor,Hoffman PLC Cinemas,2026-08-26,19:00:00,250,245,22.92
+633,Above white sometimes,Miller Group Cinemas,2026-07-02,21:30:00,200,186,17.6
+634,Line mother chance,Harris-Jensen Cinemas,2026-07-21,13:00:00,120,116,12.71
+635,Rest floor firm,Campbell and Sons Cinemas,2026-06-27,13:00:00,150,144,20.36
+636,Same behind prove light,"Stevens, Norris and Smith Cinemas",2026-09-03,13:00:00,150,137,16.26
+637,Single,Ibarra Ltd Cinemas,2026-08-21,19:00:00,200,182,9.85
+638,Various recently,Howe Inc Cinemas,2026-06-29,10:00:00,150,145,11.68
+639,Boy worry medical,Oconnell-Smith Cinemas,2026-09-03,21:30:00,250,242,11.98
+640,Science experience successful,"Flowers, Morgan and Barnes Cinemas",2026-07-08,13:00:00,200,191,16.37
+641,Happy country ever,"Davis, Wood and Paul Cinemas",2026-08-01,19:00:00,100,90,12.22
+642,They school hit,"Flowers, Berry and Ramirez Cinemas",2026-07-06,13:00:00,120,103,13.22
+643,Look alone admit,Gibson and Sons Cinemas,2026-08-12,19:00:00,150,144,19.52
+644,Water mother major assume,"Li, Jensen and Vazquez Cinemas",2026-08-29,16:00:00,120,114,21.72
+645,Effort exactly,"Mcdonald, Lee and Rodriguez Cinemas",2026-07-14,21:30:00,250,247,20.2
+646,Cultural sign name herself,Hampton-Tucker Cinemas,2026-08-07,13:00:00,180,176,18.14
+647,With time up,Smith-Gomez Cinemas,2026-07-22,16:00:00,200,185,18.86
+648,Just wind practice,Hall-Washington Cinemas,2026-07-16,19:00:00,180,172,8.68
+649,Thank meeting war,"Duarte, Lee and Matthews Cinemas",2026-07-08,10:00:00,100,91,8.75
+650,Really speak though,"Hall, Jackson and Johnson Cinemas",2026-09-06,21:30:00,80,62,19.38
+651,Coach buy owner,"Perry, May and Liu Cinemas",2026-06-23,13:00:00,300,280,18.04
+652,Candidate my amount,"Compton, Owens and Decker Cinemas",2026-07-17,10:00:00,100,95,22.99
+653,Front trouble adult,"Foster, Robbins and Roberts Cinemas",2026-07-30,21:30:00,80,62,9.03
+654,Eye single,Wright-Davis Cinemas,2026-08-01,13:00:00,200,189,20.7
+655,Less among change,English-Dominguez Cinemas,2026-09-03,19:00:00,250,238,10.37
+656,Others son,"Carpenter, Morrow and Smith Cinemas",2026-08-13,16:00:00,80,75,18.34
+657,Least outside,Hall Ltd Cinemas,2026-07-31,16:00:00,80,77,18.56
+658,Grow character central glass,Delgado Inc Cinemas,2026-08-06,10:00:00,200,195,12.96
+659,Risk hospital process,Miller and Sons Cinemas,2026-08-17,21:30:00,80,53,20.18
+660,Someone find read,Delgado and Sons Cinemas,2026-07-08,16:00:00,250,236,10.15
+661,Open provide,Garrett-Stout Cinemas,2026-09-03,10:00:00,100,88,21.88
+662,Painting fine she,Lloyd Inc Cinemas,2026-08-19,10:00:00,120,116,9.52
+663,Space store visit,White Inc Cinemas,2026-08-11,13:00:00,80,70,23.1
+664,Poor cause,Sanchez-Douglas Cinemas,2026-08-29,19:00:00,150,136,8.6
+665,Stand from happen,"Burns, Barker and Horton Cinemas",2026-08-13,16:00:00,180,176,13.99
+666,Worker term,Ochoa-Adams Cinemas,2026-08-30,19:00:00,100,100,20.76
+667,Power list our,Flores Ltd Cinemas,2026-08-19,16:00:00,250,238,20.36
+668,Mention can class,Ortiz Ltd Cinemas,2026-07-13,21:30:00,80,72,9.57
+669,True often million,"Bennett, Williams and Klein Cinemas",2026-08-06,16:00:00,250,245,18.77
+670,Per produce lay,Shaffer-Yates Cinemas,2026-06-29,19:00:00,100,94,18.81
+671,Table mother two,"Walker, Turner and Brown Cinemas",2026-07-10,19:00:00,200,195,12.29
+672,Mr if get,Hebert Group Cinemas,2026-08-25,10:00:00,250,232,17.05
+673,Treat,Jones-Krause Cinemas,2026-08-08,16:00:00,250,239,13.18
+674,Necessary push,"Elliott, Villarreal and Sosa Cinemas",2026-08-09,16:00:00,180,153,15.36
+675,Pattern far break,Scott-Perez Cinemas,2026-07-10,10:00:00,150,135,24.5
+676,Suffer politics,"Thompson, Harper and Welch Cinemas",2026-07-11,13:00:00,120,111,18.24
+677,In executive may represent,Kennedy PLC Cinemas,2026-08-23,16:00:00,180,172,16.07
+678,Treatment writer,Thomas-Reilly Cinemas,2026-08-09,16:00:00,100,97,10.43
+679,Last might sometimes,Clarke-Ramirez Cinemas,2026-07-15,19:00:00,150,143,11.95
+680,Which process,Rojas and Sons Cinemas,2026-08-27,16:00:00,120,113,20.28
+681,Anything trial,Gibson and Sons Cinemas,2026-09-04,13:00:00,200,189,14.57
+682,Set southern,Wilson-Pierce Cinemas,2026-06-26,13:00:00,180,161,17.84
+683,Citizen include again,Ortega Group Cinemas,2026-07-09,13:00:00,100,98,22.46
+684,Mrs call,Griffin Ltd Cinemas,2026-08-30,21:30:00,200,174,11.32
+685,Yeah door,Pham Ltd Cinemas,2026-08-13,16:00:00,180,173,21.0
+686,Decide star,Soto-Lopez Cinemas,2026-07-12,19:00:00,180,165,12.94
+687,Born option program friend,Moreno Ltd Cinemas,2026-07-03,10:00:00,250,244,24.26
+688,Off,"Castro, Garcia and Daniels Cinemas",2026-07-30,16:00:00,250,239,20.74
+689,She,George-Myers Cinemas,2026-07-04,13:00:00,250,236,12.03
+690,Produce end heavy,"Castro, Garcia and Daniels Cinemas",2026-07-13,21:30:00,120,115,16.69
+691,Business also,"Rich, Brown and Bruce Cinemas",2026-08-02,16:00:00,250,241,13.47
+692,Manage myself lose,Mcclain Inc Cinemas,2026-08-06,19:00:00,200,191,22.43
+693,Whose usually adult,"Richardson, Stephens and Barnes Cinemas",2026-07-16,13:00:00,300,289,10.25
+694,Partner billion day operation,Medina Group Cinemas,2026-07-26,19:00:00,300,291,23.61
+695,On best seat,"Perez, Hoffman and Tucker Cinemas",2026-07-30,10:00:00,180,170,10.37
+696,Now our,"Turner, Baxter and Mcdowell Cinemas",2026-07-15,16:00:00,80,76,18.68
+697,Wonder can two,Solis-Edwards Cinemas,2026-08-20,10:00:00,250,240,14.38
+698,Run general bill,"Scott, Bartlett and Sloan Cinemas",2026-07-01,19:00:00,150,134,19.1
+699,Fall indeed themselves,"Santos, Moody and Taylor Cinemas",2026-08-12,21:30:00,150,150,17.24
+700,Just although key,Morris-Merritt Cinemas,2026-07-08,19:00:00,150,136,12.1
+701,This begin network,White-Reese Cinemas,2026-07-14,21:30:00,100,97,9.57
+702,Investment someone that,Walker-Jones Cinemas,2026-07-31,13:00:00,100,94,13.62
+703,Thing left,Maldonado-Collins Cinemas,2026-08-03,16:00:00,200,198,22.76
+704,Send develop good,"Miller, Hansen and Salas Cinemas",2026-07-26,19:00:00,250,234,19.46
+705,Nice report,"Anderson, Wilson and Torres Cinemas",2026-09-05,21:30:00,300,291,11.06
+706,Only practice write,"Medina, Lee and Freeman Cinemas",2026-08-30,19:00:00,300,289,9.44
+707,Kind travel Mrs,Smith-Ramirez Cinemas,2026-06-25,10:00:00,100,100,24.77
+708,Fall structure woman,"Aguilar, Buckley and Ramirez Cinemas",2026-08-06,19:00:00,300,287,22.18
+709,Manager,Rowe and Sons Cinemas,2026-07-16,10:00:00,180,179,16.49
+710,Gas prove line,"Sanders, Leblanc and Maldonado Cinemas",2026-07-29,21:30:00,150,132,16.81
+711,Smile recognize section,Thomas Group Cinemas,2026-09-01,10:00:00,150,121,19.33
+712,Former get occur,"Howard, Townsend and Hayes Cinemas",2026-06-29,19:00:00,180,164,9.58
+713,News pick,Robinson-Goodwin Cinemas,2026-09-05,16:00:00,120,114,9.18
+714,Like moment,Scott-Miller Cinemas,2026-07-17,10:00:00,120,106,23.72
+715,Chair what measure,"Fowler, Jones and Moore Cinemas",2026-07-06,10:00:00,150,136,21.03
+716,Soldier six until,"Miller, Wade and Flores Cinemas",2026-07-17,13:00:00,300,297,20.47
+717,Both hotel,"Wilson, Stewart and Hobbs Cinemas",2026-08-18,19:00:00,180,157,13.72
+718,News while this,Porter Inc Cinemas,2026-08-28,21:30:00,300,291,17.79
+719,Drop avoid before,Wagner-Hernandez Cinemas,2026-07-01,13:00:00,100,91,15.68
+720,Such small speech,Jackson-Cooper Cinemas,2026-08-03,10:00:00,100,94,22.94
+721,Though hard trip,Mendoza Group Cinemas,2026-06-27,16:00:00,300,286,14.24
+722,Letter beyond sign,"White, Smith and Warner Cinemas",2026-09-05,13:00:00,180,170,10.29
+723,Card,"Edwards, Baker and Anderson Cinemas",2026-08-19,13:00:00,300,288,20.53
+724,Reason rock bit,"Foster, Smith and Grimes Cinemas",2026-06-26,13:00:00,180,146,18.91
+725,Class if,Kirk Inc Cinemas,2026-08-23,10:00:00,150,136,17.91
+726,Seem summer final production,White-Reese Cinemas,2026-08-04,19:00:00,120,107,9.17
+727,Raise church,Carter-Johnson Cinemas,2026-07-30,19:00:00,150,148,8.18
+728,Financial laugh,Ho-Mendez Cinemas,2026-09-04,21:30:00,200,196,8.57
+729,Main,Buchanan LLC Cinemas,2026-09-04,16:00:00,250,238,12.64
+730,He authority third,Baxter PLC Cinemas,2026-08-06,19:00:00,300,272,22.4
+731,Water born,Anderson-Kirk Cinemas,2026-07-31,21:30:00,300,292,20.66
+732,Agree mother may,"Turner, Long and Hendricks Cinemas",2026-08-17,19:00:00,200,195,23.85
+733,Music base,"Duarte, Smith and Caldwell Cinemas",2026-07-25,19:00:00,250,234,12.17
+734,Yourself social source,Johnson-Alvarez Cinemas,2026-07-02,10:00:00,300,298,9.65
+735,Remember stay,Robinson Group Cinemas,2026-06-29,21:30:00,100,89,13.04
+736,Choose,"Kennedy, Cohen and Pennington Cinemas",2026-07-12,16:00:00,120,112,10.66
+737,Card source probably glass,Stewart-Lee Cinemas,2026-09-06,10:00:00,80,78,11.22
+738,Magazine painting yard single,Gallagher-Diaz Cinemas,2026-07-04,13:00:00,250,227,19.6
+739,Environmental reflect,Flores Ltd Cinemas,2026-07-27,13:00:00,300,282,22.93
+740,Sign state end,Soto and Sons Cinemas,2026-07-31,16:00:00,80,76,17.63
+741,Behind positive parent,"Turner, Long and Hendricks Cinemas",2026-08-12,16:00:00,200,199,21.69
+742,Management hotel room,"Thomas, Becker and Mills Cinemas",2026-08-26,13:00:00,180,159,9.55
+743,Investment act,Wilson-Williams Cinemas,2026-08-31,13:00:00,250,238,23.8
+744,While senior,"Flowers, Morgan and Barnes Cinemas",2026-08-22,19:00:00,150,115,11.23
+745,Visit always,"English, Holloway and Jones Cinemas",2026-07-07,10:00:00,150,139,20.16
+746,Have grow rate,Price-Schmitt Cinemas,2026-07-19,10:00:00,80,72,16.09
+747,Family woman,"Moore, Alexander and Reed Cinemas",2026-08-08,13:00:00,120,105,13.53
+748,Audience new,Mendoza-Jackson Cinemas,2026-07-20,10:00:00,80,72,10.0
+749,Computer maybe,Hall-Mckinney Cinemas,2026-07-19,21:30:00,300,289,21.79
+750,Generation environment various skin,"Scott, Robertson and Mendez Cinemas",2026-06-29,19:00:00,120,115,15.41
+751,Item issue change,Trevino Group Cinemas,2026-08-07,10:00:00,200,175,18.66
+752,Clearly main kid,"Travis, Larson and Dodson Cinemas",2026-07-14,10:00:00,150,145,14.63
+753,Hot modern believe,Smith-James Cinemas,2026-07-31,10:00:00,300,276,17.85
+754,Later,Johnson-Alvarez Cinemas,2026-07-28,21:30:00,150,143,11.7
+755,Successful professor light,"Merritt, Williams and Boone Cinemas",2026-08-06,13:00:00,120,104,13.42
+756,Fire until,Bryan Inc Cinemas,2026-07-06,16:00:00,300,290,11.02
+757,Table although whole,"James, Atkins and Alexander Cinemas",2026-09-04,16:00:00,200,174,15.2
+758,Firm education,Jones Group Cinemas,2026-08-27,16:00:00,150,145,10.58
+759,Continue serve,Wood-Williams Cinemas,2026-07-26,19:00:00,120,96,18.49
+760,Hand politics,"Williams, Newman and Jones Cinemas",2026-07-15,16:00:00,150,134,14.4
+761,Yourself blue,Johnson and Sons Cinemas,2026-07-06,16:00:00,180,168,9.92
+762,Product organization,Johnson Inc Cinemas,2026-07-13,13:00:00,120,118,15.49
+763,View,Jones-Contreras Cinemas,2026-08-17,21:30:00,300,297,13.04
+764,Industry before,"Mckee, Gardner and Davenport Cinemas",2026-08-07,16:00:00,100,69,19.52
+765,Affect evening down real,"Brown, James and Arroyo Cinemas",2026-07-04,16:00:00,200,184,17.42
+766,Arm,Acosta and Sons Cinemas,2026-07-01,16:00:00,180,173,23.49
+767,Alone figure strong,"Warner, Carr and Archer Cinemas",2026-08-10,13:00:00,100,92,8.74
+768,Across car,Rodriguez-Moore Cinemas,2026-08-14,13:00:00,200,198,24.52
+769,Social wall over,French Inc Cinemas,2026-07-15,16:00:00,100,88,9.33
+770,So yeah,Sims-Padilla Cinemas,2026-07-03,19:00:00,120,100,23.0
+771,Water agency,Chavez PLC Cinemas,2026-06-28,13:00:00,100,97,16.42
+772,Far base,Sullivan and Sons Cinemas,2026-08-01,10:00:00,150,146,8.96
+773,Toward others,"Henry, Edwards and Bartlett Cinemas",2026-07-29,16:00:00,120,103,13.67
+774,Off home,"Ray, Cunningham and Levine Cinemas",2026-08-20,19:00:00,120,107,18.89
+775,Particular his position,Ferrell-Morgan Cinemas,2026-08-30,19:00:00,150,147,24.75
+776,Several could thus me,"Cooper, Watts and Farrell Cinemas",2026-08-27,21:30:00,100,87,10.99
+777,Yet interview,Cervantes PLC Cinemas,2026-08-26,21:30:00,120,103,8.56
+778,Truth better them,"Copeland, Jones and Salazar Cinemas",2026-07-04,10:00:00,100,98,10.29
+779,System real ability,"Murphy, Lee and Garcia Cinemas",2026-07-01,10:00:00,80,73,9.56
+780,She foot,"Davis, Johnson and Williams Cinemas",2026-08-05,13:00:00,80,69,10.63
+781,Minute right think trouble,Obrien PLC Cinemas,2026-07-02,10:00:00,100,90,13.75
+782,Give speak,"Carroll, Choi and Collier Cinemas",2026-09-03,21:30:00,150,144,23.47
+783,Impact every hard,Watson-Gray Cinemas,2026-07-02,13:00:00,150,135,22.11
+784,Baby final,"Bell, Peterson and Price Cinemas",2026-07-17,16:00:00,80,64,24.06
+785,Attorney pull,Carroll-Snyder Cinemas,2026-07-09,13:00:00,150,131,21.58
+786,Total report draw,Owens-Mayer Cinemas,2026-07-01,13:00:00,250,242,8.39
+787,Teach never,Harris-Wright Cinemas,2026-07-14,19:00:00,250,234,22.54
+788,Theory sure,Castro and Sons Cinemas,2026-08-17,10:00:00,180,165,22.93
+789,Result discuss standard,Grant-Diaz Cinemas,2026-07-01,21:30:00,180,156,14.96
+790,Speak,"Miller, Hansen and Salas Cinemas",2026-08-11,13:00:00,300,280,14.0
+791,Dog maybe another,Nguyen PLC Cinemas,2026-07-07,19:00:00,180,174,13.62
+792,Political bar,Henderson LLC Cinemas,2026-08-16,13:00:00,80,67,20.91
+793,Our east,"Walker, Turner and Brown Cinemas",2026-08-10,13:00:00,300,298,13.09
+794,Executive situation pattern,Bell-Jordan Cinemas,2026-06-29,19:00:00,250,244,13.32
+795,President economy,Horne Inc Cinemas,2026-09-01,16:00:00,300,293,8.6
+796,Vote husband maintain black,Jackson-Cooper Cinemas,2026-07-10,13:00:00,300,294,13.82
+797,Idea gun during,Harrison-Leach Cinemas,2026-08-20,16:00:00,80,57,17.9
+798,Lay same,Owens-Lang Cinemas,2026-08-28,16:00:00,250,242,9.3
+799,Set all rule,Hudson-Sparks Cinemas,2026-08-29,10:00:00,200,189,8.36
+800,All total,"Green, Cooper and Heath Cinemas",2026-06-28,19:00:00,250,237,11.37
+801,Where physical,"Andrade, Gordon and Cruz Cinemas",2026-06-28,19:00:00,180,176,13.48
+802,Decade in thing enter,Miller-Young Cinemas,2026-06-30,21:30:00,200,188,15.15
+803,Hair remember,"Wallace, Perkins and Johnson Cinemas",2026-07-02,13:00:00,120,116,12.11
+804,Year report,Chavez PLC Cinemas,2026-08-26,16:00:00,250,233,15.28
+805,Natural trip compare,Carroll-Snyder Cinemas,2026-08-30,16:00:00,100,84,20.29
+806,Marriage,"Good, Brewer and Fisher Cinemas",2026-07-13,10:00:00,150,147,11.56
+807,Western address,Padilla-Bennett Cinemas,2026-07-07,21:30:00,250,242,20.06
+808,Least senior,"Gibson, Zimmerman and Warren Cinemas",2026-09-01,19:00:00,250,241,17.32
+809,Summer six deal,"Bennett, Cantu and Kane Cinemas",2026-08-24,21:30:00,80,62,9.92
+810,Career miss,Shields LLC Cinemas,2026-08-02,13:00:00,250,234,8.18
+811,Reflect air ask,Jones-Barnes Cinemas,2026-08-05,13:00:00,120,108,17.03
+812,Fish interview,Gallegos-Turner Cinemas,2026-07-15,10:00:00,200,195,8.42
+813,North billion well,Krueger PLC Cinemas,2026-09-04,19:00:00,200,191,21.41
+814,Most fund,"Chen, Faulkner and Casey Cinemas",2026-07-29,16:00:00,300,287,21.57
+815,Board dark,Medina LLC Cinemas,2026-07-30,13:00:00,100,96,21.43
+816,Really too small,Gallagher-Diaz Cinemas,2026-07-06,16:00:00,250,237,11.94
+817,Chance minute guy,Reese Group Cinemas,2026-08-17,10:00:00,100,89,10.89
+818,Opportunity might,Jennings Group Cinemas,2026-08-11,21:30:00,150,145,15.28
+819,Maybe finish,Peterson-Dunn Cinemas,2026-08-04,13:00:00,100,95,17.5
+820,Parent,Fowler Group Cinemas,2026-08-14,19:00:00,180,174,23.76
+821,Realize throw whose,Morris-Armstrong Cinemas,2026-08-21,16:00:00,200,193,14.41
+822,Chance minute guy,Soto-Lopez Cinemas,2026-08-06,19:00:00,120,120,20.96
+823,Middle rule account,"Dickson, Barnett and Meyer Cinemas",2026-07-22,21:30:00,250,242,8.43
+824,Couple,Morrison-Simmons Cinemas,2026-07-07,16:00:00,150,136,11.12
+825,Minute plan,Wright-Davis Cinemas,2026-07-05,21:30:00,180,163,18.07
+826,Far view,"Williams, Newman and Jones Cinemas",2026-08-01,10:00:00,250,239,15.79
+827,Population individual,Ross-Blair Cinemas,2026-07-19,21:30:00,100,82,14.97
+828,Over charge,White-Reese Cinemas,2026-07-22,21:30:00,80,64,12.68
+829,Nation,Freeman Inc Cinemas,2026-07-29,13:00:00,100,90,18.85
+830,Approach statement,Miller-Booker Cinemas,2026-07-19,13:00:00,120,109,19.67
+831,Page,"Jones, Sanchez and Thomas Cinemas",2026-07-27,13:00:00,100,92,11.97
+832,Game other,Johnson LLC Cinemas,2026-07-23,10:00:00,180,175,14.45
+833,Mother line budget spring,Ortiz Ltd Cinemas,2026-06-24,16:00:00,250,241,15.06
+834,Suggest drug born,"Jones, Abbott and Pope Cinemas",2026-07-15,10:00:00,250,236,19.59
+835,Social which,"Payne, Escobar and Barrett Cinemas",2026-08-06,16:00:00,100,88,13.14
+836,Open,"Chase, Prince and Wilcox Cinemas",2026-08-14,10:00:00,120,100,19.32
+837,Return seek,"Harrington, Johnson and Jones Cinemas",2026-08-11,10:00:00,150,150,21.53
+838,Leader,Ross-Blair Cinemas,2026-06-25,13:00:00,180,166,24.9
+839,Left year school,"Hammond, Douglas and Johnson Cinemas",2026-07-26,10:00:00,120,101,17.75
+840,Very simply,Johnson-Powers Cinemas,2026-08-16,10:00:00,80,69,20.72
+841,Many four end,"Perez, Hoffman and Tucker Cinemas",2026-06-30,13:00:00,200,188,15.81
+842,Follow family,"Wagner, Anderson and Robles Cinemas",2026-09-05,16:00:00,200,197,15.46
+843,Special admit,"Phelps, Montoya and Barnett Cinemas",2026-08-27,21:30:00,120,101,24.3
+844,Play suffer,"Miller, Friedman and Weaver Cinemas",2026-07-08,16:00:00,80,72,11.32
+845,Pressure human,"Wheeler, Rocha and Rodriguez Cinemas",2026-08-30,13:00:00,80,75,21.72
+846,Science order share son,Miller Group Cinemas,2026-08-16,21:30:00,180,153,20.33
+847,Dream attention whether,Delgado and Sons Cinemas,2026-07-11,19:00:00,150,144,12.2
+848,Suddenly lay,Barron-Brown Cinemas,2026-08-22,10:00:00,100,83,22.74
+849,Product leave,"Howard, Townsend and Hayes Cinemas",2026-07-13,10:00:00,300,288,23.5
+850,Fight we,"Braun, Mays and Martinez Cinemas",2026-09-02,10:00:00,120,120,8.76
+851,Hope friend,"Sanders, Leblanc and Maldonado Cinemas",2026-08-14,13:00:00,300,281,11.71
+852,Mind discuss too,"White, Burch and Reynolds Cinemas",2026-08-01,21:30:00,250,229,8.97
+853,Help eat same,"Hunter, Ford and Spencer Cinemas",2026-08-25,21:30:00,300,285,23.42
+854,Mrs worry like,Brooks-Obrien Cinemas,2026-07-17,16:00:00,100,92,21.31
+855,Out civil service,Parks Ltd Cinemas,2026-09-04,19:00:00,200,196,23.66
+856,Though process,"Warner, Baker and Campbell Cinemas",2026-07-05,13:00:00,250,232,19.09
+857,Quality hospital,"Lyons, Young and Rios Cinemas",2026-06-27,19:00:00,120,117,17.81
+858,Move suffer security,"Sims, Weber and Villa Cinemas",2026-07-03,13:00:00,300,290,21.01
+859,Necessary much,"Vang, Wilkinson and Wilson Cinemas",2026-07-04,21:30:00,150,130,18.32
+860,Win in,Hunter-Estrada Cinemas,2026-08-31,10:00:00,300,297,9.44
+861,Paper somebody,"Sims, Weber and Villa Cinemas",2026-06-26,19:00:00,120,104,24.46
+862,Write maintain,Hamilton LLC Cinemas,2026-07-19,21:30:00,250,227,11.47
+863,Message statement through,Pham Ltd Cinemas,2026-07-27,13:00:00,300,287,20.98
+864,Word position room,"Jones, Rowland and Oconnor Cinemas",2026-08-15,19:00:00,180,170,13.55
+865,Smile among difference,Lynn Group Cinemas,2026-08-09,13:00:00,120,113,23.31
+866,Important to mean,"May, Valenzuela and Lee Cinemas",2026-07-10,13:00:00,120,99,15.96
+867,Develop,Griffin Group Cinemas,2026-08-16,13:00:00,180,168,16.56
+868,Need hair whole thus,Watson-Chan Cinemas,2026-07-05,10:00:00,250,241,23.13
+869,Though meeting,Robinson-Johnson Cinemas,2026-07-21,10:00:00,100,89,18.73
+870,Pattern civil,"Henson, Jones and Sanders Cinemas",2026-08-11,16:00:00,120,108,23.26
+871,Sign be land,Jones Inc Cinemas,2026-08-27,19:00:00,120,97,19.05
+872,Responsibility,Joseph Inc Cinemas,2026-07-25,21:30:00,120,104,20.79
+873,Current about as,Cordova Group Cinemas,2026-08-22,16:00:00,300,289,14.58
+874,Involve window,"Brown, James and Arroyo Cinemas",2026-08-15,19:00:00,120,109,14.05
+875,Them model city,"Taylor, Morales and Fuller Cinemas",2026-08-13,13:00:00,120,102,15.63
+876,Environment use second,Ryan-West Cinemas,2026-08-10,13:00:00,300,292,19.69
+877,Your,Mccoy-Strickland Cinemas,2026-07-13,13:00:00,300,291,15.75
+878,Trouble Mrs single,"Ray, Cunningham and Levine Cinemas",2026-06-24,19:00:00,180,169,10.21
+879,Quality yard,"Martin, Cervantes and Stokes Cinemas",2026-08-16,21:30:00,120,110,21.05
+880,Head effect friend,Moore Group Cinemas,2026-08-12,10:00:00,250,235,12.22
+881,Direction blood,Chase-Washington Cinemas,2026-08-18,10:00:00,120,107,22.76
+882,Politics,Thomas-Reilly Cinemas,2026-08-12,10:00:00,120,116,12.1
+883,Prevent follow I,Barron-Brown Cinemas,2026-06-25,10:00:00,80,51,9.54
+884,Run once kid,Johnston Inc Cinemas,2026-07-09,19:00:00,100,92,21.87
+885,Avoid wall about law,"Schultz, Miller and Wolf Cinemas",2026-08-10,10:00:00,150,140,20.22
+886,Conference,Mitchell and Sons Cinemas,2026-06-28,21:30:00,150,150,21.11
+887,Already control,Morris-Armstrong Cinemas,2026-08-05,19:00:00,200,185,12.0
+888,Itself consumer,"Meyer, Dawson and Harper Cinemas",2026-06-24,10:00:00,200,188,24.88
+889,Their parent alone,Barnett PLC Cinemas,2026-08-13,10:00:00,250,242,20.52
+890,Run all support,"Henderson, Alexander and Galvan Cinemas",2026-08-05,16:00:00,100,69,23.81
+891,Wrong fear,Nguyen PLC Cinemas,2026-08-17,10:00:00,120,103,16.23
+892,Hundred hair,"Fisher, Payne and Thompson Cinemas",2026-07-19,16:00:00,120,100,12.67
+893,News boy per let,"Haney, Dillon and Jackson Cinemas",2026-06-29,16:00:00,120,113,8.29
+894,Strategy impact,Martinez-Lopez Cinemas,2026-07-17,13:00:00,250,226,21.14
+895,Choose city,Vargas-Snyder Cinemas,2026-09-02,13:00:00,250,220,17.42
+896,Go exactly seem,Johnson-Nelson Cinemas,2026-07-07,13:00:00,250,227,16.4
+897,Mind,"Russell, Murphy and Davis Cinemas",2026-08-12,19:00:00,200,191,23.13
+898,Prevent trade cut,Coleman-Green Cinemas,2026-08-22,19:00:00,200,182,21.64
+899,Oil statement think,Colon LLC Cinemas,2026-08-19,13:00:00,120,114,18.36
+900,Usually onto adult mean,Clark-Rivera Cinemas,2026-07-08,16:00:00,180,167,21.8
+901,Model place,"Kennedy, Cohen and Pennington Cinemas",2026-07-25,21:30:00,200,189,8.83
+902,Meet speak,Hansen-Schneider Cinemas,2026-07-22,16:00:00,180,169,20.95
+903,Experience under prepare,Pratt LLC Cinemas,2026-07-01,19:00:00,200,192,8.43
+904,Prove method,"Carpenter, Morrow and Smith Cinemas",2026-07-22,16:00:00,300,293,15.27
+905,It week yeah,Singleton-King Cinemas,2026-07-07,13:00:00,100,76,16.88
+906,Produce,Rojas and Sons Cinemas,2026-07-19,21:30:00,150,139,16.72
+907,Only away,Haynes-Moss Cinemas,2026-08-22,10:00:00,200,198,14.54
+908,Some represent,"Walton, Anderson and Cook Cinemas",2026-08-23,16:00:00,180,175,22.44
+909,Your north,"Duarte, Smith and Caldwell Cinemas",2026-08-19,13:00:00,250,232,21.32
+910,Show follow floor,Ibarra Ltd Cinemas,2026-07-02,10:00:00,180,167,22.21
+911,Memory machine,Wilson-Williams Cinemas,2026-08-29,10:00:00,80,76,15.97
+912,Nothing letter lot sing,Colon LLC Cinemas,2026-07-06,21:30:00,180,168,24.62
+913,Describe walk official,Lynch LLC Cinemas,2026-07-18,19:00:00,200,195,11.23
+914,Risk hospital process,Elliott-Holland Cinemas,2026-08-14,13:00:00,150,144,19.96
+915,Hour way hair,"Ortiz, Reid and Wilkinson Cinemas",2026-07-05,21:30:00,250,238,17.25
+916,Trip blue,"Compton, Owens and Decker Cinemas",2026-08-05,19:00:00,200,194,17.04
+917,Never doctor peace,"Howard, Brennan and Moore Cinemas",2026-08-10,16:00:00,250,245,8.73
+918,Safe,Wang-Jackson Cinemas,2026-08-04,21:30:00,100,84,17.81
+919,Admit impact beat each,Roberts Group Cinemas,2026-06-27,21:30:00,300,293,19.56
+920,Structure save,"Madden, Figueroa and Stafford Cinemas",2026-07-04,13:00:00,200,174,13.11
+921,Market consider,Barnett PLC Cinemas,2026-08-30,16:00:00,80,46,16.57
+922,Red decade,Holland and Sons Cinemas,2026-08-25,16:00:00,150,148,17.29
+923,Movie as,Walker-Holt Cinemas,2026-07-21,21:30:00,100,87,15.34
+924,Through,Moore-Harrington Cinemas,2026-08-05,10:00:00,100,90,16.73
+925,Difficult,"Miller, Villegas and Jones Cinemas",2026-06-27,10:00:00,100,97,12.49
+926,Make blue,Mclaughlin Inc Cinemas,2026-07-13,10:00:00,120,101,10.83
+927,List no,Rodriguez Inc Cinemas,2026-07-29,10:00:00,300,287,19.89
+928,Prevent,"Compton, Owens and Decker Cinemas",2026-06-30,16:00:00,250,238,17.78
+929,Policy include,"Compton, Owens and Decker Cinemas",2026-08-04,19:00:00,200,192,24.14
+930,Similar item,"Vang, Wilkinson and Wilson Cinemas",2026-07-07,16:00:00,300,280,21.43
+931,During painting,Flores PLC Cinemas,2026-07-28,10:00:00,150,148,22.45
+932,The point state,Perez Inc Cinemas,2026-09-04,19:00:00,250,243,15.32
+933,Paper great,Clark-Miller Cinemas,2026-07-27,21:30:00,150,137,9.55
+934,Break open,Acosta and Sons Cinemas,2026-08-09,16:00:00,200,185,14.83
+935,Claim opportunity ability,Ho-Mendez Cinemas,2026-07-23,13:00:00,200,186,19.01
+936,Traditional one,Mcclain Inc Cinemas,2026-09-06,10:00:00,80,71,12.58
+937,Sing card,"Phelps, Kramer and Shannon Cinemas",2026-07-10,21:30:00,80,72,16.64
+938,Sing successful thus sometimes,Hall Ltd Cinemas,2026-08-29,16:00:00,250,229,9.82
+939,Maintain site night,"Li, Jensen and Vazquez Cinemas",2026-06-30,21:30:00,150,142,16.87
+940,School address wear value,Black-Mccoy Cinemas,2026-09-03,19:00:00,250,241,18.28
+941,Environmental make wait,Jackson-Mcclure Cinemas,2026-07-02,21:30:00,120,120,8.4
+942,But challenge reveal,Robinson Inc Cinemas,2026-07-26,13:00:00,300,290,14.88
+943,Almost no answer,Wheeler PLC Cinemas,2026-07-18,16:00:00,250,234,12.92
+944,Summer begin,"Levy, Franco and Hoffman Cinemas",2026-07-18,13:00:00,100,86,20.41
+945,Sometimes eye quickly,Benson Inc Cinemas,2026-07-12,16:00:00,100,90,17.57
+946,Time traditional,"Taylor, Morales and Fuller Cinemas",2026-08-08,21:30:00,150,129,23.26
+947,Buy ground student with,Andrews-Aguirre Cinemas,2026-07-27,16:00:00,100,77,23.01
+948,Particular movie,Williams-Mckenzie Cinemas,2026-08-28,19:00:00,80,72,10.08
+949,Daughter serious international,"Kennedy, Mueller and Aguirre Cinemas",2026-08-15,21:30:00,180,164,21.16
+950,Population before possible,"Mckee, Gardner and Davenport Cinemas",2026-07-18,19:00:00,100,83,12.89
+951,How rest,"Larson, Daniels and James Cinemas",2026-07-15,10:00:00,80,66,19.95
+952,Natural foot note,Mitchell and Sons Cinemas,2026-07-03,19:00:00,200,193,15.74
+953,Whose which,Harris-Hernandez Cinemas,2026-06-26,21:30:00,200,185,14.39
+954,Cultural huge,"Gonzalez, Santos and Gardner Cinemas",2026-09-01,21:30:00,150,131,9.44
+955,House participant want,Reid-Miller Cinemas,2026-08-29,10:00:00,250,245,17.74
+956,Occur that article,Smith-Ramirez Cinemas,2026-07-11,21:30:00,100,88,16.98
+957,Building owner,Knight Group Cinemas,2026-08-31,16:00:00,180,180,20.17
+958,Floor offer lead,Gibbs Group Cinemas,2026-08-25,19:00:00,120,109,17.96
+959,Himself interest kind,Fernandez Inc Cinemas,2026-08-28,19:00:00,120,105,12.74
+960,Beat sign,Carlson-Cruz Cinemas,2026-06-26,16:00:00,200,173,12.85
+961,Attack explain save,Hill Inc Cinemas,2026-07-11,21:30:00,120,114,8.98
+962,Him government,"Carpenter, Morrow and Smith Cinemas",2026-08-28,21:30:00,180,180,15.11
+963,Suggest major sport,"Davis, Richardson and Gonzalez Cinemas",2026-07-13,16:00:00,200,200,18.08
+964,Actually green,Hunter Group Cinemas,2026-09-04,21:30:00,250,246,16.12
+965,Above girl very,Byrd-Foster Cinemas,2026-08-04,19:00:00,80,69,14.08
+966,Eight book owner,"Phelps, Kramer and Shannon Cinemas",2026-07-23,19:00:00,180,157,16.8
+967,Traditional structure,Wright-Davis Cinemas,2026-08-08,21:30:00,250,241,11.38
+968,Election lawyer successful,Whitehead-Hernandez Cinemas,2026-07-01,21:30:00,300,283,12.55
+969,Loss dark act,"Vasquez, Sanchez and Green Cinemas",2026-07-22,13:00:00,300,278,18.77
+970,My hour task,"Underwood, Bartlett and Russell Cinemas",2026-06-28,19:00:00,180,173,12.41
+971,Great all,Jimenez Ltd Cinemas,2026-08-25,13:00:00,80,77,21.61
+972,Less admit involve,"Howard, Brennan and Moore Cinemas",2026-08-13,21:30:00,100,73,22.85
+973,Our purpose,"Medina, Lee and Freeman Cinemas",2026-07-09,16:00:00,150,134,24.81
+974,Chance company,"Wallace, Perkins and Johnson Cinemas",2026-07-13,19:00:00,80,60,21.58
+975,Animal manager accept eight,Rodriguez Group Cinemas,2026-08-24,16:00:00,180,166,20.16
+976,Paper throw upon,"Schwartz, Estrada and Hernandez Cinemas",2026-07-06,19:00:00,200,199,11.5
+977,Pick man,"Turner, Ponce and Barrett Cinemas",2026-07-17,19:00:00,300,297,14.74
+978,Break film tax,Brown LLC Cinemas,2026-08-24,16:00:00,100,83,23.92
+979,Hot lay,Morris-Armstrong Cinemas,2026-06-23,13:00:00,250,240,20.25
+980,Market there us design,Martinez PLC Cinemas,2026-08-22,19:00:00,100,87,20.13
+981,Child plan other about,Byrd-Foster Cinemas,2026-07-02,13:00:00,80,70,19.2
+982,Health change tree,Martinez LLC Cinemas,2026-07-28,10:00:00,100,97,23.02
+983,Entire,Parks Ltd Cinemas,2026-09-06,21:30:00,200,183,8.6
+984,Involve image difficult,Zuniga Group Cinemas,2026-07-30,10:00:00,100,100,9.43
+985,Dark lot sister,Lynn Group Cinemas,2026-09-03,13:00:00,120,116,16.63
+986,Measure bit my,Chang Ltd Cinemas,2026-08-14,21:30:00,180,174,14.1
+987,Capital artist economic,"Nguyen, Ellis and Wright Cinemas",2026-07-24,10:00:00,200,190,13.91
+988,Arrive test,"Chapman, Ball and Patterson Cinemas",2026-08-14,16:00:00,300,300,18.04
+989,Game example,Tucker-Olson Cinemas,2026-07-23,16:00:00,100,84,23.68
+990,Hour this dinner,Davis LLC Cinemas,2026-08-12,13:00:00,100,81,8.73
+991,Including drive,Page-Jacobs Cinemas,2026-06-30,21:30:00,300,287,20.88
+992,Leader ball imagine his,Vega-Lawrence Cinemas,2026-07-01,10:00:00,200,195,9.14
+993,Read girl,Valdez-Jacobs Cinemas,2026-08-11,19:00:00,180,171,21.32
+994,Cause we,Hall-Washington Cinemas,2026-07-21,10:00:00,80,70,11.23
+995,Him somebody professional,Miller LLC Cinemas,2026-06-30,16:00:00,180,164,17.9
+996,Conference paper nearly,Myers Ltd Cinemas,2026-08-17,16:00:00,250,244,16.38
+997,Treatment leader near,"Johns, Figueroa and Graham Cinemas",2026-07-31,19:00:00,180,174,20.36
+998,Truth explain,"Cook, Jones and Jones Cinemas",2026-08-18,21:30:00,100,98,23.6
+999,Individual price,Miller LLC Cinemas,2026-07-05,13:00:00,200,172,9.89
+1000,Media hospital,Mclaughlin Inc Cinemas,2026-08-23,16:00:00,250,245,16.2
+1001,Maintain soldier,Smith and Sons Cinemas,2026-08-06,21:30:00,80,54,23.19
+1002,Go yourself over,"Brown, Hammond and Campbell Cinemas",2026-06-27,13:00:00,150,135,20.65
+1003,Air hold,Reese PLC Cinemas,2026-08-02,10:00:00,180,174,13.3
+1004,Education likely,"Arnold, Ashley and Alexander Cinemas",2026-07-05,16:00:00,80,69,17.38
+1005,Other drive,Miller LLC Cinemas,2026-08-11,10:00:00,80,72,20.39
+1006,Case include,Payne PLC Cinemas,2026-07-05,21:30:00,300,292,19.78
+1007,Alone American,Lowery LLC Cinemas,2026-08-25,16:00:00,180,163,17.54
+1008,You increase main,Richardson-Jimenez Cinemas,2026-07-03,19:00:00,250,244,24.64
+1009,Another,Edwards and Sons Cinemas,2026-06-25,16:00:00,80,69,15.5
+1010,Front light four,"Bennett, Williams and Klein Cinemas",2026-07-13,13:00:00,80,78,24.23
+1011,Until nothing then,"Sims, Weber and Villa Cinemas",2026-08-08,16:00:00,80,74,10.55
+1012,Nothing every edge,Martinez-Dunlap Cinemas,2026-07-16,16:00:00,200,194,13.58
+1013,Pattern,"Wilson, Stewart and Hobbs Cinemas",2026-07-03,21:30:00,250,240,23.92
+1014,Music reason sense list,"Martinez, Roman and Murphy Cinemas",2026-06-26,21:30:00,200,187,20.03
+1015,Article among,Landry-Hill Cinemas,2026-07-24,13:00:00,300,293,18.88
+1016,Pm left,Carter-Hendrix Cinemas,2026-07-21,19:00:00,250,248,9.06
+1017,List civil just education,Price-Lee Cinemas,2026-07-26,13:00:00,180,165,8.37
+1018,Also girl,Miranda and Sons Cinemas,2026-07-13,13:00:00,250,240,8.8
+1019,Purpose ever ball,Lowery LLC Cinemas,2026-07-04,19:00:00,100,97,24.78
+1020,Once series rise,Garcia LLC Cinemas,2026-07-07,13:00:00,80,73,16.98
+1021,How even,"Bell, Peterson and Price Cinemas",2026-07-11,16:00:00,300,287,12.58
+1022,Site yeah,Sanchez-Douglas Cinemas,2026-08-01,10:00:00,300,279,11.1
+1023,Pattern challenge soldier send,Garrett-Stout Cinemas,2026-07-21,19:00:00,120,104,14.59
+1024,Value process,Orr-Miranda Cinemas,2026-08-26,19:00:00,250,238,23.11
+1025,Trouble fight fast option,"Velez, Howell and Stevenson Cinemas",2026-07-10,16:00:00,150,134,18.63
+1026,Bad production brother even,"Moore, Gilmore and Martin Cinemas",2026-07-04,13:00:00,250,232,14.1
+1027,Significant impact,Haynes-Moss Cinemas,2026-09-01,19:00:00,120,90,20.7
+1028,Arrive occur sister,Pham Ltd Cinemas,2026-07-11,16:00:00,100,94,15.95
+1029,Call popular,Baxter PLC Cinemas,2026-07-21,16:00:00,250,230,23.71
+1030,Off region measure,"Campbell, Long and Silva Cinemas",2026-07-07,13:00:00,120,101,12.42
+1031,Institution possible,Carney Group Cinemas,2026-09-02,13:00:00,120,104,18.57
+1032,Quite approach,Russell Inc Cinemas,2026-06-26,19:00:00,200,180,20.69
+1033,Experience western discover,Page-Jacobs Cinemas,2026-07-10,19:00:00,300,289,21.47
+1034,Real establish,"Hammond, Douglas and Johnson Cinemas",2026-07-10,16:00:00,200,187,11.78
+1035,Staff agency,"Turner, Ponce and Barrett Cinemas",2026-07-22,19:00:00,200,177,18.81
+1036,Success near,"Morales, Miller and Harrell Cinemas",2026-07-08,16:00:00,120,107,23.08
+1037,Total sort,"Andrade, Gordon and Cruz Cinemas",2026-07-05,21:30:00,80,68,17.56
+1038,Recently support,"Chase, Prince and Wilcox Cinemas",2026-08-28,13:00:00,250,237,22.82
+1039,Really kitchen,"Anderson, Velazquez and Stewart Cinemas",2026-08-10,10:00:00,120,113,15.0
+1040,Laugh discuss,"Levy, Franco and Hoffman Cinemas",2026-08-27,21:30:00,250,235,14.12
+1041,Star clearly,Joseph Inc Cinemas,2026-07-22,16:00:00,150,138,22.24
+1042,Suffer wonder along,Coleman-Green Cinemas,2026-06-28,21:30:00,80,68,21.85
+1043,Tonight current born,Howe Inc Cinemas,2026-08-16,19:00:00,100,85,10.21
+1044,Manager sell,"White, Smith and Warner Cinemas",2026-07-25,16:00:00,250,245,15.55
+1045,Major manager,Harrell Group Cinemas,2026-09-02,16:00:00,120,109,16.53
+1046,Data tend,Brown-Cohen Cinemas,2026-08-13,19:00:00,200,187,20.95
+1047,Process garden figure,"Smith, Jackson and Porter Cinemas",2026-06-25,21:30:00,120,105,17.92
+1048,Describe also sea,"Lloyd, Walker and Brock Cinemas",2026-08-24,19:00:00,180,159,13.38
+1049,Prepare much,"Barnes, Paul and Price Cinemas",2026-08-03,16:00:00,300,281,16.51
+1050,Today future recognize,Barron-Brown Cinemas,2026-07-16,10:00:00,80,71,18.34
+1051,Consider few population,"Cooper, Watts and Farrell Cinemas",2026-07-10,16:00:00,80,78,24.68
+1052,Power game yard,"Walton, Anderson and Cook Cinemas",2026-08-08,19:00:00,180,164,15.15
+1053,Old strategy,"Moore, Gilmore and Martin Cinemas",2026-07-30,21:30:00,300,280,9.13
+1054,Type plan,Walker-Gonzalez Cinemas,2026-08-03,21:30:00,120,108,24.45
+1055,Mother hotel development list,"Guerrero, Watson and Perry Cinemas",2026-07-07,21:30:00,80,62,8.26
+1056,Environmental couple,Buchanan LLC Cinemas,2026-07-12,10:00:00,300,281,17.03
+1057,Movie money contain,"Lawson, Lopez and Myers Cinemas",2026-08-12,16:00:00,180,158,18.41
+1058,Building treatment ready,Nelson-Knight Cinemas,2026-07-20,19:00:00,180,175,24.15
+1059,Service spring,Morrison-Simmons Cinemas,2026-09-06,21:30:00,100,87,16.62
+1060,Choose picture age thus,Johnson Ltd Cinemas,2026-07-27,10:00:00,80,69,16.23
+1061,Attention in line,Bryan Inc Cinemas,2026-07-01,13:00:00,300,293,14.03
+1062,Too responsibility,"Anderson, Velazquez and Stewart Cinemas",2026-08-12,19:00:00,300,288,23.27
+1063,Bit sing,"Miranda, Wheeler and Avila Cinemas",2026-07-28,13:00:00,150,127,23.42
+1064,Own,Harrington Group Cinemas,2026-08-26,13:00:00,300,294,12.5
+1065,Impact color whatever,"Cooper, Watts and Farrell Cinemas",2026-08-03,19:00:00,80,77,21.71
+1066,In each yeah,Bridges Ltd Cinemas,2026-09-06,19:00:00,180,161,15.49
+1067,Daughter above,Turner Inc Cinemas,2026-08-22,13:00:00,150,144,20.3
+1068,Hospital bill,Wheeler PLC Cinemas,2026-07-01,16:00:00,80,71,21.52
+1069,Finish person,Morris-Armstrong Cinemas,2026-08-02,16:00:00,100,86,8.27
+1070,Certain hair plant,Bird-Trujillo Cinemas,2026-08-02,13:00:00,120,116,22.08
+1071,Apply simply why,Moody-Williams Cinemas,2026-08-11,16:00:00,150,139,10.37
+1072,Hair remember,Thomas and Sons Cinemas,2026-07-08,16:00:00,200,196,19.42
+1073,Ok rock,"Phelps, Montoya and Barnett Cinemas",2026-07-16,10:00:00,100,88,12.44
+1074,Its bit foreign,"Wilson, Jacobson and Griffith Cinemas",2026-08-19,16:00:00,100,90,18.81
+1075,Yet keep bed,Roberts Ltd Cinemas,2026-06-29,10:00:00,100,93,17.3
+1076,Future effort,Santos-Wood Cinemas,2026-08-17,13:00:00,250,233,15.44
+1077,Help blood of,"Martinez, Rose and Jackson Cinemas",2026-08-30,10:00:00,300,294,9.47
+1078,Themselves both,Marshall and Sons Cinemas,2026-08-11,13:00:00,250,247,21.96
+1079,Participant foreign major you,Anderson Group Cinemas,2026-07-08,10:00:00,250,233,8.81
+1080,Record subject month,Martinez-Allen Cinemas,2026-06-26,10:00:00,100,77,10.5
+1081,Out sense fact,"Gibson, Zimmerman and Warren Cinemas",2026-06-26,21:30:00,250,241,17.06
+1082,Help require,Hunter Group Cinemas,2026-07-12,21:30:00,200,193,10.67
+1083,Career wrong travel meet,"Hernandez, Cuevas and Webb Cinemas",2026-09-04,16:00:00,150,145,13.13
+1084,Nation return smile,"Caldwell, Cross and Russell Cinemas",2026-07-13,10:00:00,100,88,19.35
+1085,Group hotel sense,"Fisher, Payne and Thompson Cinemas",2026-09-01,21:30:00,250,244,11.64
+1086,Final must wait,"Lloyd, Walker and Brock Cinemas",2026-08-20,16:00:00,150,135,8.66
+1087,Line defense,"Smith, Yang and Ford Cinemas",2026-06-28,13:00:00,120,108,15.31
+1088,Its thousand not,"Boyd, Ellis and Maynard Cinemas",2026-08-11,21:30:00,180,165,10.26
+1089,Sell amount executive,Kim-George Cinemas,2026-08-12,21:30:00,200,197,16.4
+1090,Appear close goal,Hansen-Schneider Cinemas,2026-07-17,21:30:00,120,108,23.51
+1091,Defense skin,Howe Inc Cinemas,2026-08-19,16:00:00,80,69,23.11
+1092,Enough kid anyone already,Garner LLC Cinemas,2026-08-07,10:00:00,150,147,10.21
+1093,Challenge their check,Buchanan LLC Cinemas,2026-07-11,16:00:00,200,194,15.81
+1094,Also,"Hunter, Taylor and York Cinemas",2026-07-02,13:00:00,200,197,20.34
+1095,Couple other,Rojas Inc Cinemas,2026-08-26,10:00:00,300,274,10.3
+1096,Democratic beautiful,Johnson-Powers Cinemas,2026-08-25,19:00:00,150,140,21.64
+1097,Tonight try,Price-Schmitt Cinemas,2026-09-04,16:00:00,250,242,24.94
+1098,Type score ready,"Silva, Snyder and Reeves Cinemas",2026-09-04,16:00:00,120,116,20.11
+1099,Dream including resource,"Salazar, Carlson and Hall Cinemas",2026-08-12,21:30:00,150,139,22.99
+1100,Image policy catch,"Taylor, Morales and Fuller Cinemas",2026-09-03,16:00:00,300,299,17.43
+1101,Stock for political,"Freeman, Hall and Allison Cinemas",2026-07-01,13:00:00,150,136,13.18
+1102,Almost home dream,Villarreal-Jackson Cinemas,2026-07-05,16:00:00,150,145,23.95
+1103,Long chance,"Chan, Hart and Schmidt Cinemas",2026-08-20,13:00:00,250,242,20.46
+1104,Series popular,"Freeman, Hall and Allison Cinemas",2026-07-20,13:00:00,180,175,22.61
+1105,Care student economic,Chase-Washington Cinemas,2026-08-02,16:00:00,100,95,23.03
+1106,Method tonight them,Terry-Price Cinemas,2026-08-14,10:00:00,300,278,14.56
+1107,A,Morgan and Sons Cinemas,2026-07-09,13:00:00,80,71,24.96
+1108,Because yard bring,Peterson-Dunn Cinemas,2026-07-07,10:00:00,120,114,11.94
+1109,Human director building,Garrett-Stout Cinemas,2026-09-01,21:30:00,80,74,22.32
+1110,Tough top green,"Vasquez, Sanchez and Green Cinemas",2026-07-04,16:00:00,200,200,11.21
+1111,Car feel small,Griffin Ltd Cinemas,2026-08-22,19:00:00,100,70,23.31
+1112,Mr Mr all,White-Reese Cinemas,2026-08-13,16:00:00,120,101,10.02
+1113,Key fire set,"Phillips, Walters and Evans Cinemas",2026-08-01,16:00:00,250,241,16.04
+1114,Stay help,"Silva, Snyder and Reeves Cinemas",2026-06-25,13:00:00,250,237,17.61
+1115,Beautiful that age although,Stevenson Group Cinemas,2026-07-12,19:00:00,200,182,13.25
+1116,Deep better,"Moore, Alexander and Reed Cinemas",2026-07-24,21:30:00,100,86,23.42
+1117,Detail more,"Berry, Green and Ward Cinemas",2026-09-03,13:00:00,120,115,8.92
+1118,Identify all agreement stop,Moore Group Cinemas,2026-07-29,16:00:00,120,105,15.29
+1119,Magazine painting yard single,"Wiley, Tapia and Smith Cinemas",2026-07-02,13:00:00,250,238,19.22
+1120,Senior suggest light four,"Santiago, Smith and Cannon Cinemas",2026-07-07,13:00:00,200,192,14.78
+1121,Central short so,"Gibson, Zimmerman and Warren Cinemas",2026-07-14,16:00:00,180,166,24.56
+1122,Power apply outside,Buchanan LLC Cinemas,2026-08-24,21:30:00,250,244,15.41
+1123,Miss stay,Garner LLC Cinemas,2026-07-29,16:00:00,120,101,20.0
+1124,Time area source,"Hayes, Sharp and Wilson Cinemas",2026-07-09,10:00:00,180,168,18.99
+1125,Similar million have,Diaz and Sons Cinemas,2026-07-17,19:00:00,100,86,15.98
+1126,Goal beat,Smith-Gomez Cinemas,2026-07-31,21:30:00,250,242,24.46
+1127,Major cold,"Wong, Dawson and Martin Cinemas",2026-08-18,10:00:00,300,299,10.12
+1128,Including stand enjoy,"Gonzalez, Santos and Gardner Cinemas",2026-08-03,19:00:00,150,138,8.09
+1129,Treat only partner,"Johns, Figueroa and Graham Cinemas",2026-06-24,19:00:00,250,238,12.1
+1130,Either choose to,Jones-Contreras Cinemas,2026-08-11,19:00:00,250,223,10.93
+1131,What professor,"Rodriguez, Massey and Day Cinemas",2026-09-01,21:30:00,250,236,15.28
+1132,Culture woman stage bank,"Calhoun, Wilson and Oneal Cinemas",2026-09-05,13:00:00,180,175,23.08
+1133,Say dark,"Flowers, Morgan and Barnes Cinemas",2026-08-09,16:00:00,100,95,18.35
+1134,Material history choose,Hill and Sons Cinemas,2026-09-06,16:00:00,250,241,8.34
+1135,Look,"Lyons, Branch and Kennedy Cinemas",2026-08-12,10:00:00,120,115,21.8
+1136,Society against,Pratt LLC Cinemas,2026-06-30,19:00:00,120,114,8.01
+1137,Total,Kim-Romero Cinemas,2026-06-26,16:00:00,80,73,8.33
+1138,Cultural detail talk,"Stevens, Howell and Mitchell Cinemas",2026-07-28,16:00:00,200,183,13.97
+1139,Employee professor hair,"Garrison, Williams and Garcia Cinemas",2026-07-16,16:00:00,300,294,22.57
+1140,Bad opportunity week,Buchanan LLC Cinemas,2026-06-30,10:00:00,200,186,10.17
+1141,Lead least,Jones-Taylor Cinemas,2026-08-21,16:00:00,250,236,23.19
+1142,Hear deep likely,Miller Group Cinemas,2026-07-28,21:30:00,120,101,17.71
+1143,Most bad,Bradley-Davis Cinemas,2026-08-11,13:00:00,100,74,19.07
+1144,Have reach water hit,Henderson LLC Cinemas,2026-07-24,19:00:00,80,67,17.46
+1145,All property economy,"Hamilton, Wolfe and Gill Cinemas",2026-07-15,10:00:00,120,120,21.06
+1146,Light rather discuss,Richardson Ltd Cinemas,2026-07-19,16:00:00,120,117,21.01
+1147,Society laugh,Solis-Edwards Cinemas,2026-07-02,10:00:00,100,86,24.45
+1148,Season five,"Johnson, Lynch and Morton Cinemas",2026-06-24,10:00:00,300,287,15.56
+1149,Himself many,"Chen, Faulkner and Casey Cinemas",2026-08-05,10:00:00,250,234,10.79
+1150,Whatever word series,"Brown, Ali and Jones Cinemas",2026-08-03,13:00:00,200,200,11.08
+1151,Common story,Davis Inc Cinemas,2026-08-30,10:00:00,200,189,11.68
+1152,Here southern we play,Johnson-Powers Cinemas,2026-07-09,10:00:00,250,233,11.33
+1153,Hit green long,Avila LLC Cinemas,2026-07-13,13:00:00,100,89,9.85
+1154,Unit matter,Barron-Brown Cinemas,2026-06-28,10:00:00,120,100,9.96
+1155,Machine seven candidate,Jones-Contreras Cinemas,2026-06-26,19:00:00,200,188,9.87
+1156,Sound itself,Bell PLC Cinemas,2026-07-18,16:00:00,200,180,11.29
+1157,Within,Martinez and Sons Cinemas,2026-07-27,10:00:00,120,104,11.67
+1158,New attack,James Ltd Cinemas,2026-08-10,10:00:00,180,169,12.13
+1159,Well onto,Johnson-Powers Cinemas,2026-09-05,10:00:00,200,191,21.71
+1160,Military she,Haynes-Jackson Cinemas,2026-07-14,10:00:00,300,288,9.53
+1161,Lead hand stock night,Holloway and Sons Cinemas,2026-06-29,13:00:00,100,93,15.21
+1162,Amount hour level,Adams PLC Cinemas,2026-09-06,13:00:00,200,185,20.55
+1163,Picture easy trip,Rodriguez-Hernandez Cinemas,2026-09-04,10:00:00,80,70,16.66
+1164,Inside relationship everything,Gibson-Thomas Cinemas,2026-07-23,16:00:00,80,64,23.29
+1165,Account large lot,"Miller, Hansen and Salas Cinemas",2026-09-06,10:00:00,150,144,11.36
+1166,Believe dark,"Garza, Williams and Walker Cinemas",2026-07-03,16:00:00,100,71,18.38
+1167,Follow perhaps social himself,"Greene, Rogers and Haley Cinemas",2026-08-14,16:00:00,300,278,23.39
+1168,Claim magazine century,Peterson-Mullins Cinemas,2026-08-14,10:00:00,80,67,17.29
+1169,Bill involve sound future,"Guerrero, Watson and Perry Cinemas",2026-07-06,16:00:00,150,138,21.43
+1170,Do seven,Smith-Patel Cinemas,2026-08-02,10:00:00,200,196,9.26
+1171,Box nor,"Santiago, Smith and Cannon Cinemas",2026-08-20,10:00:00,80,72,11.28
+1172,Under especially,"Wells, Anderson and Rodriguez Cinemas",2026-07-21,21:30:00,180,162,9.31
+1173,Source full itself,"Knight, Rogers and Evans Cinemas",2026-09-05,16:00:00,250,250,21.53
+1174,Theory discover,Davis Group Cinemas,2026-08-03,10:00:00,80,65,20.65
+1175,Great true safe,Lutz and Sons Cinemas,2026-08-08,13:00:00,200,194,20.05
+1176,Statement,"Henson, Jones and Sanders Cinemas",2026-07-06,16:00:00,200,196,20.31
+1177,Right now mean,"Carrillo, Henderson and Matthews Cinemas",2026-08-21,13:00:00,150,139,16.63
+1178,Conference wait military,Smith LLC Cinemas,2026-08-26,10:00:00,80,64,16.07
+1179,Identify all agreement stop,Patterson LLC Cinemas,2026-08-15,16:00:00,180,169,15.7
+1180,Wall before,Marshall Inc Cinemas,2026-07-01,13:00:00,250,245,11.7
+1181,Standard strategy,"Myers, Gamble and Sanford Cinemas",2026-07-12,16:00:00,200,186,13.76
+1182,Trial current by,Jones Ltd Cinemas,2026-08-05,10:00:00,80,70,13.22
+1183,Because show without,"Larsen, Hernandez and Ward Cinemas",2026-07-10,10:00:00,300,289,12.12
+1184,Need door draw,"Henson, Jones and Sanders Cinemas",2026-07-19,13:00:00,150,124,11.0
+1185,Determine hundred,Johnson and Sons Cinemas,2026-07-03,13:00:00,200,186,9.98
+1186,Picture ok imagine,"Miller, Hansen and Salas Cinemas",2026-08-07,10:00:00,150,141,21.12
+1187,Debate clear,"Hull, Haynes and Garcia Cinemas",2026-08-25,21:30:00,180,177,12.37
+1188,More explain offer,Thompson-Reyes Cinemas,2026-08-19,19:00:00,150,142,20.65
+1189,Claim final,Wilson-Jones Cinemas,2026-06-26,21:30:00,80,64,14.39
+1190,Affect surface,Campbell and Sons Cinemas,2026-07-31,21:30:00,120,110,24.85
+1191,Law stay fall,Lutz and Sons Cinemas,2026-07-03,19:00:00,150,126,13.91
+1192,Far set assume across,Gonzalez-Wilson Cinemas,2026-08-29,16:00:00,200,200,8.96
+1193,Body history cup scene,"Blanchard, Taylor and Porter Cinemas",2026-09-04,10:00:00,200,190,9.57
+1194,Anyone color,Green-Walters Cinemas,2026-07-29,19:00:00,300,297,12.0
+1195,Media worry grow,Whitehead-Hernandez Cinemas,2026-07-27,16:00:00,100,79,12.52
+1196,Article among,"Arias, Thompson and Jackson Cinemas",2026-08-22,19:00:00,250,233,24.4
+1197,Gas reason large,Robertson-Hays Cinemas,2026-07-18,19:00:00,120,113,9.27
+1198,Cut,James Ltd Cinemas,2026-08-26,10:00:00,150,121,11.11
+1199,Everybody coach,Wyatt Ltd Cinemas,2026-08-22,10:00:00,250,231,10.21
+1200,Last before material,Hamilton LLC Cinemas,2026-08-04,10:00:00,300,287,11.88
+1201,Drive very,"May, Valenzuela and Lee Cinemas",2026-07-13,13:00:00,200,181,18.05
+1202,Pattern reach,"Herring, Wilson and Mendoza Cinemas",2026-08-27,13:00:00,200,189,9.68
+1203,To dark college try,Li-Hernandez Cinemas,2026-07-07,21:30:00,180,172,9.54
+1204,Economy,Johnson Inc Cinemas,2026-06-26,19:00:00,200,192,13.77
+1205,Daughter black situation,"Hunter, Taylor and York Cinemas",2026-08-28,13:00:00,180,167,10.86
+1206,Itself certain site itself,Davis-Montgomery Cinemas,2026-08-16,16:00:00,250,225,24.95
+1207,Agent environmental,"Herrera, Jensen and Ramirez Cinemas",2026-08-13,16:00:00,120,110,19.11
+1208,Anyone enjoy,"Trevino, Henderson and Gonzalez Cinemas",2026-07-02,19:00:00,180,178,8.48
+1209,While court,"Moore, Alexander and Reed Cinemas",2026-07-21,13:00:00,100,76,16.26
+1210,Staff year,Anderson Inc Cinemas,2026-08-21,10:00:00,80,60,18.41
+1211,Alone eight,Griffin-Hernandez Cinemas,2026-07-10,16:00:00,100,84,16.24
+1212,Face nor market,Clark-Floyd Cinemas,2026-07-18,19:00:00,100,86,15.91
+1213,Difference far whether,Woods-Mccarthy Cinemas,2026-06-26,19:00:00,300,295,9.27
+1214,Until store,"Flowers, Morgan and Barnes Cinemas",2026-07-17,10:00:00,120,106,14.94
+1215,Term four,Hunter Group Cinemas,2026-07-03,21:30:00,300,290,11.49
+1216,Skin court,Peterson-Wagner Cinemas,2026-09-06,21:30:00,250,244,14.3
+1217,Clearly ask her,"Short, Brooks and Lang Cinemas",2026-07-19,16:00:00,250,238,22.82
+1218,Weight ball hot,Singleton-King Cinemas,2026-09-02,10:00:00,180,170,11.08
+1219,Fear somebody,"Davis, Wood and Paul Cinemas",2026-09-04,21:30:00,180,167,10.08
+1220,Clear open machine voice,"Bennett, Williams and Klein Cinemas",2026-07-11,21:30:00,80,60,17.58
+1221,Sing soon,Jackson-Wood Cinemas,2026-08-30,21:30:00,300,294,22.39
+1222,Performance one change,Knox and Sons Cinemas,2026-07-08,19:00:00,300,286,19.4
+1223,Compare well,Hill-Guerra Cinemas,2026-07-08,19:00:00,200,194,21.83
+1224,Else coach,Ochoa-Adams Cinemas,2026-06-29,16:00:00,120,91,11.92
+1225,Might,Walker PLC Cinemas,2026-07-30,21:30:00,250,250,13.12
+1226,Sign build,James Ltd Cinemas,2026-08-24,13:00:00,250,233,15.32
+1227,Owner institution team,Ibarra Ltd Cinemas,2026-07-28,10:00:00,250,231,13.69
+1228,Friend west anyone,Jones Inc Cinemas,2026-09-06,13:00:00,150,147,16.81
+1229,Wife article technology child,"Mckee, Gardner and Davenport Cinemas",2026-07-28,16:00:00,250,241,10.94
+1230,Play resource by,"Lewis, Jordan and Young Cinemas",2026-06-28,13:00:00,250,218,9.57
+1231,Machine value television,Burns-Nguyen Cinemas,2026-06-28,16:00:00,300,295,20.27
+1232,Trouble safe,"Dorsey, Reyes and Dunn Cinemas",2026-08-29,21:30:00,150,135,12.85
+1233,Charge a,Buchanan LLC Cinemas,2026-07-30,13:00:00,250,229,17.07
+1234,Movie management,"Wheeler, Rocha and Rodriguez Cinemas",2026-09-06,16:00:00,120,109,19.3
+1235,Industry clearly trade,"Walker, Turner and Brown Cinemas",2026-06-26,10:00:00,150,142,12.72
+1236,Close ground green,"Vargas, Taylor and Hunt Cinemas",2026-07-03,19:00:00,80,70,20.07
+1237,Receive plan across,Lee-Weeks Cinemas,2026-07-23,10:00:00,100,90,14.61
+1238,Campaign wall,"Ho, Little and Leon Cinemas",2026-07-03,19:00:00,80,68,16.5
+1239,Structure behind somebody,Reid-Miller Cinemas,2026-07-01,19:00:00,200,192,10.44
+1240,Type plan,Avila LLC Cinemas,2026-07-16,19:00:00,100,83,12.98
+1241,Actually help,Wilson-Jones Cinemas,2026-08-31,13:00:00,300,289,22.85
+1242,Nearly section,"Carrillo, Henderson and Matthews Cinemas",2026-08-25,16:00:00,100,86,23.62
+1243,Meeting enter no,Coleman-Long Cinemas,2026-07-13,16:00:00,120,113,20.71
+1244,Push price should,Anderson-Silva Cinemas,2026-07-20,16:00:00,100,82,8.46
+1245,Type part,Peterson-Mullins Cinemas,2026-08-23,13:00:00,100,98,9.27
+1246,Apply reduce,Diaz-Jimenez Cinemas,2026-06-23,13:00:00,120,113,18.11
+1247,Ago man ground consider,Brown Inc Cinemas,2026-06-23,21:30:00,120,108,24.73
+1248,What no,Hill and Sons Cinemas,2026-09-03,19:00:00,200,196,10.2
+1249,Coach news,"Kennedy, Cohen and Pennington Cinemas",2026-07-25,10:00:00,80,71,17.14
+1250,Activity,"Black, Collins and Powell Cinemas",2026-07-30,21:30:00,120,116,12.54
+1251,Create east according,Peterson-Beard Cinemas,2026-08-27,21:30:00,180,177,17.07
+1252,Then single,"Castro, Garcia and Daniels Cinemas",2026-07-28,13:00:00,100,89,13.55
+1253,Ten sister resource,"Hatfield, Edwards and Brown Cinemas",2026-08-15,21:30:00,80,80,12.88
+1254,Try think,Smith-Jones Cinemas,2026-08-03,16:00:00,80,72,24.43
+1255,Modern talk financial,Ramirez Inc Cinemas,2026-08-05,13:00:00,180,179,18.47
+1256,Body whom,"Mcdonald, Lee and Rodriguez Cinemas",2026-08-17,13:00:00,250,234,15.75
+1257,Human into,Gonzalez-Mccarthy Cinemas,2026-07-14,21:30:00,150,138,9.83
+1258,Hear rise,Hill and Sons Cinemas,2026-07-04,16:00:00,100,87,10.22
+1259,Suggest job,"Carrillo, Henderson and Matthews Cinemas",2026-08-10,13:00:00,80,61,24.14
+1260,Might short player,Casey-Romero Cinemas,2026-07-31,10:00:00,300,288,9.39
+1261,College economy,Atkinson-Nelson Cinemas,2026-07-19,13:00:00,100,88,19.03
+1262,Production open,Johnson Inc Cinemas,2026-06-26,19:00:00,150,127,9.54
+1263,Down institution,Vaughn Inc Cinemas,2026-08-15,21:30:00,250,243,14.11
+1264,Themselves machine,Mendoza Group Cinemas,2026-07-08,19:00:00,300,296,19.36
+1265,Trouble personal,Marshall Group Cinemas,2026-09-04,19:00:00,300,281,17.54
+1266,Indicate big,Mclean Group Cinemas,2026-07-02,19:00:00,300,291,18.93
+1267,Hit adult example,Whitney-Flores Cinemas,2026-08-31,21:30:00,180,159,12.39
+1268,Prove environmental,Singleton-King Cinemas,2026-08-17,21:30:00,200,192,12.59
+1269,Network work,"Cox, Chavez and Davis Cinemas",2026-07-21,21:30:00,80,71,22.94
+1270,Road gun,Whitehead-Hernandez Cinemas,2026-08-01,16:00:00,80,67,17.51
+1271,Allow tree miss,"Russell, Meyer and Smith Cinemas",2026-06-24,21:30:00,100,91,20.67
+1272,Industry language,Schneider LLC Cinemas,2026-08-17,13:00:00,120,120,14.52
+1273,Mouth enough,Knight Group Cinemas,2026-07-11,21:30:00,200,185,24.51
+1274,Service know,Berger Ltd Cinemas,2026-08-07,10:00:00,200,177,17.3
+1275,Movement car as responsibility,Bradley-Novak Cinemas,2026-07-18,13:00:00,100,79,12.23
+1276,Share let,Carroll-Morris Cinemas,2026-07-05,13:00:00,100,83,15.56
+1277,Interesting tax,Price-Lee Cinemas,2026-08-11,16:00:00,180,179,22.69
+1278,Before cup word,Flores Ltd Cinemas,2026-07-29,21:30:00,180,175,12.67
+1279,Exist upon,"Martinez, Rose and Jackson Cinemas",2026-09-04,21:30:00,250,238,24.64
+1280,Drop,Lee PLC Cinemas,2026-07-01,16:00:00,300,279,20.84
+1281,Throw discover recognize,Medina LLC Cinemas,2026-07-17,13:00:00,150,125,16.92
+1282,Institution anyone significant,Gallegos-Turner Cinemas,2026-06-25,21:30:00,80,69,16.24
+1283,History admit yard example,"Kennedy, Mueller and Aguirre Cinemas",2026-09-06,21:30:00,300,298,11.98
+1284,Wrong social force,Weaver-Thompson Cinemas,2026-08-09,21:30:00,80,60,23.09
+1285,Laugh not since,"Nguyen, Marsh and Beck Cinemas",2026-07-19,13:00:00,120,115,8.84
+1286,Wait positive,Atkinson-Nelson Cinemas,2026-08-14,10:00:00,300,294,24.87
+1287,Rock around,"Arnold, Carroll and Gutierrez Cinemas",2026-07-23,10:00:00,100,89,9.24
+1288,Agreement outside night,Spears Ltd Cinemas,2026-08-28,13:00:00,120,101,8.88
+1289,Him believe fire,Wilson Inc Cinemas,2026-08-25,21:30:00,250,242,23.87
+1290,Party,Roth Ltd Cinemas,2026-06-30,13:00:00,200,194,24.22
+1291,Although play position,Martinez LLC Cinemas,2026-07-28,16:00:00,100,80,13.27
+1292,Next include manager,"Alexander, Cobb and Garcia Cinemas",2026-07-21,19:00:00,100,81,24.95
+1293,Drop,Moran PLC Cinemas,2026-08-13,10:00:00,250,240,11.95
+1294,Might them daughter,"Howard, Townsend and Hayes Cinemas",2026-07-20,10:00:00,200,195,18.36
+1295,White coach fine,"Diaz, Hill and Becker Cinemas",2026-08-01,21:30:00,180,175,18.83
+1296,Treatment senior,Valdez-Jacobs Cinemas,2026-08-26,19:00:00,120,110,16.86
+1297,Cut group few,Patterson-Lawrence Cinemas,2026-08-17,16:00:00,100,82,18.43
+1298,Might then increase dark,"Smith, Beard and Taylor Cinemas",2026-07-11,21:30:00,180,171,12.16
+1299,Go face very language,Castro and Sons Cinemas,2026-08-14,21:30:00,150,130,15.16
+1300,Challenge easy,Brown LLC Cinemas,2026-08-16,10:00:00,180,160,13.55
+1301,Hear chance,"Perry, May and Liu Cinemas",2026-06-29,16:00:00,120,105,23.0
+1302,Camera be around,"Duarte, Smith and Caldwell Cinemas",2026-08-03,10:00:00,250,241,13.77
+1303,During provide another,Henderson LLC Cinemas,2026-08-10,21:30:00,300,297,11.28
+1304,By increase few,Castillo Group Cinemas,2026-07-29,13:00:00,200,194,18.3
+1305,Leader,Hernandez Ltd Cinemas,2026-08-25,16:00:00,200,189,13.8
+1306,Man any bill,Schneider LLC Cinemas,2026-09-06,10:00:00,250,248,9.27
+1307,Ball great,"Thomas, White and Jensen Cinemas",2026-08-13,16:00:00,100,71,12.75
+1308,Staff,"Boyd, Ellis and Maynard Cinemas",2026-07-31,16:00:00,100,87,22.88
+1309,Strategy pressure other,Weber-Richards Cinemas,2026-06-27,16:00:00,150,138,12.55
+1310,Significant free,"Marshall, Murray and Miller Cinemas",2026-08-18,10:00:00,200,184,23.21
+1311,A,"Alvarez, Pierce and Baker Cinemas",2026-07-19,21:30:00,100,94,18.42
+1312,Hair,"Howard, Townsend and Hayes Cinemas",2026-09-06,10:00:00,120,112,18.92
+1313,Maintain care,White LLC Cinemas,2026-08-15,13:00:00,120,102,21.8
+1314,Help expect,Grant-Anderson Cinemas,2026-08-05,16:00:00,100,93,10.01
+1315,Learn,"Weiss, Cole and Preston Cinemas",2026-06-28,13:00:00,100,88,8.84
+1316,Late medical moment,Moran PLC Cinemas,2026-07-17,16:00:00,80,74,14.8
+1317,Drop,Green-Ewing Cinemas,2026-08-23,10:00:00,180,167,13.96
+1318,Think,Santos-Roach Cinemas,2026-06-29,16:00:00,150,139,18.51
+1319,Option provide fly,Newman-Brown Cinemas,2026-08-24,13:00:00,180,174,16.52
+1320,Service hope value,Solis-Edwards Cinemas,2026-08-28,19:00:00,120,105,18.16
+1321,Report do question,White Inc Cinemas,2026-06-30,10:00:00,150,135,14.39
+1322,Cover others,Hill Inc Cinemas,2026-07-19,10:00:00,150,126,17.98
+1323,Early,Watson-Chan Cinemas,2026-08-25,21:30:00,200,191,13.84
+1324,Join threat most,"Bray, Nicholson and Walker Cinemas",2026-07-07,19:00:00,80,74,21.76
+1325,Sit local,"Sanders, Leblanc and Maldonado Cinemas",2026-08-17,19:00:00,80,75,13.27
+1326,Mrs mouth different,Medina Group Cinemas,2026-07-08,19:00:00,100,88,22.15
+1327,Rise kitchen,"Caldwell, Stevenson and Joseph Cinemas",2026-08-03,10:00:00,300,287,17.68
+1328,Treatment ahead,"Murphy, Lee and Garcia Cinemas",2026-07-07,13:00:00,80,80,18.01
+1329,Class laugh year,"Murphy, Lee and Garcia Cinemas",2026-08-26,21:30:00,100,97,24.66
+1330,Side also model do,"Travis, Larson and Dodson Cinemas",2026-08-26,10:00:00,180,180,23.64
+1331,Federal tend,Rodriguez-Garcia Cinemas,2026-08-13,13:00:00,100,95,16.04
+1332,Along think race,Watson-Chan Cinemas,2026-07-20,16:00:00,100,94,9.2
+1333,Type leg including,Warren Ltd Cinemas,2026-07-24,19:00:00,200,188,21.55
+1334,Ever tonight interesting,"Weiss, Cole and Preston Cinemas",2026-07-21,10:00:00,300,286,9.55
+1335,Compare,Mullins-Johnston Cinemas,2026-08-07,13:00:00,80,70,21.91
+1336,Air parent,"Russell, Mercer and Patterson Cinemas",2026-08-12,10:00:00,250,242,9.38
+1337,Pay across stage,"Wallace, Perkins and Johnson Cinemas",2026-08-19,16:00:00,180,175,20.6
+1338,About book partner,"Levy, Franco and Hoffman Cinemas",2026-06-26,21:30:00,180,172,13.48
+1339,National notice,Gonzalez-Mccarthy Cinemas,2026-08-22,10:00:00,120,116,16.47
+1340,Blue require lot,Clark Inc Cinemas,2026-08-07,10:00:00,180,173,8.75
+1341,Total,"Bray, Nicholson and Walker Cinemas",2026-08-01,21:30:00,200,191,12.13
+1342,Write oil on,Scott-Miller Cinemas,2026-07-11,16:00:00,80,71,8.0
+1343,Through itself,Sims-Padilla Cinemas,2026-07-07,16:00:00,80,71,22.92
+1344,Take special rate ahead,Harrison-Leach Cinemas,2026-07-18,19:00:00,150,140,20.24
+1345,Price production,"Phillips, Walters and Evans Cinemas",2026-08-11,16:00:00,200,197,24.37
+1346,Energy find side,"Whitney, Mayo and Clark Cinemas",2026-09-06,13:00:00,200,193,10.69
+1347,Nor occur,Johnson and Sons Cinemas,2026-08-18,16:00:00,80,77,20.27
+1348,Baby dog food,"Stevens, Norris and Smith Cinemas",2026-09-02,16:00:00,300,278,22.8
+1349,Serve successful behavior develop,Fitzgerald-Scott Cinemas,2026-08-27,10:00:00,200,180,19.25
+1350,Along rule,Carney Group Cinemas,2026-07-06,10:00:00,100,77,13.05
+1351,Discussion enjoy,Bell-Jordan Cinemas,2026-08-07,19:00:00,100,86,20.16
+1352,Hard budget,"Chen, Faulkner and Casey Cinemas",2026-06-30,19:00:00,250,239,8.83
+1353,Through,"Medina, Miller and Yates Cinemas",2026-09-04,19:00:00,250,247,17.78
+1354,Far bank sea,Mullins-Johnston Cinemas,2026-08-27,13:00:00,200,196,19.18
+1355,Table mission forward,"Howard, Townsend and Hayes Cinemas",2026-08-21,19:00:00,120,111,19.46
+1356,Can this scientist,"Foster, Smith and Grimes Cinemas",2026-07-31,13:00:00,100,95,23.68
+1357,Feeling campaign land huge,Anderson Group Cinemas,2026-08-07,13:00:00,150,134,17.45
+1358,World candidate,Wood-Watson Cinemas,2026-07-02,16:00:00,80,78,12.58
+1359,Space type eye,Chang Ltd Cinemas,2026-09-04,19:00:00,300,268,19.23
+1360,Major speech where idea,Mccoy-Alvarado Cinemas,2026-08-26,21:30:00,150,139,22.83
+1361,Mrs student,Williams-Mckenzie Cinemas,2026-06-27,16:00:00,180,166,10.61
+1362,Plan low,Whitehead-Hernandez Cinemas,2026-06-23,13:00:00,150,148,17.51
+1363,At trip,Reed Group Cinemas,2026-07-29,10:00:00,180,163,10.79
+1364,Put free,Wilson-Williams Cinemas,2026-08-29,13:00:00,80,75,24.16
+1365,Along particularly sure,Gonzalez LLC Cinemas,2026-07-14,10:00:00,250,239,14.69
+1366,Allow couple,Villarreal and Sons Cinemas,2026-08-05,19:00:00,100,86,10.26
+1367,Career break,"Braun, Mays and Martinez Cinemas",2026-07-06,10:00:00,150,136,9.99
+1368,Though effort policy,"Castro, Irwin and Rodriguez Cinemas",2026-08-25,10:00:00,250,250,16.68
+1369,Tax write,Castillo Group Cinemas,2026-07-02,16:00:00,200,194,14.29
+1370,Quite rise,Clements PLC Cinemas,2026-08-13,19:00:00,200,185,10.47
+1371,Across should,"Young, Shaw and Jenkins Cinemas",2026-07-01,21:30:00,150,136,8.16
+1372,Month matter worker,"Bennett, Williams and Klein Cinemas",2026-08-10,10:00:00,200,183,10.84
+1373,Food leave,"Gaines, Smith and Evans Cinemas",2026-07-14,13:00:00,300,286,17.86
+1374,Already wish,Adams PLC Cinemas,2026-08-26,21:30:00,100,100,12.14
+1375,Establish discover,"Johnson, Lynch and Morton Cinemas",2026-09-06,16:00:00,120,116,10.02
+1376,Budget interview,"Bauer, Frazier and Sellers Cinemas",2026-07-01,13:00:00,100,78,20.1
+1377,Own single,Edwards and Sons Cinemas,2026-07-20,13:00:00,80,71,17.32
+1378,Probably paper,"Doyle, Nelson and Vaughn Cinemas",2026-07-08,19:00:00,120,110,9.49
+1379,Special place big plan,Roth PLC Cinemas,2026-07-17,13:00:00,200,194,9.16
+1380,Meet both at,"Robinson, Jones and Welch Cinemas",2026-07-03,13:00:00,120,109,12.92
+1381,Themselves sing visit enter,Wilson Inc Cinemas,2026-08-18,16:00:00,120,109,19.47
+1382,Recent have,Howe Inc Cinemas,2026-07-03,10:00:00,100,91,18.99
+1383,Where leader its,Sharp Ltd Cinemas,2026-08-06,21:30:00,80,70,19.32
+1384,Firm court majority,Willis LLC Cinemas,2026-06-27,16:00:00,120,115,18.93
+1385,Computer important,"Wright, Mcknight and Stephens Cinemas",2026-08-19,13:00:00,300,300,11.19
+1386,Purpose according we,Richardson Ltd Cinemas,2026-08-28,13:00:00,200,184,14.05
+1387,Name family,Gallegos-Turner Cinemas,2026-07-03,21:30:00,180,179,23.12
+1388,Evidence protect,"Freeman, Hall and Allison Cinemas",2026-08-01,16:00:00,200,175,11.39
+1389,Think find,"Gonzalez, Santos and Gardner Cinemas",2026-09-05,16:00:00,250,239,23.56
+1390,Mind point game,Gibson Ltd Cinemas,2026-08-17,10:00:00,120,91,8.07
+1391,Safe once,"Case, Adams and Olson Cinemas",2026-06-27,19:00:00,80,72,18.15
+1392,Affect else claim,"Smith, Schroeder and Oconnor Cinemas",2026-09-06,16:00:00,120,111,22.44
+1393,Practice,Nichols-Lam Cinemas,2026-08-29,16:00:00,80,53,11.67
+1394,Project use dog,"Haas, Richardson and Lee Cinemas",2026-07-20,16:00:00,150,142,22.35
+1395,Section half,"Cruz, Fowler and Haynes Cinemas",2026-06-26,13:00:00,100,88,24.25
+1396,Leg,"Gonzales, Smith and Davis Cinemas",2026-08-29,16:00:00,180,167,13.2
+1397,Back building,"Thomas, Becker and Mills Cinemas",2026-07-20,10:00:00,100,89,8.1
+1398,Among among,Villarreal and Sons Cinemas,2026-07-28,21:30:00,80,67,11.24
+1399,Agreement every,"Martin, Jordan and Edwards Cinemas",2026-06-27,13:00:00,80,69,15.53
+1400,Choice act generation,Mccarthy-Kelly Cinemas,2026-07-06,21:30:00,300,296,13.84
+1401,Oil,Lynch LLC Cinemas,2026-08-17,10:00:00,180,168,18.57
+1402,Top relationship visit,Bean-Evans Cinemas,2026-08-05,19:00:00,300,290,8.65
+1403,All defense,Williams Ltd Cinemas,2026-08-01,13:00:00,150,141,19.77
+1404,Expect production,Davis Inc Cinemas,2026-08-26,13:00:00,100,82,17.59
+1405,Their per poor,Smith Ltd Cinemas,2026-09-02,10:00:00,180,144,16.98
+1406,Capital consumer own,Hunter Group Cinemas,2026-09-03,19:00:00,150,141,17.31
+1407,Father reason,Owens-Mayer Cinemas,2026-07-18,19:00:00,80,75,14.32
+1408,Own modern oil,Wright Group Cinemas,2026-06-30,19:00:00,150,144,18.68
+1409,Where,"Nichols, Glover and Knox Cinemas",2026-07-23,19:00:00,250,238,21.11
+1410,Administration fish,Jones Inc Cinemas,2026-08-04,13:00:00,250,240,19.89
+1411,Purpose current,Robinson-Gay Cinemas,2026-08-22,21:30:00,180,171,11.49
+1412,Character lay where bill,Mcdonald-Taylor Cinemas,2026-09-03,21:30:00,120,109,23.12
+1413,Either finish system,Newton PLC Cinemas,2026-06-26,10:00:00,80,66,16.21
+1414,Discover relate,"Martin, Cervantes and Stokes Cinemas",2026-07-13,21:30:00,300,284,14.45
+1415,Act indicate conference,"Arnold, Vargas and Ramirez Cinemas",2026-08-30,16:00:00,200,181,16.06
+1416,In wide,Sherman-Munoz Cinemas,2026-08-28,19:00:00,300,296,10.6
+1417,Than bit traditional,"Wolfe, Chavez and Mcbride Cinemas",2026-09-04,21:30:00,100,85,22.75
+1418,Guy fight service,Davis-Phelps Cinemas,2026-06-24,10:00:00,80,72,19.2
+1419,View rich brother,Harrington Group Cinemas,2026-08-11,16:00:00,250,237,8.29
+1420,Safe join,Jimenez Ltd Cinemas,2026-08-27,10:00:00,100,87,11.2
+1421,Or task local,"Taylor, Morales and Fuller Cinemas",2026-07-13,19:00:00,80,74,16.49
+1422,Policy,"Boyd, Ellis and Maynard Cinemas",2026-08-20,21:30:00,80,69,18.13
+1423,Or fall forward institution,"Dorsey, Reyes and Dunn Cinemas",2026-07-30,21:30:00,250,239,11.34
+1424,Natural here short,Jones-Taylor Cinemas,2026-06-25,21:30:00,80,54,24.41
+1425,Difficult pattern,Arellano and Sons Cinemas,2026-07-02,21:30:00,120,111,19.31
+1426,Practice organization which ready,"Warner, Baker and Campbell Cinemas",2026-08-24,21:30:00,80,61,13.25
+1427,Truth over western best,Lynn Group Cinemas,2026-07-18,10:00:00,180,179,14.86
+1428,Start view,Gibson-Gardner Cinemas,2026-07-30,13:00:00,300,291,21.96
+1429,Computer generation although matter,Long Inc Cinemas,2026-08-16,16:00:00,100,99,18.2
+1430,Reveal study bad,"Hernandez, Cuevas and Webb Cinemas",2026-07-01,21:30:00,100,79,11.65
+1431,Both gas food,Allen-Sanchez Cinemas,2026-07-02,16:00:00,250,246,13.39
+1432,Everyone time,Robertson-Hays Cinemas,2026-07-24,16:00:00,100,99,15.11
+1433,Store although cause,Rodriguez Group Cinemas,2026-08-11,16:00:00,100,85,16.56
+1434,But issue everything,Moyer-Ramirez Cinemas,2026-06-27,16:00:00,180,174,13.92
+1435,But star sense,Kim-George Cinemas,2026-07-27,16:00:00,200,200,17.94
+1436,Wear participant president,Robinson-Goodwin Cinemas,2026-06-29,10:00:00,200,185,23.3
+1437,Certain,"Wong, Dawson and Martin Cinemas",2026-08-20,21:30:00,250,245,13.78
+1438,Whom suffer economy,Riley PLC Cinemas,2026-09-02,19:00:00,80,68,8.39
+1439,So,Clarke-Ramirez Cinemas,2026-09-01,21:30:00,150,146,13.26
+1440,Investment job environment,Cervantes PLC Cinemas,2026-07-30,19:00:00,200,179,17.76
+1441,Decide sister general,Knox and Sons Cinemas,2026-09-05,19:00:00,100,86,24.66
+1442,Over charge,White-Jackson Cinemas,2026-07-26,21:30:00,100,94,16.76
+1443,Alone institution education,Rojas Inc Cinemas,2026-08-26,21:30:00,150,138,15.09
+1444,Character minute,Wright Group Cinemas,2026-07-15,10:00:00,150,136,23.04
+1445,Cover defense,Wilson-Williams Cinemas,2026-08-21,13:00:00,180,174,10.48
+1446,When,Colon LLC Cinemas,2026-07-27,19:00:00,300,284,12.92
+1447,Describe apply up,Fleming Ltd Cinemas,2026-08-01,21:30:00,80,72,9.68
+1448,Pm her yes,"Ellis, Ortega and Andrade Cinemas",2026-08-17,19:00:00,300,292,23.32
+1449,Box thing,Martinez and Sons Cinemas,2026-08-04,13:00:00,150,138,10.16
+1450,Tonight provide newspaper,"Jordan, Murphy and Sanchez Cinemas",2026-06-25,16:00:00,200,198,18.2
+1451,Deep theory contain world,Parsons-Allen Cinemas,2026-08-04,16:00:00,80,72,22.45
+1452,Clear far,"Gonzales, Short and Weaver Cinemas",2026-07-07,19:00:00,100,94,15.84
+1453,Carry available,"Davis, Mays and Douglas Cinemas",2026-08-01,21:30:00,180,172,15.23
+1454,Perhaps across specific,"Medina, Miller and Yates Cinemas",2026-08-30,19:00:00,150,133,8.45
+1455,Soldier watch still old,"Greene, Rogers and Haley Cinemas",2026-08-14,10:00:00,120,111,12.29
+1456,Without thank land,Villarreal-Jackson Cinemas,2026-08-24,16:00:00,250,248,23.28
+1457,Against cut establish door,Rodriguez-Miller Cinemas,2026-09-05,13:00:00,100,93,11.69
+1458,Sure voice on,Gibson-Thomas Cinemas,2026-07-25,21:30:00,180,158,17.85
+1459,Way former affect network,"Kennedy, Cohen and Pennington Cinemas",2026-07-26,21:30:00,120,106,8.8
+1460,Suggest,"Guerrero, Watson and Perry Cinemas",2026-07-06,19:00:00,150,139,19.54
+1461,Music oil among population,Lynch LLC Cinemas,2026-07-17,13:00:00,180,160,17.92
+1462,Toward right,Duke-Schultz Cinemas,2026-08-01,19:00:00,80,69,8.88
+1463,Know never,Turner Inc Cinemas,2026-06-28,19:00:00,200,182,20.85
+1464,Himself or great,"Bennett, Williams and Klein Cinemas",2026-08-14,10:00:00,180,166,22.96
+1465,Born dream,"Compton, Owens and Decker Cinemas",2026-06-30,16:00:00,250,225,19.11
+1466,So head north,"Salazar, Miller and Arnold Cinemas",2026-06-26,19:00:00,80,79,20.58
+1467,Bill argue,"Thomas, Becker and Mills Cinemas",2026-06-23,13:00:00,250,250,12.92
+1468,Year free long,Sherman-Munoz Cinemas,2026-07-15,13:00:00,100,96,11.86
+1469,Left song medical,"Phelps, Montoya and Barnett Cinemas",2026-06-29,16:00:00,250,237,15.52
+1470,Help analysis view,Orr-Miranda Cinemas,2026-07-29,21:30:00,250,221,20.08
+1471,Cell phone card,Wright-Davis Cinemas,2026-08-22,13:00:00,100,82,17.36
+1472,Focus listen,"Smith, Yang and Ford Cinemas",2026-07-13,21:30:00,180,165,16.36
+1473,Hundred stage however,"Harper, Thomas and Turner Cinemas",2026-07-30,21:30:00,80,74,11.33
+1474,Cultural over,"Clark, Park and Reed Cinemas",2026-07-19,16:00:00,250,234,10.68
+1475,Improve fish fact,Knight Group Cinemas,2026-07-28,19:00:00,100,98,15.05
+1476,Six writer great able,"Stevens, Norris and Smith Cinemas",2026-08-29,19:00:00,200,195,23.64
+1477,Prevent,Anderson-Rios Cinemas,2026-07-29,16:00:00,300,300,17.64
+1478,Apply because tell,Wyatt Ltd Cinemas,2026-06-24,10:00:00,180,171,23.72
+1479,She live,"Bailey, Armstrong and Campbell Cinemas",2026-07-05,10:00:00,100,90,8.46
+1480,Fact watch safe father,"James, Atkins and Alexander Cinemas",2026-08-25,10:00:00,250,224,16.8
+1481,Culture Democrat,"Larson, Daniels and James Cinemas",2026-07-28,10:00:00,100,87,21.77
+1482,Tell alone floor,Nolan Group Cinemas,2026-08-08,10:00:00,250,239,9.52
+1483,Personal nearly else,Martinez and Sons Cinemas,2026-06-27,21:30:00,100,89,22.19
+1484,Benefit so,Shah PLC Cinemas,2026-08-12,13:00:00,200,193,24.3
+1485,Summer machine,Davis-Williams Cinemas,2026-07-08,19:00:00,180,175,20.13
+1486,Child analysis,Page-Jacobs Cinemas,2026-08-23,10:00:00,150,145,16.86
+1487,Actually meet,"Hatfield, Edwards and Brown Cinemas",2026-08-27,21:30:00,300,286,14.49
+1488,Wonder,Krueger PLC Cinemas,2026-06-26,21:30:00,180,178,12.32
+1489,Letter tough site,Williams-Harmon Cinemas,2026-08-31,10:00:00,120,108,12.4
+1490,Drop tend current,Nelson and Sons Cinemas,2026-09-04,10:00:00,100,80,10.3
+1491,To much however create,Howe Inc Cinemas,2026-07-10,19:00:00,150,132,16.65
+1492,Ball parent,"Arnold, Thomas and Moss Cinemas",2026-06-26,10:00:00,150,141,23.68
+1493,Move fill another,"Li, Jensen and Vazquez Cinemas",2026-07-30,16:00:00,150,131,13.28
+1494,Particular we,Johnson-Nelson Cinemas,2026-08-24,19:00:00,120,109,17.72
+1495,Note,"Meyers, Farrell and Miller Cinemas",2026-06-24,13:00:00,200,192,8.9
+1496,Information war letter,"Carroll, Choi and Collier Cinemas",2026-09-04,19:00:00,180,155,12.3
+1497,House amount present,"Miller, Hansen and Salas Cinemas",2026-06-27,13:00:00,120,107,17.01
+1498,Serious,Miller-Young Cinemas,2026-08-07,19:00:00,150,136,11.91
+1499,Relate affect,Carter-Johnson Cinemas,2026-07-08,19:00:00,200,190,11.81
+1500,On collection,"Clark, Park and Reed Cinemas",2026-08-03,10:00:00,120,108,24.67
+1501,Else traditional,"Stevens, Norris and Smith Cinemas",2026-08-28,21:30:00,250,239,21.13
+1502,Here forget,"Coleman, Vega and Richmond Cinemas",2026-07-06,13:00:00,250,246,21.29
+1503,Speak pay and,Mccarthy-Hobbs Cinemas,2026-07-19,13:00:00,300,289,17.93
+1504,Program difficult represent,"Williams, Mccoy and Cook Cinemas",2026-07-18,13:00:00,180,166,23.52
+1505,Treatment entire purpose,Ayala-Collins Cinemas,2026-06-28,10:00:00,200,194,19.12
+1506,Manage age foreign,Herman-Martin Cinemas,2026-06-25,21:30:00,300,292,24.88
+1507,Attorney face,Smith Ltd Cinemas,2026-07-05,10:00:00,180,170,13.76
+1508,Wonder peace ability,Villa Group Cinemas,2026-07-18,19:00:00,200,184,23.04
+1509,Join create unit,Bradley-Novak Cinemas,2026-07-01,10:00:00,80,54,12.48
+1510,Music future treatment,Jackson-Campbell Cinemas,2026-07-09,10:00:00,120,115,20.06
+1511,Movie build green,"Chapman, Ball and Patterson Cinemas",2026-08-30,16:00:00,250,232,12.62
+1512,Inside government general,"Gonzalez, Santos and Gardner Cinemas",2026-08-16,16:00:00,250,238,17.34
+1513,Every impact,"King, Taylor and Middleton Cinemas",2026-07-17,16:00:00,300,294,10.13
+1514,Avoid loss,Harris-Wright Cinemas,2026-07-11,16:00:00,180,170,10.84
+1515,Pretty performance woman,Smith-Ramirez Cinemas,2026-07-05,19:00:00,200,191,23.07
+1516,Hotel,Smith Ltd Cinemas,2026-08-19,10:00:00,150,135,18.47
+1517,Cultural mind,"Miranda, Wheeler and Avila Cinemas",2026-08-13,10:00:00,180,180,18.94
+1518,Dark drive,"Newman, Carter and Brown Cinemas",2026-08-10,21:30:00,100,84,14.93
+1519,Company policy law,Johnson and Sons Cinemas,2026-08-16,10:00:00,300,300,13.03
+1520,Through unit,Griffin Ltd Cinemas,2026-09-01,21:30:00,200,184,14.9
+1521,Student notice,Marshall Group Cinemas,2026-07-03,16:00:00,100,87,9.32
+1522,Century he hair,Allen-Sanchez Cinemas,2026-07-21,19:00:00,80,73,23.66
+1523,Energy guy,Cervantes PLC Cinemas,2026-07-09,13:00:00,200,187,8.23
+1524,Land hotel along,"Meyers, Farrell and Miller Cinemas",2026-08-19,16:00:00,180,177,12.26
+1525,Involve tax name,Patterson-Lawrence Cinemas,2026-08-25,19:00:00,120,98,18.59
+1526,Some price how,Wang-Jackson Cinemas,2026-07-09,16:00:00,180,169,14.96
+1527,School pass at,"Caldwell, Stevenson and Joseph Cinemas",2026-08-22,10:00:00,120,112,24.85
+1528,Stop herself think,Grant-Diaz Cinemas,2026-09-01,21:30:00,300,284,22.28
+1529,Stock,Carroll-Snyder Cinemas,2026-07-22,10:00:00,100,89,18.88
+1530,Space wear,"Chen, Faulkner and Casey Cinemas",2026-07-04,16:00:00,80,76,18.57
+1531,Cultural last action,"Morris, Chavez and Ayala Cinemas",2026-07-17,13:00:00,100,95,15.04
+1532,During drive,Barron-Brown Cinemas,2026-07-16,13:00:00,80,76,11.74
+1533,Interesting news,Martinez-Allen Cinemas,2026-08-03,16:00:00,150,144,20.31
+1534,Despite audience,Shaw-Barnes Cinemas,2026-08-10,16:00:00,100,92,15.71
+1535,Simple throughout,Sanders PLC Cinemas,2026-08-15,19:00:00,200,185,21.35
+1536,North trade,"Calhoun, Wilson and Oneal Cinemas",2026-07-31,10:00:00,100,88,23.95
+1537,Modern difficult open,Galloway-Jacobs Cinemas,2026-08-21,21:30:00,180,173,12.35
+1538,Oil create,"Taylor, Williams and Hall Cinemas",2026-08-03,16:00:00,100,93,18.74
+1539,Forward while,Ibarra-Jackson Cinemas,2026-07-21,13:00:00,120,112,24.3
+1540,Measure bill whatever,"Taylor, Williams and Hall Cinemas",2026-08-21,16:00:00,120,111,10.65
+1541,Analysis live daughter,Fuller Ltd Cinemas,2026-07-05,13:00:00,80,80,12.44
+1542,Hold section painting,Evans-Chapman Cinemas,2026-07-02,10:00:00,250,231,20.55
+1543,Project real out his,Barnett PLC Cinemas,2026-08-26,19:00:00,120,105,13.23
+1544,Enjoy former development,Vargas-Jensen Cinemas,2026-09-03,10:00:00,250,246,23.76
+1545,Without think,Smith-Wilson Cinemas,2026-07-20,16:00:00,250,234,21.92
+1546,Contain computer must,Mills and Sons Cinemas,2026-07-16,10:00:00,150,132,15.78
+1547,Trial too,Robertson-Hays Cinemas,2026-08-17,21:30:00,180,166,23.15
+1548,Huge school trip,"Jordan, Swanson and Franklin Cinemas",2026-07-02,21:30:00,120,94,8.61
+1549,Share,Moore-Bright Cinemas,2026-08-21,10:00:00,300,290,19.07
+1550,Skin office oil,Smith Group Cinemas,2026-08-12,10:00:00,300,282,23.16
+1551,Begin member interview,"Wallace, Perkins and Johnson Cinemas",2026-07-30,16:00:00,150,133,14.67
+1552,Series thus,Smith Ltd Cinemas,2026-08-05,19:00:00,300,285,22.83
+1553,Management policy pay,Ochoa-Adams Cinemas,2026-08-14,16:00:00,200,198,22.75
+1554,Throw performance,Marshall Group Cinemas,2026-06-23,16:00:00,120,120,17.53
+1555,School go,Hall Ltd Cinemas,2026-07-09,13:00:00,250,243,12.74
+1556,Question notice require,Pena-Bass Cinemas,2026-08-05,13:00:00,200,195,22.98
+1557,Free sign,Wheeler PLC Cinemas,2026-08-07,10:00:00,120,102,12.61
+1558,Wrong fear,"Campbell, Long and Silva Cinemas",2026-08-01,19:00:00,180,176,19.19
+1559,Home reflect player,Butler and Sons Cinemas,2026-08-26,21:30:00,250,250,20.9
+1560,Wife cost language,"Greene, Rogers and Haley Cinemas",2026-07-27,13:00:00,120,104,15.27
+1561,While everybody woman,"Webb, Thompson and Moore Cinemas",2026-09-06,19:00:00,80,78,23.25
+1562,Question two someone,"Rich, Brown and Bruce Cinemas",2026-08-14,16:00:00,150,150,21.59
+1563,Of safe,"Henderson, Alexander and Galvan Cinemas",2026-07-15,10:00:00,250,246,8.68
+1564,High trial if,"Good, Brewer and Fisher Cinemas",2026-07-28,21:30:00,300,295,14.92
+1565,Site yeah,"Baker, May and Hughes Cinemas",2026-07-28,19:00:00,250,225,20.3
+1566,Herself father about,Daniels-Phillips Cinemas,2026-07-09,13:00:00,180,167,13.17
+1567,Safe nice,Martin and Sons Cinemas,2026-07-08,21:30:00,120,107,17.14
+1568,Enough best,"Marshall, Murray and Miller Cinemas",2026-08-14,10:00:00,200,192,23.01
+1569,Lot stage education,"Mooney, Conley and Fox Cinemas",2026-06-25,16:00:00,80,71,17.8
+1570,Window we,Hernandez Ltd Cinemas,2026-08-23,13:00:00,200,190,24.0
+1571,Will culture,"Bell, Campbell and Ryan Cinemas",2026-06-24,13:00:00,120,115,18.86
+1572,Cup believe society today,Meyers-Owens Cinemas,2026-07-02,13:00:00,300,294,24.0
+1573,Pattern structure,Robinson Inc Cinemas,2026-07-24,13:00:00,200,171,14.48
+1574,Play choose worry,"Hatfield, Edwards and Brown Cinemas",2026-07-07,21:30:00,300,296,11.53
+1575,Character personal she list,Weaver-Thompson Cinemas,2026-08-27,13:00:00,200,189,20.73
+1576,Bed,Mccarthy-Hobbs Cinemas,2026-09-04,19:00:00,80,70,15.47
+1577,Single travel,"Jones, Abbott and Pope Cinemas",2026-07-31,21:30:00,180,180,9.94
+1578,Cost agent,Ward-Blake Cinemas,2026-07-13,16:00:00,150,139,14.94
+1579,Into after,Nguyen-Jenkins Cinemas,2026-08-25,19:00:00,80,69,12.7
+1580,Energy professor,Gibbs Group Cinemas,2026-07-18,16:00:00,200,187,11.38
+1581,Next coach front expect,Wood-Williams Cinemas,2026-08-23,10:00:00,200,180,19.0
+1582,Plan may,English-Dominguez Cinemas,2026-07-10,19:00:00,120,119,21.29
+1583,Him million view,Martinez and Sons Cinemas,2026-07-27,21:30:00,100,99,17.99
+1584,Rock,Marshall and Sons Cinemas,2026-07-09,10:00:00,80,71,20.11
+1585,Think national,Cook PLC Cinemas,2026-08-19,13:00:00,250,238,20.62
+1586,Others brother visit employee,"Morales, Miller and Harrell Cinemas",2026-07-05,10:00:00,200,173,19.53
+1587,Argue call,White Inc Cinemas,2026-08-21,19:00:00,180,165,24.59
+1588,Work,"Schwartz, Estrada and Hernandez Cinemas",2026-08-28,13:00:00,150,143,11.9
+1589,Difficult west,"Ruiz, Martin and Jones Cinemas",2026-08-01,19:00:00,300,285,19.56
+1590,Opportunity,Greene-Shelton Cinemas,2026-06-25,19:00:00,80,74,11.61
+1591,Place,"Freeman, Cox and Mitchell Cinemas",2026-08-14,13:00:00,180,163,10.65
+1592,Program loss network,Taylor-Moore Cinemas,2026-07-31,10:00:00,180,174,18.33
+1593,Offer his discover,"Warner, Baker and Campbell Cinemas",2026-08-13,16:00:00,150,140,11.91
+1594,Course vote team,"Nichols, Glover and Knox Cinemas",2026-09-01,19:00:00,100,88,24.8
+1595,Keep understand yet fast,Roberts Ltd Cinemas,2026-08-10,16:00:00,100,95,17.62
+1596,Race,Davis-Abbott Cinemas,2026-09-06,19:00:00,300,289,19.03
+1597,Goal hard north,Jackson Ltd Cinemas,2026-08-14,19:00:00,150,136,12.82
+1598,Six admit enough,Hunter-Estrada Cinemas,2026-08-02,21:30:00,300,295,8.83
+1599,Seven notice,"Herrera, Jensen and Ramirez Cinemas",2026-08-02,19:00:00,150,130,9.97
+1600,Wall ball,"Wilson, Trujillo and Moody Cinemas",2026-08-16,19:00:00,180,174,20.37
+1601,Life once same,"Hamilton, Green and Edwards Cinemas",2026-08-27,13:00:00,300,291,21.95
+1602,Time enjoy drug,Stafford Ltd Cinemas,2026-08-30,21:30:00,250,244,8.44
+1603,Return trouble conference,Miller Inc Cinemas,2026-06-23,13:00:00,150,123,8.21
+1604,Sense gas,"Cain, Contreras and Jackson Cinemas",2026-08-11,10:00:00,150,136,16.97
+1605,Somebody both argue difference,Lyons PLC Cinemas,2026-07-16,16:00:00,150,148,15.51
+1606,Democratic conference,Hernandez Inc Cinemas,2026-07-30,19:00:00,300,282,13.43
+1607,Play pull still,White-Jackson Cinemas,2026-08-24,19:00:00,200,200,20.88
+1608,Painting foot card,Lynch LLC Cinemas,2026-07-17,13:00:00,180,178,13.86
+1609,Room factor,Hoffman PLC Cinemas,2026-06-25,19:00:00,250,240,9.0
+1610,Some add,"Garza, Williams and Walker Cinemas",2026-08-14,10:00:00,120,107,22.69
+1611,Two,Hampton-Tucker Cinemas,2026-09-02,13:00:00,250,242,12.84
+1612,Same,"Diaz, Hill and Becker Cinemas",2026-08-06,21:30:00,300,280,13.76
+1613,According option,"Frazier, Ramirez and Brown Cinemas",2026-07-12,13:00:00,180,175,9.85
+1614,Arrive morning guy,Diaz and Sons Cinemas,2026-07-28,21:30:00,80,70,10.66
+1615,Live week,Trevino Group Cinemas,2026-08-30,13:00:00,250,238,11.59
+1616,Identify all agreement stop,Haynes-Jackson Cinemas,2026-07-02,13:00:00,300,284,8.19
+1617,Deep summer wife,Medina LLC Cinemas,2026-08-31,10:00:00,200,192,24.28
+1618,Maintain while,"Howard, Gomez and Owens Cinemas",2026-09-04,16:00:00,250,237,21.96
+1619,Current,"Ortiz, Reid and Wilkinson Cinemas",2026-09-05,16:00:00,150,150,19.81
+1620,Example evening campaign,"Carpenter, Morrow and Smith Cinemas",2026-07-30,13:00:00,80,52,10.12
+1621,Item already,Rodriguez-Hernandez Cinemas,2026-08-07,10:00:00,180,173,8.34
+1622,Different account might,Herrera-Coleman Cinemas,2026-08-15,19:00:00,250,231,12.39
+1623,Firm week start,White-Jackson Cinemas,2026-07-27,16:00:00,120,98,21.41
+1624,Production weight Mrs especially,Kim-Romero Cinemas,2026-07-17,10:00:00,120,114,24.61
+1625,Father expect cup,Payne-Walton Cinemas,2026-07-09,10:00:00,300,277,12.85
+1626,Present develop day,"Mckee, Gardner and Davenport Cinemas",2026-06-28,13:00:00,300,290,18.77
+1627,Mouth himself,"Evans, David and Hendrix Cinemas",2026-07-28,10:00:00,120,99,11.23
+1628,Identify happy push,Flores Ltd Cinemas,2026-07-17,16:00:00,200,190,15.67
+1629,Also building,Mcdonald-Taylor Cinemas,2026-09-03,13:00:00,250,243,11.05
+1630,Where itself exactly,Lee PLC Cinemas,2026-07-07,21:30:00,80,55,17.03
+1631,Recent dream raise,Hall Ltd Cinemas,2026-06-24,21:30:00,180,162,14.46
+1632,Before spring,Conway-Andrews Cinemas,2026-08-19,21:30:00,200,189,19.26
+1633,Program yourself,Stevenson Group Cinemas,2026-08-18,21:30:00,120,102,21.02
+1634,Walk deal,Guzman-Montoya Cinemas,2026-08-13,13:00:00,250,241,10.16
+1635,Pressure half debate,"French, Phelps and Berry Cinemas",2026-07-09,16:00:00,150,128,14.79
+1636,Recent middle music,"Murphy, Lee and Garcia Cinemas",2026-08-24,21:30:00,100,89,13.73
+1637,Truth explain,"Munoz, Krueger and Solomon Cinemas",2026-07-02,19:00:00,200,180,20.87
+1638,Community say,Avila LLC Cinemas,2026-07-08,13:00:00,120,115,10.91
+1639,Hand always,Holloway and Sons Cinemas,2026-07-23,10:00:00,80,75,19.05
+1640,Treatment forward name,Lee-Fox Cinemas,2026-09-05,16:00:00,180,170,15.01
+1641,Boy word south,Christian Ltd Cinemas,2026-07-09,13:00:00,100,95,24.74
+1642,Read shoulder,"Henson, Jones and Sanders Cinemas",2026-08-14,21:30:00,250,246,8.36
+1643,Watch energy lose,Shaffer-Yates Cinemas,2026-08-26,16:00:00,180,168,14.05
+1644,Indeed,Henry-Joyce Cinemas,2026-08-04,13:00:00,200,197,12.22
+1645,Shoulder paper,Russell Inc Cinemas,2026-08-31,13:00:00,250,235,16.2
+1646,Art food,Morris-Merritt Cinemas,2026-07-26,10:00:00,150,130,18.55
+1647,Despite suddenly draw already,Mclaughlin Inc Cinemas,2026-07-06,10:00:00,120,114,19.67
+1648,Pass go,James Ltd Cinemas,2026-06-30,19:00:00,150,139,16.25
+1649,Year occur,"Henson, Jones and Sanders Cinemas",2026-09-02,13:00:00,80,71,17.52
+1650,Drive choose,Stevenson Group Cinemas,2026-08-21,19:00:00,80,80,11.16
+1651,Campaign wife,"Herring, Wilson and Mendoza Cinemas",2026-07-14,13:00:00,80,70,18.21
+1652,Article available,Peterson-Mullins Cinemas,2026-09-06,21:30:00,100,72,11.84
+1653,Bank job,Benson Inc Cinemas,2026-08-01,19:00:00,250,244,14.83
+1654,Foreign,"Nguyen, Marsh and Beck Cinemas",2026-08-04,13:00:00,300,284,9.72
+1655,Yeah exist,Williams-Harmon Cinemas,2026-07-24,10:00:00,300,293,19.97
+1656,Conference act capital,Ford-Olsen Cinemas,2026-07-27,19:00:00,120,102,13.8
+1657,Town direction,"Walton, Anderson and Cook Cinemas",2026-08-31,13:00:00,250,243,20.03
+1658,Laugh across,Anderson-Silva Cinemas,2026-07-09,19:00:00,150,128,23.7
+1659,Road return force,Sharp Ltd Cinemas,2026-08-08,21:30:00,150,144,22.88
+1660,Really worker drop,"Jacobs, Calhoun and Wyatt Cinemas",2026-08-02,19:00:00,150,146,20.69
+1661,Wrong doctor report,"Turner, Long and Hendricks Cinemas",2026-08-03,16:00:00,300,300,12.31
+1662,Sell apply,Green-Walters Cinemas,2026-06-25,16:00:00,250,232,20.41
+1663,Give nature turn,"Jordan, Swanson and Franklin Cinemas",2026-06-23,19:00:00,150,150,24.41
+1664,Way form run,"Warner, Baker and Campbell Cinemas",2026-08-17,10:00:00,250,247,11.25
+1665,Game church,"Sanchez, Terry and Turner Cinemas",2026-07-14,21:30:00,200,194,24.89
+1666,Deal me each,Mccarthy-Hobbs Cinemas,2026-06-24,16:00:00,150,142,14.6
+1667,Good stay catch,Nguyen-Jenkins Cinemas,2026-06-27,10:00:00,200,185,19.79
+1668,Perhaps crime,Gibbs Group Cinemas,2026-08-18,10:00:00,150,149,15.18
+1669,Decade alone,Horne Inc Cinemas,2026-06-26,21:30:00,250,236,23.64
+1670,Artist stop,Bird-Trujillo Cinemas,2026-06-25,10:00:00,180,167,15.64
+1671,Camera rise consider,Casey-Romero Cinemas,2026-08-29,21:30:00,80,70,9.86
+1672,Career just,"Ray, Cunningham and Levine Cinemas",2026-07-24,19:00:00,100,77,18.49
+1673,Much opportunity computer,"Coleman, Vega and Richmond Cinemas",2026-07-01,16:00:00,120,114,23.72
+1674,Can land few case,Dominguez Ltd Cinemas,2026-06-27,19:00:00,100,87,11.59
+1675,Clear order expert,Gibbs Group Cinemas,2026-08-31,13:00:00,120,109,12.53
+1676,May military most,Hernandez Ltd Cinemas,2026-09-05,16:00:00,200,177,22.82
+1677,Daughter third laugh,"Williams, Newman and Jones Cinemas",2026-08-30,21:30:00,180,165,18.89
+1678,Image number assume,Gonzalez-Mccarthy Cinemas,2026-07-19,19:00:00,150,138,8.6
+1679,Visit growth,"Williams, Newman and Jones Cinemas",2026-08-21,10:00:00,150,135,13.17
+1680,Common half,Ward-Blake Cinemas,2026-08-11,21:30:00,150,142,14.23
+1681,Not practice,Joseph Inc Cinemas,2026-07-21,19:00:00,250,230,18.67
+1682,Against discuss give,"Richardson, Stephens and Barnes Cinemas",2026-06-30,10:00:00,300,267,12.84
+1683,Call pick,Holden LLC Cinemas,2026-07-02,10:00:00,120,115,15.75
+1684,Level speak,"Underwood, Bartlett and Russell Cinemas",2026-08-22,21:30:00,80,77,12.69
+1685,Indicate however,Moore Group Cinemas,2026-07-06,19:00:00,300,280,14.6
+1686,Course matter network,Costa-Johnston Cinemas,2026-08-07,21:30:00,150,145,17.61
+1687,Million travel,"Evans, David and Hendrix Cinemas",2026-07-14,21:30:00,80,70,10.73
+1688,Notice throughout need,Fernandez Inc Cinemas,2026-07-08,10:00:00,80,57,22.7
+1689,Provide right section,"Weiss, Cole and Preston Cinemas",2026-08-26,10:00:00,250,216,12.05
+1690,Fund weight,"Compton, Owens and Decker Cinemas",2026-08-24,13:00:00,300,276,8.39
+1691,Remain upon former,"Jacobs, Calhoun and Wyatt Cinemas",2026-07-17,13:00:00,120,105,23.81
+1692,Forward become,Roberts-Mccarty Cinemas,2026-07-06,21:30:00,120,107,10.84
+1693,American something,"Freeman, Hall and Allison Cinemas",2026-07-18,21:30:00,200,174,23.31
+1694,Fall letter,Gibson-Gardner Cinemas,2026-08-07,10:00:00,250,230,23.64
+1695,Decision,Johnson-Alvarez Cinemas,2026-07-04,16:00:00,200,194,9.33
+1696,Edge attack,"Blevins, Delgado and Bennett Cinemas",2026-07-15,10:00:00,120,114,14.21
+1697,Sea east admit too,"Lopez, Gomez and Garcia Cinemas",2026-08-07,13:00:00,180,155,23.31
+1698,Good movement how return,Russell Inc Cinemas,2026-07-22,16:00:00,200,184,24.85
+1699,Fall anyone along,Anderson Inc Cinemas,2026-08-29,19:00:00,80,73,15.64
+1700,Song to foreign,Buchanan LLC Cinemas,2026-08-10,19:00:00,250,243,12.91
+1701,Final team article fish,Lynn Group Cinemas,2026-06-25,19:00:00,120,120,16.81
+1702,Final scene,Garrett-Stout Cinemas,2026-08-28,21:30:00,300,299,21.92
+1703,Our fill resource,Hampton-Tucker Cinemas,2026-08-08,19:00:00,200,200,13.16
+1704,Contain mission career,"Miller, Hansen and Salas Cinemas",2026-08-31,19:00:00,80,45,21.24
+1705,Power,"Snyder, Walker and Harris Cinemas",2026-09-04,19:00:00,150,143,9.9
+1706,Do assume,Pena-Bass Cinemas,2026-06-30,21:30:00,120,117,22.74
+1707,Piece individual foot manage,"Baker, Williams and Jones Cinemas",2026-07-12,16:00:00,300,278,22.47
+1708,Nothing wonder career,Davis PLC Cinemas,2026-07-02,16:00:00,100,87,21.85
+1709,Office discussion,Hudson-Sparks Cinemas,2026-08-22,10:00:00,80,59,14.64
+1710,Employee,Ortega Group Cinemas,2026-08-29,16:00:00,300,288,13.08
+1711,Provide PM agent,Bauer PLC Cinemas,2026-07-21,16:00:00,250,243,9.1
+1712,Out start reason,Harris PLC Cinemas,2026-08-17,21:30:00,250,246,11.18
+1713,Method finish,Butler and Sons Cinemas,2026-07-07,19:00:00,120,113,19.63
+1714,Leader worry place,"Wilson, Jacobson and Griffith Cinemas",2026-08-02,10:00:00,150,144,23.48
+1715,I sing,Diaz LLC Cinemas,2026-07-20,19:00:00,300,287,17.51
+1716,Realize arm,"Hamilton, Green and Edwards Cinemas",2026-07-09,21:30:00,180,164,10.78
+1717,Offer serious,Weaver-Thompson Cinemas,2026-08-07,19:00:00,200,185,23.75
+1718,Toward woman sometimes,"Lopez, Gomez and Garcia Cinemas",2026-07-25,21:30:00,120,120,17.52
+1719,Difficult page send always,"Meyer, Dawson and Harper Cinemas",2026-07-04,16:00:00,80,62,14.55
+1720,Player,Wagner-Hernandez Cinemas,2026-08-05,10:00:00,180,177,24.86
+1721,Everyone water message,Cook PLC Cinemas,2026-09-06,10:00:00,100,91,17.31
+1722,Candidate door,Elliott Group Cinemas,2026-08-18,13:00:00,300,279,14.53
+1723,Interview not though,"Edwards, Baker and Anderson Cinemas",2026-08-18,19:00:00,150,135,23.82
+1724,When news my,"Jones, Abbott and Pope Cinemas",2026-07-04,19:00:00,180,164,19.3
+1725,Raise shoulder travel,Cook PLC Cinemas,2026-07-15,21:30:00,300,300,20.88
+1726,Energy,"Zamora, Sutton and Campbell Cinemas",2026-07-06,13:00:00,200,193,12.9
+1727,Image,Nguyen-Jenkins Cinemas,2026-08-12,13:00:00,120,116,23.95
+1728,Develop plant whole,Bennett Ltd Cinemas,2026-09-01,13:00:00,100,89,9.33
+1729,Whether manager,"Patel, Palmer and Jones Cinemas",2026-06-27,19:00:00,120,98,11.83
+1730,Week agree beautiful,"Young, Allen and Hernandez Cinemas",2026-08-13,16:00:00,100,94,24.11
+1731,But,Roberts Group Cinemas,2026-06-26,10:00:00,180,161,11.99
+1732,Difference research,Soto and Sons Cinemas,2026-08-27,10:00:00,120,113,10.33
+1733,Receive here north over,"Campbell, Burgess and Sweeney Cinemas",2026-08-25,21:30:00,250,242,12.79
+1734,Have pressure service,"Harrington, Johnson and Jones Cinemas",2026-07-22,19:00:00,150,129,16.51
+1735,Special keep very strategy,Long Inc Cinemas,2026-07-09,19:00:00,120,114,19.92
+1736,Fish,Avila LLC Cinemas,2026-07-25,19:00:00,100,94,10.21
+1737,Blue soon boy,"Jones, Rowland and Oconnor Cinemas",2026-08-10,16:00:00,250,239,11.86
+1738,Series rest government,"Black, Collins and Powell Cinemas",2026-08-02,21:30:00,100,100,17.1
+1739,Pick,"Larsen, Hernandez and Ward Cinemas",2026-08-14,10:00:00,150,123,8.73
+1740,Ground full audience,Dickson-Park Cinemas,2026-08-15,21:30:00,80,72,14.07
+1741,Find development,"Russell, Meyer and Smith Cinemas",2026-07-08,10:00:00,150,139,22.15
+1742,Cold term,Martinez-Lopez Cinemas,2026-08-25,16:00:00,200,187,14.27
+1743,Choice standard,Martinez LLC Cinemas,2026-06-24,19:00:00,200,188,14.25
+1744,Bring place,Andrews-Green Cinemas,2026-08-22,13:00:00,200,186,8.63
+1745,Argue partner,Robinson Group Cinemas,2026-06-26,19:00:00,80,62,9.34
+1746,Suggest interest truth,Butler and Sons Cinemas,2026-08-02,21:30:00,80,66,20.97
+1747,Picture nearly,Chandler-Lynch Cinemas,2026-07-09,16:00:00,100,99,13.82
+1748,Ever,Solis-Edwards Cinemas,2026-07-25,19:00:00,150,146,10.71
+1749,Career talk,Bradley-Novak Cinemas,2026-08-22,16:00:00,180,138,22.98
+1750,Professor laugh,Lyons PLC Cinemas,2026-08-31,10:00:00,120,116,14.69
+1751,Media myself,Taylor Ltd Cinemas,2026-09-03,21:30:00,120,118,18.69
+1752,Draw face,"Levy, Franco and Hoffman Cinemas",2026-07-07,16:00:00,100,98,13.28
+1753,Do leader very,Jordan-Campbell Cinemas,2026-09-03,21:30:00,100,80,17.42
+1754,Hit trouble,Rodriguez Group Cinemas,2026-07-26,16:00:00,200,182,13.91
+1755,City,"Miranda, Reese and Johnson Cinemas",2026-08-19,13:00:00,250,246,22.18
+1756,Green baby,"Brown, James and Arroyo Cinemas",2026-08-01,13:00:00,300,292,12.15
+1757,Degree fear training,"Cox, Chavez and Davis Cinemas",2026-08-19,10:00:00,200,198,14.85
+1758,Pm record again,Harris-Wright Cinemas,2026-07-18,21:30:00,200,195,17.6
+1759,Lose education,Price-Schmitt Cinemas,2026-09-06,16:00:00,180,167,14.64
+1760,Congress article,Garcia LLC Cinemas,2026-09-06,16:00:00,80,57,17.96
+1761,Support worry seem,Moran PLC Cinemas,2026-07-09,16:00:00,250,235,16.34
+1762,Until we eat,Newton PLC Cinemas,2026-07-13,13:00:00,180,180,16.21
+1763,Yet seem bring,Moody-Williams Cinemas,2026-07-27,16:00:00,120,119,15.42
+1764,Car education,"Webb, Thompson and Moore Cinemas",2026-08-10,21:30:00,150,138,12.6
+1765,Across from phone,Trevino Group Cinemas,2026-09-04,10:00:00,300,280,12.31
+1766,Deep story,"Li, Jensen and Vazquez Cinemas",2026-08-19,10:00:00,250,243,11.69
+1767,Position and scene,Avila LLC Cinemas,2026-08-25,21:30:00,120,117,8.89
+1768,Hour trial speech,Anderson-Silva Cinemas,2026-07-30,16:00:00,180,172,20.71
+1769,Maybe people something,Payne PLC Cinemas,2026-06-30,13:00:00,100,92,15.03
+1770,Dream experience chair,Lynch LLC Cinemas,2026-08-11,16:00:00,120,118,9.41
+1771,At as,Ellis-Adkins Cinemas,2026-07-24,10:00:00,100,98,19.54
+1772,Choice decide church,Figueroa-Ward Cinemas,2026-08-15,19:00:00,250,243,24.41
+1773,Family part conference,Anderson-Kirk Cinemas,2026-07-07,10:00:00,150,142,18.95
+1774,Bar difference,Garner LLC Cinemas,2026-08-12,16:00:00,150,133,17.88
+1775,Source south ask,Shields LLC Cinemas,2026-07-09,10:00:00,80,62,16.23
+1776,First report debate,"Moore, Alexander and Reed Cinemas",2026-07-30,13:00:00,120,109,8.83
+1777,Medical order end,Bell PLC Cinemas,2026-08-08,10:00:00,250,245,11.45
+1778,Test threat she improve,Palmer Inc Cinemas,2026-06-28,21:30:00,80,66,20.41
+1779,Reason,"Braun, Mays and Martinez Cinemas",2026-07-21,21:30:00,150,139,21.91
+1780,Itself consumer,Peters Group Cinemas,2026-06-23,16:00:00,80,76,23.24
+1781,Economy material,Moore-Bright Cinemas,2026-07-03,19:00:00,120,111,17.57
+1782,Near word whose,Ward-Blake Cinemas,2026-08-23,10:00:00,180,177,10.08
+1783,Start activity,Wang-Jackson Cinemas,2026-07-16,13:00:00,250,239,22.01
+1784,Natural great floor mission,Jackson Ltd Cinemas,2026-08-21,10:00:00,300,283,23.33
+1785,Determine thought couple,Vega-Thomas Cinemas,2026-06-23,13:00:00,200,187,17.22
+1786,Direction pressure now,"Webb, Thompson and Moore Cinemas",2026-07-03,19:00:00,200,198,11.5
+1787,Rock from,Taylor-Stewart Cinemas,2026-07-05,19:00:00,150,143,10.94
+1788,Never program,White-Morales Cinemas,2026-07-02,19:00:00,300,287,21.9
+1789,Financial,Wood-Watson Cinemas,2026-06-30,19:00:00,300,292,20.17
+1790,Trip blue,Gibbs Group Cinemas,2026-08-11,16:00:00,100,88,11.59
+1791,Work financial,Roth Ltd Cinemas,2026-09-03,21:30:00,180,175,14.87
+1792,Can western,Jones-Barnes Cinemas,2026-06-27,19:00:00,250,244,18.36
+1793,Reality commercial kind,"Barnes, Ellis and Gonzales Cinemas",2026-07-03,10:00:00,180,169,12.7
+1794,Better ok building hand,Ochoa-Adams Cinemas,2026-08-23,13:00:00,180,171,8.13
+1795,Front trouble adult,"Robinson, Jones and Welch Cinemas",2026-07-18,16:00:00,80,66,12.94
+1796,Learn environment,Turner Inc Cinemas,2026-07-16,21:30:00,300,295,11.48
+1797,Win out,Prince Inc Cinemas,2026-07-03,21:30:00,250,234,23.63
+1798,Back because,"Wilson, Trujillo and Moody Cinemas",2026-08-08,21:30:00,180,161,20.69
+1799,Generation catch environmental,"Ray, Cunningham and Levine Cinemas",2026-06-23,16:00:00,80,45,11.7
+1800,Data us,Smith Group Cinemas,2026-08-15,16:00:00,300,283,9.13
+1801,Answer reveal way few,Garner LLC Cinemas,2026-08-26,13:00:00,200,180,17.81
+1802,Policy similar run,Jennings Group Cinemas,2026-07-23,13:00:00,250,237,8.2
+1803,Because picture consumer,"Evans, David and Hendrix Cinemas",2026-08-07,13:00:00,100,86,9.4
+1804,Blood information,Williams-Mckenzie Cinemas,2026-08-22,16:00:00,200,178,12.4
+1805,Identify effort,"Taylor, Williams and Hall Cinemas",2026-06-25,16:00:00,120,102,18.08
+1806,Fine,"Freeman, Cox and Mitchell Cinemas",2026-06-30,16:00:00,80,65,18.03
+1807,Worker determine,Edwards Inc Cinemas,2026-08-25,16:00:00,250,226,13.25
+1808,Gun size cup,"James, Howard and Johnson Cinemas",2026-09-02,13:00:00,200,176,8.34
+1809,Nearly second,"Brown, Ali and Jones Cinemas",2026-08-24,21:30:00,80,73,12.54
+1810,Century kid plan determine,"Perez, Hoffman and Tucker Cinemas",2026-07-17,10:00:00,180,166,12.61
+1811,Ahead main war,Brown and Sons Cinemas,2026-07-23,16:00:00,150,139,9.47
+1812,Leg,Wagner and Sons Cinemas,2026-08-08,13:00:00,120,112,12.79
+1813,Still gun,Ferguson and Sons Cinemas,2026-07-31,21:30:00,300,297,24.52
+1814,Various commercial,"Mckee, Gardner and Davenport Cinemas",2026-08-02,16:00:00,120,111,18.62
+1815,Film store south,"Turner, Long and Hendricks Cinemas",2026-07-22,19:00:00,120,120,11.1
+1816,Not month opportunity,"Jones, Abbott and Pope Cinemas",2026-08-22,19:00:00,150,150,9.83
+1817,Either account speech,Benson Inc Cinemas,2026-07-13,21:30:00,100,92,11.41
+1818,Receive material each beat,Spears Ltd Cinemas,2026-07-20,19:00:00,300,289,18.27
+1819,Scientist,Jacobs-Lopez Cinemas,2026-07-28,16:00:00,300,294,22.99
+1820,Night good,Herrera LLC Cinemas,2026-08-26,10:00:00,200,186,16.45
+1821,Person data force,Ruiz-Rivera Cinemas,2026-08-24,13:00:00,200,195,8.18
+1822,Can newspaper water,"Gonzalez, Santos and Gardner Cinemas",2026-07-15,13:00:00,120,113,17.07
+1823,Color off,Joyce-Benitez Cinemas,2026-07-02,21:30:00,80,72,12.79
+1824,Business relate class,"Larson, Daniels and James Cinemas",2026-07-21,16:00:00,200,191,9.24
+1825,Owner office,"Miranda, Wheeler and Avila Cinemas",2026-07-05,13:00:00,200,182,9.37
+1826,Fact true,Guzman-Montoya Cinemas,2026-08-22,13:00:00,300,288,24.19
+1827,Operation week sing,Roberts Ltd Cinemas,2026-08-07,21:30:00,80,76,23.34
+1828,Benefit democratic one,"Kim, Wright and Espinoza Cinemas",2026-06-24,19:00:00,100,99,18.53
+1829,Spend measure institution story,Peterson Group Cinemas,2026-06-23,21:30:00,120,120,8.91
+1830,Along seven than,Johnston Inc Cinemas,2026-06-24,21:30:00,80,71,11.99
+1831,Provide run day,Jones-Taylor Cinemas,2026-08-15,19:00:00,150,147,20.8
+1832,Good new,Davis-Abbott Cinemas,2026-08-11,16:00:00,180,171,17.87
+1833,Within himself,Norris Inc Cinemas,2026-07-11,19:00:00,250,242,20.12
+1834,North structure,Harrell-Hebert Cinemas,2026-07-11,16:00:00,80,66,17.66
+1835,Yeah middle,"Hendricks, Zuniga and Miller Cinemas",2026-08-19,10:00:00,150,149,21.08
+1836,Special drop down,Taylor Ltd Cinemas,2026-09-04,10:00:00,150,146,15.11
+1837,Political last,Berger Ltd Cinemas,2026-07-31,10:00:00,80,68,9.35
+1838,Mrs threat,"Skinner, Howe and Davis Cinemas",2026-08-02,10:00:00,150,138,15.83
+1839,Visit bring behind there,Harris-Wright Cinemas,2026-08-30,13:00:00,300,294,18.34
+1840,Price girl,Gray and Sons Cinemas,2026-06-27,16:00:00,120,113,17.52
+1841,Month matter policy,Anderson Inc Cinemas,2026-08-11,21:30:00,80,66,19.04
+1842,Magazine daughter want food,"Baker, Mason and White Cinemas",2026-07-16,13:00:00,80,72,19.62
+1843,Pick glass learn,Henderson LLC Cinemas,2026-07-18,10:00:00,80,77,16.69
+1844,Ability stuff successful,"Patel, Palmer and Jones Cinemas",2026-08-10,10:00:00,250,237,15.41
+1845,Better government well,Allen-Peterson Cinemas,2026-07-09,13:00:00,250,240,18.72
+1846,Attention avoid beyond,Jackson-Mcclure Cinemas,2026-08-27,10:00:00,120,98,11.26
+1847,Material everything interest,"Friedman, Wood and Cox Cinemas",2026-08-13,19:00:00,120,107,24.42
+1848,Year newspaper,Stafford Ltd Cinemas,2026-06-30,13:00:00,250,245,8.09
+1849,Culture part language,Schmidt-Mendoza Cinemas,2026-08-17,21:30:00,300,298,18.59
+1850,Again democratic,Wright Group Cinemas,2026-08-20,16:00:00,80,63,15.18
+1851,Note support enough,"Carpenter, Morrow and Smith Cinemas",2026-07-27,19:00:00,200,182,19.8
+1852,Page over,"Greene, Rogers and Haley Cinemas",2026-08-13,13:00:00,150,134,12.39
+1853,Through itself,"Mcdonald, Moore and Richards Cinemas",2026-07-22,21:30:00,120,104,16.01
+1854,Market break different,"Marshall, Murray and Miller Cinemas",2026-08-06,19:00:00,80,64,20.98
+1855,Member help financial,Nunez LLC Cinemas,2026-07-23,21:30:00,150,137,12.88
+1856,Offer evening,"James, Howard and Johnson Cinemas",2026-06-25,19:00:00,250,237,10.64
+1857,Call reduce,"May, Malone and Reese Cinemas",2026-07-25,10:00:00,120,110,17.67
+1858,Action natural southern,"Duarte, Smith and Caldwell Cinemas",2026-07-22,19:00:00,80,58,19.22
+1859,Receive attack,"Bray, Nicholson and Walker Cinemas",2026-08-26,13:00:00,80,65,16.36
+1860,Customer then,Buchanan LLC Cinemas,2026-07-12,21:30:00,300,293,14.28
+1861,Summer out,"Marquez, Martinez and Bailey Cinemas",2026-07-13,13:00:00,250,215,22.57
+1862,Six writer great able,"Barnes, Preston and Schultz Cinemas",2026-08-27,21:30:00,250,237,20.78
+1863,Show give,Ramirez Inc Cinemas,2026-07-12,19:00:00,150,143,13.6
+1864,Mention poor,Miller and Sons Cinemas,2026-08-23,13:00:00,180,180,21.29
+1865,On public answer measure,Martin and Sons Cinemas,2026-07-03,13:00:00,120,99,12.05
+1866,Source game,Lyons PLC Cinemas,2026-07-04,19:00:00,120,111,8.34
+1867,Trip within production,Adams PLC Cinemas,2026-07-05,13:00:00,80,67,14.22
+1868,Politics line keep,"Davis, Wood and Paul Cinemas",2026-08-13,19:00:00,200,185,21.12
+1869,Conference,Rodriguez Group Cinemas,2026-08-26,19:00:00,100,92,12.71
+1870,Memory,Robinson Group Cinemas,2026-07-23,13:00:00,100,86,20.88
+1871,Market loss parent,Rodriguez Group Cinemas,2026-08-27,10:00:00,150,138,14.67
+1872,Concern finish important project,"Bennett, Williams and Klein Cinemas",2026-09-03,10:00:00,300,288,20.62
+1873,Agency in,Hernandez Inc Cinemas,2026-08-31,10:00:00,150,149,21.29
+1874,Between up rich lead,"Miranda, Reese and Johnson Cinemas",2026-07-29,16:00:00,200,194,17.92
+1875,Dark lot sister,Garcia-Yu Cinemas,2026-08-17,19:00:00,200,197,8.29
+1876,Majority how social address,Meyers-Owens Cinemas,2026-07-24,10:00:00,200,195,24.25
+1877,Officer same,Jones-Contreras Cinemas,2026-07-08,19:00:00,250,230,18.77
+1878,Central challenge trouble,Newton PLC Cinemas,2026-07-27,19:00:00,250,240,17.8
+1879,Word draw card,Reyes Inc Cinemas,2026-07-15,10:00:00,100,89,14.78
+1880,Sort late his,"Whitney, Mayo and Clark Cinemas",2026-07-13,13:00:00,300,287,8.1
+1881,Sign west,"Salazar, Carlson and Hall Cinemas",2026-08-04,19:00:00,180,162,8.32
+1882,Off move knowledge,Clark Inc Cinemas,2026-08-04,13:00:00,180,169,20.93
+1883,Argue almost rise,Kennedy PLC Cinemas,2026-08-02,13:00:00,300,297,10.36
+1884,Method station study,"Salazar, Miller and Arnold Cinemas",2026-07-19,21:30:00,80,61,23.09
+1885,Religious be,Martinez Inc Cinemas,2026-06-23,19:00:00,150,134,24.51
+1886,Plant upon,Rodriguez-Miller Cinemas,2026-07-21,10:00:00,200,194,24.95
+1887,Entire right,"Scott, Robertson and Mendez Cinemas",2026-07-27,10:00:00,80,54,20.12
+1888,Professional threat,Hernandez Inc Cinemas,2026-08-23,16:00:00,150,133,20.11
+1889,Situation defense woman message,"Underwood, Bartlett and Russell Cinemas",2026-07-28,10:00:00,200,175,10.42
+1890,Station white,Joyce-Benitez Cinemas,2026-06-25,21:30:00,100,82,22.1
+1891,Voice themselves most,Harper-Johnson Cinemas,2026-08-14,13:00:00,120,105,18.87
+1892,Future,"Patterson, Camacho and White Cinemas",2026-08-13,21:30:00,180,164,10.98
+1893,Ahead democratic listen,Kirk Inc Cinemas,2026-07-12,10:00:00,80,73,23.86
+1894,Area base,"Cruz, Fowler and Haynes Cinemas",2026-07-12,19:00:00,100,82,13.79
+1895,Quality police,"Martin, Cervantes and Stokes Cinemas",2026-08-26,21:30:00,120,109,8.27
+1896,Civil bar college,Barrera Group Cinemas,2026-07-14,10:00:00,180,168,19.16
+1897,Hair ahead,"Gonzales, Smith and Davis Cinemas",2026-08-09,21:30:00,120,101,11.45
+1898,Trouble leave truth,"Velez, Howell and Stevenson Cinemas",2026-07-23,10:00:00,150,138,14.5
+1899,Allow tree miss,Welch-Hogan Cinemas,2026-09-06,16:00:00,100,86,15.94
+1900,Simply modern,Neal Group Cinemas,2026-07-15,19:00:00,250,243,20.65
+1901,Candidate bad,Maldonado-Becker Cinemas,2026-08-14,21:30:00,150,146,15.98
+1902,Do name environmental,Blevins-Ballard Cinemas,2026-08-14,13:00:00,180,166,9.61
+1903,Staff,Carroll-Snyder Cinemas,2026-07-04,19:00:00,100,91,21.14
+1904,Maybe win goal,"Davis, Rodriguez and Andrews Cinemas",2026-07-11,10:00:00,250,234,23.63
+1905,Though player involve,Fowler Group Cinemas,2026-08-29,16:00:00,250,250,24.24
+1906,Turn through,Reilly-Gibson Cinemas,2026-07-24,13:00:00,120,112,21.99
+1907,Book idea,Quinn-Wilson Cinemas,2026-07-13,16:00:00,150,137,14.71
+1908,Factor pretty writer,Peterson-Mullins Cinemas,2026-08-05,13:00:00,150,146,18.94
+1909,Writer degree book,Clark Ltd Cinemas,2026-09-01,16:00:00,250,239,19.81
+1910,Decide,James and Sons Cinemas,2026-07-05,16:00:00,200,187,19.63
+1911,Station risk professor,Smith Group Cinemas,2026-08-10,16:00:00,300,283,11.89
+1912,Program girl section,Johnson and Sons Cinemas,2026-07-06,21:30:00,300,284,12.37
+1913,Fill save,Carney Group Cinemas,2026-06-26,13:00:00,200,194,19.35
+1914,Eat alone,"Lopez, Gomez and Garcia Cinemas",2026-08-16,19:00:00,300,296,8.5
+1915,Each bed good friend,"Smith, Beard and Taylor Cinemas",2026-08-14,13:00:00,150,126,22.57
+1916,Though social,Rowe and Sons Cinemas,2026-07-20,21:30:00,180,171,10.1
+1917,Effect rock under prepare,"Cruz, Fowler and Haynes Cinemas",2026-07-06,21:30:00,100,84,9.59
+1918,Question through over,"Burns, Barker and Horton Cinemas",2026-09-03,10:00:00,100,89,21.58
+1919,End system hold,Taylor-Gallagher Cinemas,2026-07-29,19:00:00,300,295,23.63
+1920,Laugh most court,Welch-Hogan Cinemas,2026-07-09,19:00:00,100,88,19.16
+1921,Thing,Reed Group Cinemas,2026-08-13,10:00:00,120,107,16.87
+1922,Rate wife forget,Mclean Group Cinemas,2026-08-12,16:00:00,80,71,9.92
+1923,Small million,"Nguyen, Ellis and Wright Cinemas",2026-07-11,19:00:00,100,91,9.83
+1924,Do environmental,Jones-Contreras Cinemas,2026-08-26,10:00:00,300,285,21.19
+1925,Recent fire,"Walker, Turner and Brown Cinemas",2026-08-25,21:30:00,180,164,19.03
+1926,Stop though page,Grant-Diaz Cinemas,2026-08-11,10:00:00,200,186,11.8
+1927,Thing amount,"Schaefer, Barry and Espinoza Cinemas",2026-08-11,21:30:00,100,76,24.94
+1928,Able possible field,Davis Group Cinemas,2026-08-02,10:00:00,150,145,17.52
+1929,There magazine politics,Myers and Sons Cinemas,2026-08-23,16:00:00,80,64,9.57
+1930,Operation work,Johnson-Powers Cinemas,2026-08-05,21:30:00,100,95,23.29
+1931,Different civil choose,Kennedy PLC Cinemas,2026-08-04,19:00:00,200,200,16.31
+1932,Arm sometimes table,"Castro, Garcia and Daniels Cinemas",2026-06-30,16:00:00,100,84,16.88
+1933,Receive rate,"Rich, Brown and Bruce Cinemas",2026-08-13,19:00:00,120,117,15.14
+1934,Story threat visit worry,Walker PLC Cinemas,2026-07-18,10:00:00,300,292,16.72
+1935,Box western vote,"White, Burch and Reynolds Cinemas",2026-07-20,21:30:00,300,298,10.77
+1936,Blood method practice,"Diaz, Hill and Becker Cinemas",2026-07-18,19:00:00,100,100,19.23
+1937,Whole evening large,Gallagher-Diaz Cinemas,2026-08-10,13:00:00,80,64,17.27
+1938,Consider product science,Clark Group Cinemas,2026-06-30,21:30:00,80,62,18.44
+1939,True care,"Murphy, Lee and Garcia Cinemas",2026-07-03,19:00:00,300,276,9.44
+1940,Continue offer anyone,"Marshall, Murray and Miller Cinemas",2026-07-09,21:30:00,200,178,21.18
+1941,Security military,Smith LLC Cinemas,2026-07-29,19:00:00,150,142,16.41
+1942,Party,"Nguyen, Ellis and Wright Cinemas",2026-06-24,13:00:00,80,71,8.14
+1943,Community individual box,"Hernandez, Cuevas and Webb Cinemas",2026-07-16,10:00:00,180,175,9.33
+1944,Size meet region,"Payne, Escobar and Barrett Cinemas",2026-07-06,16:00:00,250,242,19.85
+1945,Grow fear our sort,Knox and Sons Cinemas,2026-08-15,10:00:00,200,186,21.27
+1946,Center cell budget,"Moore, Alexander and Reed Cinemas",2026-07-02,21:30:00,150,137,11.51
+1947,Author something,Peterson PLC Cinemas,2026-09-02,21:30:00,100,85,8.15
+1948,Next like,Page-Jacobs Cinemas,2026-08-11,10:00:00,300,292,20.26
+1949,Degree moment recently,Brown and Sons Cinemas,2026-07-04,16:00:00,100,86,18.83
+1950,Test word attack,"Porter, Patel and Jackson Cinemas",2026-07-22,19:00:00,100,90,17.73
+1951,New including product,"Yang, Willis and Walker Cinemas",2026-08-23,13:00:00,180,170,18.27
+1952,Force sing,Meyers-Owens Cinemas,2026-09-01,21:30:00,120,108,23.04
+1953,Would forward,Hunter-Estrada Cinemas,2026-06-27,16:00:00,80,76,15.46
+1954,Service,"Hammond, Douglas and Johnson Cinemas",2026-07-02,16:00:00,80,67,10.93
+1955,Occur give short,Thomas Group Cinemas,2026-07-25,19:00:00,100,94,21.78
+1956,Decade there,"Evans, David and Hendrix Cinemas",2026-07-29,21:30:00,150,143,20.99
+1957,Care debate would,Warren Ltd Cinemas,2026-08-22,13:00:00,100,93,14.15
+1958,About I,Sullivan PLC Cinemas,2026-06-24,13:00:00,100,95,18.11
+1959,Name two,Patterson-Lawrence Cinemas,2026-08-13,13:00:00,180,177,12.12
+1960,Realize,Landry-Hill Cinemas,2026-07-18,16:00:00,300,287,15.72
+1961,Direction material,"Jordan, Swanson and Franklin Cinemas",2026-08-09,21:30:00,250,235,20.0
+1962,Situation through growth,Mcdonald-Taylor Cinemas,2026-09-05,10:00:00,120,110,8.44
+1963,Executive business,Chang Ltd Cinemas,2026-09-06,13:00:00,300,292,24.9
+1964,Participant better world,"Mooney, Conley and Fox Cinemas",2026-07-06,10:00:00,120,108,17.58
+1965,Food middle,Nunez LLC Cinemas,2026-07-18,21:30:00,300,281,9.6
+1966,Conference,"Marshall, Murray and Miller Cinemas",2026-08-30,21:30:00,250,233,8.1
+1967,Generation box report,Curry-Allen Cinemas,2026-06-27,13:00:00,300,289,8.34
+1968,Entire,Delgado Inc Cinemas,2026-09-03,10:00:00,120,119,24.95
+1969,Tend drive group,"Meyer, Dawson and Harper Cinemas",2026-07-17,16:00:00,100,86,12.1
+1970,Bank if prevent,Russell Inc Cinemas,2026-07-13,19:00:00,250,234,21.98
+1971,Benefit sister,"Freeman, Hall and Allison Cinemas",2026-08-22,16:00:00,120,101,9.54
+1972,Hospital cut person cultural,"Kennedy, Mueller and Aguirre Cinemas",2026-08-22,10:00:00,80,70,13.27
+1973,With should,Carter-Hendrix Cinemas,2026-06-29,21:30:00,120,109,14.76
+1974,Son speech although,Barrera Group Cinemas,2026-08-06,21:30:00,80,72,23.22
+1975,General happy move,Smith-Clayton Cinemas,2026-08-08,19:00:00,200,189,23.83
+1976,Some them industry,Evans Ltd Cinemas,2026-07-30,16:00:00,100,96,17.51
+1977,Certain two,Herrera-Coleman Cinemas,2026-07-25,19:00:00,150,141,13.16
+1978,College together size mother,"Burns, Barker and Horton Cinemas",2026-07-13,16:00:00,120,114,23.57
+1979,Always beautiful,Hoffman PLC Cinemas,2026-07-07,16:00:00,100,85,20.74
+1980,Treat enter like,White-Richards Cinemas,2026-07-01,10:00:00,180,177,20.96
+1981,Rich ahead,Hudson-Sparks Cinemas,2026-07-24,16:00:00,300,292,8.63
+1982,Skill how fear,"Roberts, Stanton and Smith Cinemas",2026-06-28,16:00:00,150,137,12.17
+1983,Goal other,Dunn-Pennington Cinemas,2026-07-16,19:00:00,100,93,11.98
+1984,Discover adult no,Williams Ltd Cinemas,2026-07-04,13:00:00,80,74,14.84
+1985,Bank,Thomas-Stevens Cinemas,2026-06-30,10:00:00,150,138,22.84
+1986,Involve media right,"Case, Adams and Olson Cinemas",2026-07-23,16:00:00,200,195,22.91
+1987,Relationship attention plant,"Vaughan, Gibson and Dawson Cinemas",2026-07-28,10:00:00,180,167,16.24
+1988,Factor current political member,"Patterson, Camacho and White Cinemas",2026-08-12,10:00:00,100,88,16.99
+1989,Much minute,"Gonzales, Short and Weaver Cinemas",2026-09-04,16:00:00,120,109,24.14
+1990,Field later good security,Bond-Cummings Cinemas,2026-07-19,19:00:00,150,140,20.3
+1991,Employee forward,Harper-Johnson Cinemas,2026-08-01,13:00:00,80,51,9.62
+1992,Read difficult,Knight Group Cinemas,2026-08-31,10:00:00,120,105,14.19
+1993,Quite record tell,"Herrera, Jensen and Ramirez Cinemas",2026-07-31,19:00:00,80,75,12.1
+1994,Particular,Hall-Barber Cinemas,2026-07-31,21:30:00,300,288,12.65
+1995,Appear degree far,Smith LLC Cinemas,2026-08-18,21:30:00,300,293,16.97
+1996,Important hear power,Gonzalez-Wilson Cinemas,2026-06-27,21:30:00,300,287,17.45
+1997,Probably factor,Smith Ltd Cinemas,2026-08-08,19:00:00,200,200,9.0
+1998,None as,"Aguilar, Buckley and Ramirez Cinemas",2026-08-09,16:00:00,150,139,20.37
+1999,Class if,Reyes Inc Cinemas,2026-07-09,21:30:00,100,77,13.97
+2000,Owner peace name,"Thomas, Harper and Williams Cinemas",2026-07-13,19:00:00,180,178,16.16

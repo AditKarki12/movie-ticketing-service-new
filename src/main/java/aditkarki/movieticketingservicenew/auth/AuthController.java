@@ -1,5 +1,6 @@
 package aditkarki.movieticketingservicenew.auth;
 
+import aditkarki.movieticketingservicenew.dto.responses.UserResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +15,7 @@ public class AuthController {
 
     // Registration
     @PostMapping("/registration")
-    public ResponseEntity<?> registration(@RequestBody SignUpRequest signUpRequest) {
+    public ResponseEntity<UserResponse> registration(@RequestBody SignUpRequest signUpRequest) {
         return new ResponseEntity<>(authService.registerUser(signUpRequest), HttpStatus.CREATED);
     }
 

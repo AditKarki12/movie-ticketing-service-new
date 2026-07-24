@@ -1,6 +1,5 @@
-package aditkarki.movieticketingservicenew.manager;
+package aditkarki.movieticketingservicenew.auth;
 
-import aditkarki.movieticketingservicenew.auth.SignUpRequest;
 import aditkarki.movieticketingservicenew.entity.User;
 import aditkarki.movieticketingservicenew.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

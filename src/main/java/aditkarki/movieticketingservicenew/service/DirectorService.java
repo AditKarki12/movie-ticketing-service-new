@@ -1,17 +1,16 @@
 package aditkarki.movieticketingservicenew.service;
 
-import aditkarki.movieticketingservicenew.CustomSorting;
+import aditkarki.movieticketingservicenew.enums.CustomSorting;
 import aditkarki.movieticketingservicenew.constants.ElasticSearchConstants;
 import aditkarki.movieticketingservicenew.dto.Page;
 import aditkarki.movieticketingservicenew.dto.RangeDto;
 import aditkarki.movieticketingservicenew.dto.requests.DirectorRequest;
 import aditkarki.movieticketingservicenew.dto.responses.DirectorResponse;
 import aditkarki.movieticketingservicenew.dto.responses.TableResponse;
-import aditkarki.movieticketingservicenew.exception.ResourceNotFoundException;
+import aditkarki.movieticketingservicenew.exception.SearchException;
 import aditkarki.movieticketingservicenew.helper.AggregationHelper;
 import aditkarki.movieticketingservicenew.helper.PageUtils;
 import aditkarki.movieticketingservicenew.helper.QueryFilterHelper;
-import aditkarki.movieticketingservicenew.helper.SearchRequestHelper;
 import aditkarki.movieticketingservicenew.mapper.DirectorMapper;
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
 import co.elastic.clients.elasticsearch._types.aggregations.Aggregation;
@@ -35,7 +34,6 @@ public class DirectorService {
     private final DirectorMapper directorMapper;
     private final ElasticsearchClient elasticsearchClient;
     private final QueryFilterHelper queryFilterHelper;
-    private final SearchRequestHelper searchRequestHelper;
     private final AggregationHelper aggregationHelper;
     private final String directorNameConstant = "director";
 
@@ -63,26 +61,22 @@ public class DirectorService {
             response = elasticsearchClient.search(searchRequest, Void.class);
         } catch (IOException e){
             log.error(e.getMessage());
-            // Add exception here
+            throw new SearchException("Cannot search director aggregations");
         }
 
         // Response Parse
-        if(response != null){
-            LinkedList<DirectorResponse> directorResponses = aggregationHelper.parseAggregationBuckets(response, directorMapper::toDirectorResponse, "directorAggregations");
+        LinkedList<DirectorResponse> directorResponses = aggregationHelper.parseAggregationBuckets(response, directorMapper::toDirectorResponse, "directorAggregations");
 
-            Page pageBuilder = PageUtils.pageBuilder(pageNumber, size, directorResponses);
+        Page pageBuilder = PageUtils.pageBuilder(pageNumber, size, directorResponses);
 
-            return TableResponse.builder()
-                    .data(directorResponses)
-                    .page(pageBuilder)
-                    .build();
-        } else {
-            throw new ResourceNotFoundException("No director found"); // Change this exception
-        }
+        return TableResponse.builder()
+                .data(directorResponses)
+                .page(pageBuilder)
+                .build();
     }
 
     private Map<String, Aggregation> directorAggregationBuilder(DirectorRequest directorRequest, CustomSorting customSorting, String sortBy, int pageNumber, int size) {
-        Map<String, Aggregation> aggregationMap = aggregationHelper.buildAverageAggregations(ElasticSearchConstants.DIRECTOR_AGGREGATION_FIELDS);
+        Map<String, Aggregation> aggregationMap = aggregationHelper.buildAverageAggregations(ElasticSearchConstants.MOVIE_AGGREGATION_FIELDS);
 
         Map<String, RangeDto> filters = new HashMap<>();
         filters.put("averageRating", directorRequest.getAverageRating());

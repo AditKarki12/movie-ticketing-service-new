@@ -19,6 +19,10 @@ public class Showtime {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long showtimeId;
+
+    @Version
+    private Long version;
+
     @ManyToOne
     @JoinColumn(name = "movie_id")
     private Movie movie;

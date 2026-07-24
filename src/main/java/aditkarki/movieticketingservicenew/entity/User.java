@@ -1,6 +1,6 @@
 package aditkarki.movieticketingservicenew.entity;
 
-import aditkarki.movieticketingservicenew.CustomRole;
+import aditkarki.movieticketingservicenew.enums.CustomRole;
 import jakarta.persistence.*;
 
 import lombok.AllArgsConstructor;

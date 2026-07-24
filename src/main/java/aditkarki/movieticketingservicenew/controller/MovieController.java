@@ -1,7 +1,7 @@
 package aditkarki.movieticketingservicenew.controller;
 
-import aditkarki.movieticketingservicenew.CustomAggregation;
-import aditkarki.movieticketingservicenew.CustomSorting;
+import aditkarki.movieticketingservicenew.enums.CustomAggregation;
+import aditkarki.movieticketingservicenew.enums.CustomSorting;
 import aditkarki.movieticketingservicenew.dto.requests.MovieRequest;
 import aditkarki.movieticketingservicenew.dto.requests.MovieSearchRequest;
 import aditkarki.movieticketingservicenew.dto.responses.MovieResponse;
@@ -57,12 +57,12 @@ public class MovieController {
             @RequestParam(defaultValue = "0") int pageNumber,
             @RequestParam(defaultValue = "10") int size,
             @RequestParam(defaultValue = "rating") String sortBy,
-            @RequestParam(defaultValue = "ASC") CustomSorting customSorting,
-            @RequestParam(defaultValue = "NO_AGGREGATION") CustomAggregation customAggregation,
-            @RequestParam(required = false) String aggregationField){
-        return ResponseEntity.ok(movieService.getMovie(movieSearchRequest, pageNumber, size, sortBy, customSorting, customAggregation, aggregationField));
+            @RequestParam(defaultValue = "ASC") CustomSorting customSorting){
+        return ResponseEntity.ok(movieService.getMovie(movieSearchRequest, pageNumber, size, sortBy, customSorting));
     }
 
+    // Disabled: these called MovieService's disconnected ES-only CRUD path (see MovieService for why).
+    /*
     @PostMapping("/es")
     public ResponseEntity<MovieResponse> createMovieES(@RequestBody MovieRequest movieRequest) {
         return new ResponseEntity<>(movieService.createMovieES(movieRequest), HttpStatus.CREATED);
@@ -80,5 +80,6 @@ public class MovieController {
             @RequestParam String title) {
         return new ResponseEntity<>(movieService.updateMovieES(movieRequest, title), HttpStatus.CREATED);
     }
+    */
 
 }

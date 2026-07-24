@@ -11,10 +11,11 @@ import java.time.LocalTime;
 @Builder
 public class ShowtimeResponse {
     private Long showtimeId;
-    private Long movieId;
-    private Long theaterId;
+    private String movieTitle;
+    private String theaterName;
     private LocalDate localDate;
     private LocalTime localTime;
     private Integer availableSeats;
+    private Integer totalSeats;
     private BigDecimal ticketPrice;
 }

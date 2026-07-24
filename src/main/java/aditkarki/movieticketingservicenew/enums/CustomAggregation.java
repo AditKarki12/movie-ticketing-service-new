@@ -1,4 +1,4 @@
-package aditkarki.movieticketingservicenew;
+package aditkarki.movieticketingservicenew.enums;
 
 public enum CustomAggregation {
     AVERAGE,

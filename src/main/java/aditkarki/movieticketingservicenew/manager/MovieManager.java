@@ -7,9 +7,11 @@ import aditkarki.movieticketingservicenew.exception.ResourceNotFoundException;
 import aditkarki.movieticketingservicenew.mapper.MovieMapper;
 import aditkarki.movieticketingservicenew.repository.ElasticsearchMovieRepository;
 import aditkarki.movieticketingservicenew.repository.MovieRepository;
+import aditkarki.movieticketingservicenew.event.MovieUpdatedEvent;
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -23,11 +25,21 @@ public class MovieManager {
     private final MovieMapper movieMapper;
     private final ElasticsearchClient elasticsearchClient;
     private final ElasticsearchMovieRepository elasticsearchMovieRepository;
+    private final ApplicationEventPublisher eventPublisher;
 
     public Movie saveMovie(Movie movie) {
         Movie savedMovie = movieRepository.save(movie);
         syncToES(savedMovie);
+        eventPublisher.publishEvent(new MovieUpdatedEvent(savedMovie.getId(), savedMovie.getTitle()));
         return savedMovie;
+    }
+
+    public Movie findById(Long movieId) {
+        return movieRepository.findById(movieId).orElseThrow(() -> new ResourceNotFoundException("Movie not found"));
+    }
+
+    public List<Movie> findAll() {
+        return movieRepository.findAll();
     }
 
     public void deleteMovie(Long movieId) {
@@ -36,20 +48,12 @@ public class MovieManager {
         deleteFromES(movieId);
     }
 
-    public Movie findById(Long movieId) {
-        return movieRepository.findById(movieId).orElseThrow(() -> new ResourceNotFoundException("Movie not found"));
-    }
-
     public void deleteByTitle(String title) {
         elasticsearchMovieRepository.deleteByTitle(title);
     }
 
     public boolean existsByTitle(String title) {
         return elasticsearchMovieRepository.existsByTitle(title);
-    }
-
-    public List<Movie> findAll() {
-        return movieRepository.findAll();
     }
 
     private void syncToES(Movie movie){

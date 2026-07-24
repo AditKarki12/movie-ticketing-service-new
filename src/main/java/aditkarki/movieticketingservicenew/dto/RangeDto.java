@@ -1,6 +1,6 @@
 package aditkarki.movieticketingservicenew.dto;
 
-import aditkarki.movieticketingservicenew.CustomOperator;
+import aditkarki.movieticketingservicenew.enums.CustomOperator;
 import lombok.Data;
 
 @Data

@@ -1,0 +1,51 @@
+{
+  "mappings": {
+    "properties": {
+      "bookingId": {
+        "type": "keyword"
+      },
+      "userId": {
+        "type": "long"
+      },
+      "userEmail": {
+        "type": "keyword"
+      },
+      "showtimeId": {
+        "type": "long"
+      },
+      "movieTitle": {
+        "type": "text",
+        "analyzer": "standard",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "theaterName": {
+        "type": "text",
+        "analyzer": "standard",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "seatCount": {
+        "type": "integer"
+      },
+      "totalPrice": {
+        "type": "double"
+      },
+      "bookingTime": {
+        "type": "date",
+        "format": "yyyy-MM-dd"
+      },
+      "status": {
+        "type": "keyword"
+      }
+    }
+  }
+}

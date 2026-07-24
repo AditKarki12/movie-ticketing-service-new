@@ -1,5 +1,6 @@
 package aditkarki.movieticketingservicenew.dto.responses;
 
+import aditkarki.movieticketingservicenew.enums.BookingStatus;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -13,4 +14,7 @@ public class BookingResponse {
     private Integer seatCount;
     private BigDecimal totalPrice;
     private LocalDateTime bookingTime;
+    private BookingStatus bookingStatus;
+    private String userEmail;
+    private Long showtimeId;
 }

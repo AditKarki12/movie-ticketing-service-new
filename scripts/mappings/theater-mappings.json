@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "properties": {
+      "theaterId": {
+        "type": "keyword"
+      },
+      "theaterName": {
+        "type": "text",
+        "analyzer": "standard",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "theaterAddress": {
+        "type": "text",
+        "analyzer": "standard"
+      },
+      "theaterCity": {
+        "type": "keyword"
+      },
+      "theaterState": {
+        "type": "keyword"
+      },
+      "screensTotal": {
+        "type": "integer"
+      }
+    }
+  }
+}

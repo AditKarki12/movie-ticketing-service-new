@@ -1,6 +1,6 @@
 package aditkarki.movieticketingservicenew.helper;
 
-import aditkarki.movieticketingservicenew.CustomSorting;
+import aditkarki.movieticketingservicenew.enums.CustomSorting;
 import aditkarki.movieticketingservicenew.constants.ElasticSearchConstants;
 import aditkarki.movieticketingservicenew.exception.InvalidSortByException;
 import co.elastic.clients.elasticsearch._types.SortOrder;

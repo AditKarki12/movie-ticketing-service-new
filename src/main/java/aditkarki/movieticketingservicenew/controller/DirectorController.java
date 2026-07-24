@@ -1,6 +1,6 @@
 package aditkarki.movieticketingservicenew.controller;
 
-import aditkarki.movieticketingservicenew.CustomSorting;
+import aditkarki.movieticketingservicenew.enums.CustomSorting;
 import aditkarki.movieticketingservicenew.dto.requests.DirectorRequest;
 import aditkarki.movieticketingservicenew.dto.responses.TableResponse;
 import aditkarki.movieticketingservicenew.service.DirectorService;
@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/director")
+@RequestMapping("/api/director")
 @RequiredArgsConstructor
 @Slf4j
 public class DirectorController {

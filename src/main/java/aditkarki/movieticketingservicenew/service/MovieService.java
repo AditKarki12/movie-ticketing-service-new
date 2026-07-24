@@ -1,8 +1,8 @@
 package aditkarki.movieticketingservicenew.service;
 
-import aditkarki.movieticketingservicenew.CustomAggregation;
-import aditkarki.movieticketingservicenew.CustomOperator;
-import aditkarki.movieticketingservicenew.CustomSorting;
+import aditkarki.movieticketingservicenew.enums.CustomAggregation;
+import aditkarki.movieticketingservicenew.enums.CustomOperator;
+import aditkarki.movieticketingservicenew.enums.CustomSorting;
 import aditkarki.movieticketingservicenew.constants.ElasticSearchConstants;
 import aditkarki.movieticketingservicenew.document.MovieDocument;
 import aditkarki.movieticketingservicenew.dto.DateRangeDto;
@@ -15,9 +15,8 @@ import aditkarki.movieticketingservicenew.dto.responses.MovieResponse;
 import aditkarki.movieticketingservicenew.dto.responses.TableResponse;
 import aditkarki.movieticketingservicenew.entity.Movie;
 import aditkarki.movieticketingservicenew.exception.DuplicateResourceException;
-import aditkarki.movieticketingservicenew.exception.MovieSearchException;
 import aditkarki.movieticketingservicenew.exception.ReflectionAccessException;
-import aditkarki.movieticketingservicenew.exception.ResourceNotFoundException;
+import aditkarki.movieticketingservicenew.exception.SearchException;
 import aditkarki.movieticketingservicenew.helper.PageUtils;
 import aditkarki.movieticketingservicenew.helper.QueryFilterHelper;
 import aditkarki.movieticketingservicenew.helper.SearchRequestHelper;
@@ -51,6 +50,11 @@ public class MovieService implements MovieServiceInterface{
     private final QueryFilterHelper queryFilterHelper;
     private final SearchRequestHelper searchRequestHelper;
 
+    // Disconnected from the Postgres `movies` table (no MovieManager/MovieRepository involvement) and unsafe
+    // (createMovieES's id is `count()+1`, which collides with existing ids once any movie has been deleted).
+    // A movie created/updated/deleted here never exists as a real Movie entity, so it can't be scheduled via
+    // ShowtimeService and drifts out of sync with the real data. Disabled until replaced with a MovieManager-backed path.
+    /*
     public MovieResponse createMovieES(MovieRequest movieRequest) {
         MovieDocument movieDocument = movieMapper.toDocument(movieRequest);
         if(movieManager.existsByTitle(movieDocument.getTitle())) {
@@ -110,6 +114,7 @@ public class MovieService implements MovieServiceInterface{
 
         movieManager.deleteByTitle(movieDocument.getTitle());
     }
+    */
 
     public MovieResponse createMovie(MovieRequest movieRequest) {
         if(movieManager.existsByTitle(movieRequest.getTitle())) {
@@ -131,6 +136,11 @@ public class MovieService implements MovieServiceInterface{
 
     public MovieResponse updateMovie(Long movieId, MovieRequest movieRequest) {
         Movie existingMovie = movieManager.findById(movieId);
+        if (movieRequest.getTitle() != null
+                && !movieRequest.getTitle().equals(existingMovie.getTitle())
+                && movieManager.existsByTitle(movieRequest.getTitle())) {
+            throw new DuplicateResourceException(movieRequest.getTitle());
+        }
         movieMapper.updateEntityFromRequest(movieRequest, existingMovie);
         movieManager.saveMovie(existingMovie);
         return movieMapper.toResponse(existingMovie);
@@ -141,7 +151,7 @@ public class MovieService implements MovieServiceInterface{
         movieManager.deleteMovie(movieId);
     }
 
-    public TableResponse getMovie(MovieSearchRequest movieSearchRequest, int pageNumber, int size, String sortBy, CustomSorting customSorting, CustomAggregation customAggregation, String aggregationField) {
+    public TableResponse getMovie(MovieSearchRequest movieSearchRequest, int pageNumber, int size, String sortBy, CustomSorting customSorting) {
 
         // Query Build
         BoolQuery.Builder boolQuery = new BoolQuery.Builder();
@@ -174,7 +184,7 @@ public class MovieService implements MovieServiceInterface{
             response = elasticsearchClient.search(searchRequest, MovieDocument.class);
         } catch (IOException e) {
             log.error(e.getMessage());
-            throw new MovieSearchException("Cannot search movie documents");
+            throw new SearchException("Cannot search movie documents");
         }
 
 
@@ -239,6 +249,8 @@ public class MovieService implements MovieServiceInterface{
         }
     }
 
+    // Only used by the disabled *ES methods above.
+    /*
     private SearchResponse<MovieDocument> searchMovieByTitle(MovieRequest movieRequest, String title) {
         try{
             SearchResponse<MovieDocument> response = elasticsearchClient.search(s -> s
@@ -253,6 +265,7 @@ public class MovieService implements MovieServiceInterface{
             throw new ResourceNotFoundException("Movie does not exist");
         }
     }
+    */
     }
 
 

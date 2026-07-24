@@ -1,8 +1,7 @@
 package aditkarki.movieticketingservicenew.entity;
 
+import aditkarki.movieticketingservicenew.enums.BookingStatus;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -20,6 +19,9 @@ public class Booking {
     private Integer seatCount;
     private BigDecimal totalPrice;
     private LocalDateTime bookingTime;
+
+    @Enumerated(EnumType.STRING)
+    private BookingStatus status;
 
     @ManyToOne
     @JoinColumn(name = "userId")

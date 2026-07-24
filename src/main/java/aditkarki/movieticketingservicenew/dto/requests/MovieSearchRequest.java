@@ -15,13 +15,8 @@ public class MovieSearchRequest {
     private List<String> language;
     private List<String> tags;
     private String director;
-
-
     private NumericRangeDto duration;
     private NumericRangeDto rating;
-
-
     private DateRangeDto releaseDate;
-
     private Boolean isActive;
 }

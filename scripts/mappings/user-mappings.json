@@ -1,0 +1,35 @@
+{
+  "mappings": {
+    "properties": {
+      "userId": {
+        "type": "keyword"
+      },
+      "userFirstName": {
+        "type": "text",
+        "analyzer": "standard",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "userLastName": {
+        "type": "text",
+        "analyzer": "standard",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "userEmail": {
+        "type": "keyword"
+      },
+      "role": {
+        "type": "keyword"
+      }
+    }
+  }
+}

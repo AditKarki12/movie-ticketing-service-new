@@ -1,8 +1,10 @@
 package aditkarki.movieticketingservicenew.config;
 
-import aditkarki.movieticketingservicenew.auth.JwtInterceptor;
+import aditkarki.movieticketingservicenew.auth.JwtFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -18,6 +20,11 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+
+import java.util.List;
 
 @Configuration
 @EnableWebSecurity
@@ -25,14 +32,18 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class SecurityConfig {
 
     @Autowired
-    private final JwtInterceptor jwtInterceptor;
+    private final JwtFilter jwtFilter;
 
     @Autowired
     private final UserDetailsService userDetailsService;
 
+    @Value("${app.cors.allowed-origins}")
+    private String allowedOrigins;
+
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.csrf(AbstractHttpConfigurer::disable) // Disable csrf since we are stateless
+                .cors(cors -> cors.configurationSource(corsConfigurationSource()))
                 // Every request carries its own Jwt, making sure not to remember nothin from other requests
                 .sessionManagement(s -> s.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(authorizeRequests -> authorizeRequests
@@ -42,11 +53,37 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.POST, "/api/movies/**").hasAuthority("ADMIN")
                         .requestMatchers(HttpMethod.PUT, "/api/movies/**").hasAuthority("ADMIN")
                         .requestMatchers(HttpMethod.DELETE, "/api/movies/**").hasAuthority("ADMIN")
+                        .requestMatchers(HttpMethod.GET, "/api/users/me").authenticated()
+                        .requestMatchers(HttpMethod.GET, "/api/users/**").hasAuthority("ADMIN")
+                        .requestMatchers(HttpMethod.POST, "/api/users/**").hasAuthority("ADMIN")
+                        .requestMatchers(HttpMethod.PUT, "/api/users/**").hasAuthority("ADMIN")
+                        .requestMatchers(HttpMethod.DELETE, "/api/users/**").hasAuthority("ADMIN")
+                        .requestMatchers(HttpMethod.GET, "/api/bookings").hasAuthority("ADMIN")
                         .anyRequest().authenticated()
                 ) // Makes sure to validate before building
-                .addFilterBefore(jwtInterceptor, UsernamePasswordAuthenticationFilter.class);
+                .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
+    }
+
+    @Bean
+    public CorsConfigurationSource corsConfigurationSource() {
+        CorsConfiguration configuration = new CorsConfiguration();
+        configuration.setAllowedOrigins(List.of(allowedOrigins.split(",")));
+        configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
+        configuration.setAllowedHeaders(List.of("Authorization", "Content-Type"));
+        configuration.setAllowCredentials(true);
+
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        source.registerCorsConfiguration("/api/**", configuration);
+        return source;
+    }
+
+    @Bean
+    public FilterRegistrationBean<JwtFilter> jwtFilterRegistration(JwtFilter filter) {
+        FilterRegistrationBean<JwtFilter> registration = new FilterRegistrationBean<>(filter);
+        registration.setEnabled(false);
+        return registration;
     }
 
     @Bean
