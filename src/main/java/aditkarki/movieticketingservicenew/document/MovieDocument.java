@@ -62,6 +62,14 @@ public class MovieDocument {
     private Boolean isActive;
 
     @Field(type = FieldType.Keyword)
+    @JsonProperty("imageUrl")
+    private String imageUrl;
+
+    @Field(type = FieldType.Keyword)
+    @JsonProperty("videoUrl")
+    private String videoUrl;
+
+    @Field(type = FieldType.Keyword)
     @JsonProperty("tags")
     private List<String> tags;
 }

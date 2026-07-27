@@ -29,6 +29,8 @@ public class Movie {
     private Double rating;
     private LocalDate releaseDate;
     private Boolean isActive;
+    private String imageUrl;
+    private String videoUrl;
 
     @ElementCollection(fetch = FetchType.EAGER)
     private List<String> tags;

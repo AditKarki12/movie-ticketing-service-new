@@ -88,7 +88,7 @@ public class DataLoader implements CommandLineRunner {
             movie.setDuration(random.nextInt(100, 180));
             movie.setDescription("Movie about: " + movie.getTitle().toLowerCase());
             movie.setDirector(directors.get(i % directors.size()));
-            movie.setRating(random.nextDouble(1, 5));
+            movie.setRating(Math.round(random.nextDouble(1, 5) * 10.0) / 10.0);
             movie.setReleaseDate(LocalDate.of(2000, 1, 1).plusDays(random.nextInt(0, 9000)));
             movie.setIsActive(random.nextBoolean());
             movie.setTags(randomSample(tags, random.nextInt(1, 3)));

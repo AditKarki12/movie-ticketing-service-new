@@ -18,5 +18,7 @@ public class MovieResponse {
     private Double rating;
     private LocalDate releaseDate;
     private Boolean isActive;
+    private String imageUrl;
+    private String videoUrl;
     private List<String> tags;
 }

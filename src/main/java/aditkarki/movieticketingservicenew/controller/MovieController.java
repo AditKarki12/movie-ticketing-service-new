@@ -4,8 +4,10 @@ import aditkarki.movieticketingservicenew.enums.CustomAggregation;
 import aditkarki.movieticketingservicenew.enums.CustomSorting;
 import aditkarki.movieticketingservicenew.dto.requests.MovieRequest;
 import aditkarki.movieticketingservicenew.dto.requests.MovieSearchRequest;
+import aditkarki.movieticketingservicenew.dto.responses.GraphifyClassificationResponse;
 import aditkarki.movieticketingservicenew.dto.responses.MovieResponse;
 import aditkarki.movieticketingservicenew.dto.responses.TableResponse;
+import aditkarki.movieticketingservicenew.service.GraphifyService;
 import aditkarki.movieticketingservicenew.service.MovieService;
 import lombok.RequiredArgsConstructor;
 import jakarta.validation.Valid;
@@ -22,6 +24,7 @@ import java.util.List;
 public class MovieController {
 
     private final MovieService movieService;
+    private final GraphifyService graphifyService;
 
     @PostMapping
     public ResponseEntity<MovieResponse> createMovie(@RequestBody MovieRequest movieRequest) {
@@ -47,6 +50,12 @@ public class MovieController {
     public ResponseEntity<Void> deleteMovie(@PathVariable Long id) {
         movieService.deleteMovie(id);
         return ResponseEntity.noContent().build();
+    }
+
+    @PostMapping("/{id}/classify-description")
+    public ResponseEntity<GraphifyClassificationResponse> classifyDescription(@PathVariable Long id) {
+        MovieResponse movie = movieService.getMovieById(id);
+        return ResponseEntity.ok(graphifyService.classify(movie.getDescription()));
     }
 
     // --- Search Endpoints ---

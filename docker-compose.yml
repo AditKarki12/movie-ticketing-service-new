@@ -12,6 +12,17 @@ services:
     networks:
       - elastic
 
+  neo4j:
+    image: neo4j:2.3.12
+    container_name: graphify-neo4j
+    environment:
+      - NEO4J_AUTH=none
+      - NEO4J_THIRDPARTY_JAXRS_CLASSES=org.neo4j.nlp.ext=/service
+    ports:
+      - "7474:7474"
+    volumes:
+      - ./docker/graphify-plugins:/plugins
+
   kibana:
     image: docker.elastic.co/kibana/kibana:8.11.1
     container_name: kibana
