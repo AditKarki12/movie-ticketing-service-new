@@ -46,3 +46,4 @@ __pycache__/
 # Graphify (vendored clone + built plugin jar, see scripts/build-graphify.ps1)
 vendor/
 docker/graphify-plugins/*.jar
+graphify-out/

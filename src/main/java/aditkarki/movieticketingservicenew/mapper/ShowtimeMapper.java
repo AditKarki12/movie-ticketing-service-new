@@ -17,6 +17,7 @@ public interface ShowtimeMapper {
 
     @Mapping(target = "movieTitle", source = "movie.title")
     @Mapping(target = "theaterName", source = "theater.theaterName")
+    @Mapping(target = "screenName", source = "screen.screenName")
     ShowtimeResponse toResponse(Showtime showtime);
 
     ShowtimeResponse toResponse(ShowtimeDocument showtimeDocument);
@@ -25,23 +26,29 @@ public interface ShowtimeMapper {
     @Mapping(target = "version", ignore = true)
     @Mapping(target = "movie", ignore = true)
     @Mapping(target = "theater", ignore = true)
+    @Mapping(target = "screen", ignore = true)
     @Mapping(target = "bookings", ignore = true)
+    @Mapping(target = "showtimeSeats", ignore = true)
     Showtime toEntity(ShowtimeRequest request);
 
     @Mapping(target = "showtimeId", ignore = true)
     @Mapping(target = "version", ignore = true)
     @Mapping(target = "movie", ignore = true)
     @Mapping(target = "theater", ignore = true)
+    @Mapping(target = "screen", ignore = true)
     @Mapping(target = "bookings", ignore = true)
+    @Mapping(target = "showtimeSeats", ignore = true)
     @BeanMapping(nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
     void updateEntityFromRequest(ShowtimeRequest request, @MappingTarget Showtime showtime);
 
     @Mapping(target = "movieTitle", source = "movie.title")
     @Mapping(target = "theaterName", source = "theater.theaterName")
+    @Mapping(target = "screenName", source = "screen.screenName")
     ShowtimeDocument toDocument(Showtime showtime);
 
     @Mapping(target = "showtimeId", ignore = true)
     @Mapping(target = "movieTitle", ignore = true)
     @Mapping(target = "theaterName", ignore = true)
+    @Mapping(target = "screenName", ignore = true)
     ShowtimeDocument toDocument(ShowtimeRequest request);
 }

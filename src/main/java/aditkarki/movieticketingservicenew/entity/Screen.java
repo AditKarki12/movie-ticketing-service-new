@@ -9,21 +9,23 @@ import lombok.ToString;
 import java.util.List;
 
 @Entity
-@Table(name="theater")
+@Table(name = "screens")
 @Data
 @NoArgsConstructor
-public class Theater {
+public class Screen {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long theaterId;
-    private String theaterName;
-    private String theaterAddress;
-    private String theaterCity;
-    private String theaterState;
-    private Integer screensTotal;
+    private Long id;
 
-    @OneToMany(mappedBy = "theater")
+    @ManyToOne
+    @JoinColumn(name = "theaterId")
+    private Theater theater;
+
+    private String screenName;
+
+    @OneToMany(mappedBy = "screen", cascade = CascadeType.ALL, orphanRemoval = true)
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
-    private List<Showtime> showtimes;
+    private List<Seat> seats;
 }

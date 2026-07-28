@@ -59,6 +59,10 @@ public class ShowtimeManager {
         return showtimeRepository.existsByTheater_TheaterId(theaterId);
     }
 
+    public boolean existsByScreenId(Long screenId) {
+        return showtimeRepository.existsByScreenId(screenId);
+    }
+
     public void resyncToES(List<Showtime> showtimes) {showtimes.forEach(this::syncToES);}
 
     public List<Showtime> findShowtimesByMovieId(Long movieId) {

@@ -10,6 +10,7 @@ import java.time.LocalTime;
 public class ShowtimeRequest {
     private Long movieId;
     private Long theaterId;
+    private Long screenId;
     private LocalDate localDate;
     private LocalTime localTime;
     private Integer totalSeats;

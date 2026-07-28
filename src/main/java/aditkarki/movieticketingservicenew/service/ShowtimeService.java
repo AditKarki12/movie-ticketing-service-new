@@ -13,8 +13,11 @@ import aditkarki.movieticketingservicenew.dto.requests.ShowtimeSearchRequest;
 import aditkarki.movieticketingservicenew.dto.responses.ShowtimeResponse;
 import aditkarki.movieticketingservicenew.dto.responses.TableResponse;
 import aditkarki.movieticketingservicenew.entity.Movie;
+import aditkarki.movieticketingservicenew.entity.Screen;
 import aditkarki.movieticketingservicenew.entity.Showtime;
+import aditkarki.movieticketingservicenew.entity.ShowtimeSeat;
 import aditkarki.movieticketingservicenew.entity.Theater;
+import aditkarki.movieticketingservicenew.enums.ShowtimeSeatStatus;
 import aditkarki.movieticketingservicenew.exception.BookingConflictException;
 import aditkarki.movieticketingservicenew.exception.InvalidRequestException;
 import aditkarki.movieticketingservicenew.exception.ReflectionAccessException;
@@ -25,9 +28,12 @@ import aditkarki.movieticketingservicenew.helper.QueryFilterHelper;
 import aditkarki.movieticketingservicenew.helper.SortingHelper;
 import aditkarki.movieticketingservicenew.manager.BookingManager;
 import aditkarki.movieticketingservicenew.manager.MovieManager;
+import aditkarki.movieticketingservicenew.manager.ScreenManager;
 import aditkarki.movieticketingservicenew.manager.ShowtimeManager;
+import aditkarki.movieticketingservicenew.manager.ShowtimeSeatManager;
 import aditkarki.movieticketingservicenew.manager.TheaterManager;
 import aditkarki.movieticketingservicenew.mapper.ShowtimeMapper;
+import aditkarki.movieticketingservicenew.repository.SeatRepository;
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
 import co.elastic.clients.elasticsearch._types.SortOrder;
 import co.elastic.clients.elasticsearch._types.query_dsl.BoolQuery;
@@ -37,6 +43,7 @@ import co.elastic.clients.elasticsearch.core.search.Hit;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.io.IOException;
 import java.lang.reflect.Field;
@@ -53,6 +60,9 @@ public class ShowtimeService {
     private final TheaterManager theaterManager;
     private final MovieManager movieManager;
     private final BookingManager bookingManager;
+    private final ScreenManager screenManager;
+    private final ShowtimeSeatManager showtimeSeatManager;
+    private final SeatRepository seatRepository;
     private final QueryFilterHelper queryFilterHelper;
     private final ElasticsearchClient elasticsearchClient;
 
@@ -70,11 +80,34 @@ public class ShowtimeService {
         }
         Movie movie = movieManager.findById(showtimeRequest.getMovieId());
         Theater theater = theaterManager.findTheaterById(showtimeRequest.getTheaterId());
+        Screen screen = showtimeRequest.getScreenId() != null
+                ? screenManager.findById(showtimeRequest.getScreenId())
+                : null;
         Showtime showtime = showtimeMapper.toEntity(showtimeRequest);
         showtime.setMovie(movie);
         showtime.setTheater(theater);
+        showtime.setScreen(screen);
 
-        return showtimeMapper.toResponse(showtimeManager.saveshowtime(showtime));
+        Showtime savedShowtime = showtimeManager.saveshowtime(showtime);
+
+        if (screen != null) {
+            generateShowtimeSeats(savedShowtime, screen);
+        }
+
+        return showtimeMapper.toResponse(savedShowtime);
+    }
+
+    private void generateShowtimeSeats(Showtime showtime, Screen screen) {
+        List<ShowtimeSeat> showtimeSeats = seatRepository.findByScreen(screen).stream()
+                .map(seat -> {
+                    ShowtimeSeat showtimeSeat = new ShowtimeSeat();
+                    showtimeSeat.setShowtime(showtime);
+                    showtimeSeat.setSeat(seat);
+                    showtimeSeat.setStatus(ShowtimeSeatStatus.AVAILABLE);
+                    return showtimeSeat;
+                })
+                .collect(Collectors.toList());
+        showtimeSeatManager.saveAll(showtimeSeats);
     }
 
     public ShowtimeResponse getShowtimeById(Long id){
@@ -86,6 +119,7 @@ public class ShowtimeService {
         return showtimeManager.findAllshowtimes().stream().map(showtimeMapper::toResponse).toList();
     }
 
+    @Transactional
     public ShowtimeResponse updateShowtime(Long id, ShowtimeRequest showtimeRequest){
         Showtime existingShowtime = showtimeManager.findShowtimeById(id);
         showtimeMapper.updateEntityFromRequest(showtimeRequest, existingShowtime);
@@ -95,9 +129,19 @@ public class ShowtimeService {
         if (showtimeRequest.getTheaterId() != null) {
             existingShowtime.setTheater(theaterManager.findTheaterById(showtimeRequest.getTheaterId()));
         }
-        if (existingShowtime.getTotalSeats() == null || existingShowtime.getTotalSeats() <= 0
-                || existingShowtime.getAvailableSeats() == null || existingShowtime.getAvailableSeats() < 0
-                || existingShowtime.getAvailableSeats() > existingShowtime.getTotalSeats()) {
+        if (showtimeRequest.getScreenId() != null) {
+            Screen newScreen = screenManager.findById(showtimeRequest.getScreenId());
+            Screen currentScreen = existingShowtime.getScreen();
+            if (currentScreen == null || !currentScreen.getId().equals(newScreen.getId())) {
+                if (bookingManager.hasActiveBookingsForShowtime(id)) {
+                    throw new BookingConflictException("Cannot change screen for a showtime with active bookings");
+                }
+                showtimeSeatManager.deleteByShowtimeId(id);
+                existingShowtime.setScreen(newScreen);
+                generateShowtimeSeats(existingShowtime, newScreen);
+            }
+        }
+        if (existingShowtime.getTotalSeats() == null || existingShowtime.getTotalSeats() <= 0 || existingShowtime.getAvailableSeats() == null || existingShowtime.getAvailableSeats() < 0 || existingShowtime.getAvailableSeats() > existingShowtime.getTotalSeats()) {
             throw new InvalidRequestException("Seats not available");
         }
         if (existingShowtime.getTicketPrice() == null || existingShowtime.getTicketPrice().signum() < 0) {

@@ -136,9 +136,7 @@ public class MovieService implements MovieServiceInterface{
 
     public MovieResponse updateMovie(Long movieId, MovieRequest movieRequest) {
         Movie existingMovie = movieManager.findById(movieId);
-        if (movieRequest.getTitle() != null
-                && !movieRequest.getTitle().equals(existingMovie.getTitle())
-                && movieManager.existsByTitle(movieRequest.getTitle())) {
+        if (movieRequest.getTitle() != null && !movieRequest.getTitle().equals(existingMovie.getTitle()) && movieManager.existsByTitle(movieRequest.getTitle())) {
             throw new DuplicateResourceException(movieRequest.getTitle());
         }
         movieMapper.updateEntityFromRequest(movieRequest, existingMovie);

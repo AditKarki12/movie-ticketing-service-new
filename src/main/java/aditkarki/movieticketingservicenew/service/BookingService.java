@@ -4,6 +4,7 @@ import aditkarki.movieticketingservicenew.enums.BookingStatus;
 import aditkarki.movieticketingservicenew.enums.CustomAggregation;
 import aditkarki.movieticketingservicenew.enums.CustomOperator;
 import aditkarki.movieticketingservicenew.enums.CustomSorting;
+import aditkarki.movieticketingservicenew.enums.ShowtimeSeatStatus;
 import aditkarki.movieticketingservicenew.constants.ElasticSearchConstants;
 import aditkarki.movieticketingservicenew.document.BookingDocument;
 import aditkarki.movieticketingservicenew.dto.DateRangeDto;
@@ -16,6 +17,7 @@ import aditkarki.movieticketingservicenew.dto.responses.BookingResponse;
 import aditkarki.movieticketingservicenew.dto.responses.TableResponse;
 import aditkarki.movieticketingservicenew.entity.Booking;
 import aditkarki.movieticketingservicenew.entity.Showtime;
+import aditkarki.movieticketingservicenew.entity.ShowtimeSeat;
 import aditkarki.movieticketingservicenew.entity.User;
 import aditkarki.movieticketingservicenew.exception.BookingConflictException;
 import aditkarki.movieticketingservicenew.exception.InvalidRequestException;
@@ -27,6 +29,7 @@ import aditkarki.movieticketingservicenew.helper.QueryFilterHelper;
 import aditkarki.movieticketingservicenew.helper.SortingHelper;
 import aditkarki.movieticketingservicenew.manager.BookingManager;
 import aditkarki.movieticketingservicenew.manager.ShowtimeManager;
+import aditkarki.movieticketingservicenew.manager.ShowtimeSeatManager;
 import aditkarki.movieticketingservicenew.manager.UserManager;
 import aditkarki.movieticketingservicenew.mapper.BookingMapper;
 import aditkarki.movieticketingservicenew.repository.ShowtimeRepository;
@@ -47,6 +50,7 @@ import java.io.IOException;
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
@@ -60,33 +64,94 @@ public class BookingService {
     private final BookingMapper bookingMapper;
     private final UserManager userManager;
     private final ShowtimeManager showtimeManager;
+    private final ShowtimeSeatManager showtimeSeatManager;
     private final QueryFilterHelper queryFilterHelper;
     private final ElasticsearchClient elasticsearchClient;
 
     public BookingResponse createBooking(BookingRequest bookingRequest, Authentication authentication) {
+        Showtime showtime = showtimeManager.findShowtimeById(bookingRequest.getShowtimeId());
+        User user = resolveBookingUser(bookingRequest.getUserId(), authentication);
+        if (showtime.getScreen() != null) {
+            return createSeatManagedBooking(bookingRequest, showtime, user, authentication);
+        }
+        return createCountBasedBooking(bookingRequest, showtime, user);
+    }
+
+    private BookingResponse createCountBasedBooking(BookingRequest bookingRequest, Showtime showtime, User user) {
         if(bookingRequest.getSeatCount() == null || bookingRequest.getSeatCount() <= 0){
             throw new InvalidRequestException("Seat count must be greater than 0");
         }
 
-        if(showtimeManager.reserveSeats(bookingRequest.getShowtimeId(), bookingRequest.getSeatCount()) <= 0){
+        if(showtimeManager.reserveSeats(showtime.getShowtimeId(), bookingRequest.getSeatCount()) <= 0){
             throw new BookingConflictException("Not enough available seats for this showtime");
         }
         try {
-            User user = resolveBookingUser(bookingRequest.getUserId(), authentication);
-            Showtime showtime = showtimeManager.findShowtimeById(bookingRequest.getShowtimeId());
             Booking booking = bookingMapper.toEntity(bookingRequest);
             booking.setUser(user);
             booking.setShowtime(showtime);
-            booking.setTotalPrice(BigDecimal.valueOf(bookingRequest.getSeatCount()).multiply(showtimeManager.findTicketPrice(bookingRequest.getShowtimeId())));
+            booking.setTotalPrice(BigDecimal.valueOf(bookingRequest.getSeatCount()).multiply(showtimeManager.findTicketPrice(showtime.getShowtimeId())));
             booking.setBookingTime(LocalDateTime.now());
             booking.setStatus(BookingStatus.CONFIRMED);
             Booking bookingSaved = bookingManager.saveBooking(booking);
             return bookingMapper.toResponse(bookingSaved);
         } catch (RuntimeException e) {
-            showtimeManager.releaseSeats(bookingRequest.getShowtimeId(), bookingRequest.getSeatCount());
+            showtimeManager.releaseSeats(showtime.getShowtimeId(), bookingRequest.getSeatCount());
             log.error(e.getMessage());
             throw e;
         }
+    }
+
+    private BookingResponse createSeatManagedBooking(BookingRequest bookingRequest, Showtime showtime, User user, Authentication authentication) {
+        if (bookingRequest.getSeatIds() == null || bookingRequest.getSeatIds().isEmpty()) {
+            throw new InvalidRequestException("Seat ids are required for this showtime");
+        }
+
+        List<ShowtimeSeat> showtimeSeats = bookingRequest.getSeatIds().stream()
+                .map(seatId -> showtimeSeatManager.findByShowtimeIdAndSeatId(showtime.getShowtimeId(), seatId))
+                .toList();
+
+        boolean isAdmin = isAdmin(authentication);
+        for (ShowtimeSeat showtimeSeat : showtimeSeats) {
+            User heldBy = showtimeSeat.getHeldBy();
+            if (!isAdmin && (heldBy == null || !heldBy.getUserId().equals(user.getUserId()))) {
+                throw new AccessDeniedException("You do not have permission to book seat " + showtimeSeat.getSeat().getId());
+            }
+        }
+
+        Booking booking = bookingMapper.toEntity(bookingRequest);
+        booking.setUser(user);
+        booking.setShowtime(showtime);
+        booking.setSeatCount(showtimeSeats.size());
+        booking.setTotalPrice(BigDecimal.valueOf(showtimeSeats.size()).multiply(showtimeManager.findTicketPrice(showtime.getShowtimeId())));
+        booking.setBookingTime(LocalDateTime.now());
+        booking.setStatus(BookingStatus.CONFIRMED);
+        Booking bookingSaved = bookingManager.saveBooking(booking);
+
+        List<ShowtimeSeat> transitioned = new ArrayList<>();
+        try {
+            for (ShowtimeSeat showtimeSeat : showtimeSeats) {
+                int updated = showtimeSeatManager.bookSeatForBooking(showtimeSeat.getId(), bookingSaved);
+                if (updated == 0) {
+                    throw new BookingConflictException("Seat " + showtimeSeat.getSeat().getId() + " is no longer held");
+                }
+                transitioned.add(showtimeSeat);
+            }
+        } catch (RuntimeException e) {
+            for (ShowtimeSeat showtimeSeat : transitioned) {
+                showtimeSeatManager.conditionalUpdateStatus(showtimeSeat.getId(), ShowtimeSeatStatus.BOOKED, ShowtimeSeatStatus.HELD, showtimeSeat.getHoldExpiresAt(), showtimeSeat.getHeldBy());
+            }
+            bookingManager.deleteBooking(bookingSaved.getBookingId());
+            log.error(e.getMessage());
+            throw e;
+        }
+
+        try {
+            showtimeManager.reserveSeats(showtime.getShowtimeId(), showtimeSeats.size());
+        } catch (RuntimeException e) {
+            log.warn("Could not update available seat counter for showtime {}: {}", showtime.getShowtimeId(), e.getMessage());
+        }
+
+        return bookingMapper.toResponse(bookingSaved);
     }
 
     public BookingResponse getBookingById(Long bookingId, Authentication authentication) {
@@ -118,7 +183,7 @@ public class BookingService {
             return bookingMapper.toResponse(booking);
         }
         booking.setStatus(BookingStatus.CANCELLED);
-        showtimeManager.releaseSeats(booking.getShowtime().getShowtimeId(), booking.getSeatCount());
+        releaseBookingSeats(booking);
         bookingManager.saveBooking(booking);
         return bookingMapper.toResponse(booking);
     }
@@ -127,9 +192,23 @@ public class BookingService {
         Booking booking = bookingManager.findBookingById(bookingId);
         assertOwnerOrAdmin(booking, authentication);
         if(booking.getStatus() != BookingStatus.CANCELLED){
-            showtimeManager.releaseSeats(booking.getShowtime().getShowtimeId(), booking.getSeatCount());
+            releaseBookingSeats(booking);
         }
         bookingManager.deleteBooking(bookingId);
+    }
+
+    private void releaseBookingSeats(Booking booking) {
+        List<ShowtimeSeat> linkedSeats = showtimeSeatManager.findByBookingId(booking.getBookingId());
+        if (!linkedSeats.isEmpty()) {
+            showtimeSeatManager.releaseBookingSeats(booking.getBookingId());
+            try {
+                showtimeManager.releaseSeats(booking.getShowtime().getShowtimeId(), booking.getSeatCount());
+            } catch (RuntimeException e) {
+                log.warn("Could not update available seat counter for showtime {}: {}", booking.getShowtime().getShowtimeId(), e.getMessage());
+            }
+        } else {
+            showtimeManager.releaseSeats(booking.getShowtime().getShowtimeId(), booking.getSeatCount());
+        }
     }
 
     private User resolveBookingUser(Long requestedUserId, Authentication authentication) {
@@ -247,6 +326,9 @@ public class BookingService {
     }
 
     private void updateBookingSeatCount(Booking existingBooking, BookingRequest bookingRequest){
+        if (!showtimeSeatManager.findByBookingId(existingBooking.getBookingId()).isEmpty()) {
+            throw new InvalidRequestException("Seat count cannot be changed directly for a seat-managed booking; cancel this booking and create a new one with the desired seats");
+        }
         int existingSeatCount = existingBooking.getSeatCount();
         int newSeatCount = bookingRequest.getSeatCount();
         Long showtimeId = existingBooking.getShowtime().getShowtimeId();

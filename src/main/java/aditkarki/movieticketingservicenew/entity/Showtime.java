@@ -3,7 +3,9 @@ package aditkarki.movieticketingservicenew.entity;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -37,6 +39,17 @@ public class Showtime {
     @JoinColumn(name = "theaterId")
     private Theater theater;
 
+    @ManyToOne
+    @JoinColumn(name = "screenId")
+    private Screen screen;
+
     @OneToMany(mappedBy = "showtime", cascade = CascadeType.ALL)
+    @ToString.Exclude
+    @EqualsAndHashCode.Exclude
     private List<Booking> bookings;
+
+    @OneToMany(mappedBy = "showtime", cascade = CascadeType.ALL, orphanRemoval = true)
+    @ToString.Exclude
+    @EqualsAndHashCode.Exclude
+    private List<ShowtimeSeat> showtimeSeats;
 }

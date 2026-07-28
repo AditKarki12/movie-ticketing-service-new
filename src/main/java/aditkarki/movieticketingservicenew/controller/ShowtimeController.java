@@ -1,5 +1,6 @@
 package aditkarki.movieticketingservicenew.controller;
 
+import aditkarki.movieticketingservicenew.entity.Seat;
 import aditkarki.movieticketingservicenew.enums.CustomSorting;
 import aditkarki.movieticketingservicenew.dto.requests.ShowtimeRequest;
 import aditkarki.movieticketingservicenew.dto.requests.ShowtimeSearchRequest;
@@ -54,4 +55,5 @@ public class ShowtimeController {
             @RequestParam(defaultValue = "DESC") CustomSorting customSorting){
         return ResponseEntity.ok(showtimeService.getShowtime(showtimeSearchRequest, pageNumber, size, sortBy, customSorting));
     }
+
 }

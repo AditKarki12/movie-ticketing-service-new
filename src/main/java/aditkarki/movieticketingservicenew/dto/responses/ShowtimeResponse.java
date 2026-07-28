@@ -13,6 +13,7 @@ public class ShowtimeResponse {
     private Long showtimeId;
     private String movieTitle;
     private String theaterName;
+    private String screenName;
     private LocalDate localDate;
     private LocalTime localTime;
     private Integer availableSeats;

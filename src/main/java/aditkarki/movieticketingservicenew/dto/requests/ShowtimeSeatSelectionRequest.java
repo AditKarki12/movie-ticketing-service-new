@@ -1,14 +1,11 @@
 package aditkarki.movieticketingservicenew.dto.requests;
 
-
 import lombok.Data;
 
 import java.util.List;
 
 @Data
-public class BookingRequest {
+public class ShowtimeSeatSelectionRequest {
     private Long showtimeId;
-    private Integer seatCount;
     private List<Long> seatIds;
-    private Long userId;
 }

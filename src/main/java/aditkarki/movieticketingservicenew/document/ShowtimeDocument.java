@@ -30,6 +30,10 @@ public class ShowtimeDocument {
     @JsonProperty("theaterName")
     private String theaterName;
 
+    @Field(type = FieldType.Text)
+    @JsonProperty("screenName")
+    private String screenName;
+
     @Field(type = FieldType.Date)
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     @JsonProperty("localDate")
